@@ -5,6 +5,23 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>My Website</title>
    <style> 
+   img {
+      height: 30px;
+      width: 100px;
+      object-fit: cover;
+   }
+   footer {
+display: flex;
+justify-content: space-between;   }
+   .logo {
+      object-fit: scale-down;
+      width: 100px;
+      height: 30px;
+      border: 1px solid black;
+      border-radius: 100px;
+      padding: 10px;
+      align-self: baseline;
+   }
 span::before {
    transition: all 2s;
 display: none;
@@ -70,9 +87,9 @@ background-size: 17px 17px;">
       <hr>
 
 </div>
-<footer style="padding: 1%; margin-top: 1000px; background-color: whitesmoke;">
+<footer style="padding: 1%; margin-top: 1000px; background-color: white;">
    This site wholly owned and operated by The Sligmatic Corporation
-   <img src="/logo.png" alt="">
+   <div class="logo"><img  src="/logo.png" alt=""></div>
 </footer>
 </body>
 </html>
