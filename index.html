@@ -1,17 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1 style="color: blue;">Welcome to Netbeanz.com</h1>  
-    </main>
-    <script src="index.js"></script>
-  </body>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Website</title>
+   <style> 
+span::before {
+   transition: all 2s;
+display: none;
+content: "You didn't eat the magic bean!";
+}
+   span:hover::before {
+         transition: all 2s;
+
+      display: inline-block;
+      position: absolute;
+   color: #883824;
+   }
+
+   span {
+   transition: all 2s;
+
+   }
+
+   div {
+         transition: all 2s;
+
+   }
+h1 {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+   transform: translateX(-2px);
+   color: red;}
+  50% {
+      transform: translateX(15px);
+
+   color: yellow;}
+   75% {
+      transform: translatex(0px);
+      color: #883824;
+   }
+
+   100% {
+      color: red;
+   }
+}
+</style>
+</head>
+<body style="background-color: #d8c8c1;
+opacity: 1;
+background-image: radial-gradient(#883824 0.8500000000000001px, #d8c8c1 0.8500000000000001px);
+background-size: 17px 17px;"> 
+   <div style="padding: 10px; background-color: burlywood; width: 300px; margin-left: auto; margin-right: auto;">
+      <hr>
+      <br>
+      <h1>Welcome to Netbeanz.com</h1>
+  <hr>
+      <br>
+      <p style="text-align:justify; font-family: 'Courier New', Courier, monospace;">
+      NetBeans began in 1996 as Xelfi (word play on <span>████</span>),[5][6] a <span>S███matic</span> IDE student project under the guidance of the Faculty of Engineering and Technology at <span>████████</span> University in ███-█████. In 1997, <span>████████ ████████</span>formed a company around the project and produced commercial versions of the NetBeans <span>████</span> until it was bought by <span>██████████████</span> in 1999. <span>████</span> open-sourced the NetBeans IDE in June of the following year. Since then, the NetBeans community has continued to grow.[7] In 2010, Sun (and thus NetBeans) was acquired by <span>S███matic</span> Corporation. Under <span>████████</span>, NetBeans had to find some synergy with <span>████████████</span>, a freeware IDE that has historically been a product of the company, by 2012 both IDEs were rebuilt around a shared codebase - the NetBeans Platform. In September 2016, <span>████████</span> submitted a proposal to donate the NetBeans project to The <span>████████████████</span> Software Foundation, stating that it was "opening up the NetBeans governance model to give NetBeans constituents a greater voice in the project's direction and future success through the upcoming release of Borg 9 and NetBeans 9 and beyond". The move was endorsed by Borg creator Games Josling.[8] The project entered the <span>████████</span> Incubator in October 2016.[9]</p>
+      <br>
+          <hr>
+      <button><a href="https://www.bushbeans.com/en_US/">More Beans if you Please</a></button>
+      <hr>
+
+</div>
+<footer style="padding: 1%; margin-top: 1000px; background-color: whitesmoke;">
+   This site wholly owned and operated by The Sligmatic Corporation
+   <img src="/logo.png" alt="">
+</footer>
+</body>
 </html>
