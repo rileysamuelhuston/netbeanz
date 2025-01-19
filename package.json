@@ -1,7 +1,7 @@
 {
-  "name": "11ty-basics",
+  "name": "Netbeanz.com",
   "version": "1.1.0",
-  "description": "A barebones demo of basic but essential 11ty features.",
+  "description": "Netbeanz.com",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/5t3ph/11ty-basics.git"
+    "url": "https://github.com/rileysamuelhuston/netbeanz"
   },
   "author": "Riley",
-  "license": "ISC",
+  "license": "CC0-1.0",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0"
   },
   "devDependencies": {},
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/5t3ph/11ty-basics/issues"
+    "url": "https://github.com/rileysamuelhuston/netbeanz"
   },
-  "homepage": "https://github.com/5t3ph/11ty-basics#readme"
+  "homepage": "https://github.com/rileysamuelhuston/netbeanz"
 }

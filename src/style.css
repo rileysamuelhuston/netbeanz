@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Karla";
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(font/Karla-Italic-VariableFont_wght.ttf)
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(font/Karla-VariableFont_wght.ttf)
+}
+
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+max-width: 600px;
+    background-color: lightgray;
+}
+
+ul {
+padding: 10px;
+margin: 10px;
+list-style-type: armenian;
+}
+
+li {
+    padding: 4px 0px px 0px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 30px;
+    width: 100px;
+    object-fit: cover;
+ }
+ footer {
+display: flex;
+justify-content: space-between;   }
+ .logo {
+    object-fit: scale-down;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px;
+    align-self: baseline;
+ }
+span::before {
+ transition: all 2s;
+display: none;
+content: "You didn't eat the magic bean!";
+}
+ span:hover::before {
+       transition: all 2s;
+
+    display: inline-block;
+    position: absolute;
+ color: #883824;
+ }
+
+ span {
+ transition: all 2s;
+
+ }
+
+ div {
+       transition: all 2s;
+
+ }
+
+ header{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+ }
+h1 {
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example {
+0% {
+ color: rgb(240, 240, 240);
+font-weight: 100;
+}
+50% {
+    transform: translateX(15px);
+    
+
+color: red; font-weight: 800;
+}
+ 75% {
+    transform: translatex(0px);
+    color: blue;
+
+    font-weight: 200;
+
+ }
+
+ 100% {
+
+    color: rgb(240, 240, 240);
+    font-weight: 100;
+
+ }
+}
