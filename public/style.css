@@ -17,10 +17,14 @@
 
 
 body {
+    background-color: lightgray;
+
+}
+
+.content-container {
     margin-left: auto;
     margin-right: auto;
 max-width: 600px;
-    background-color: lightgray;
 }
 
 ul {
@@ -83,8 +87,11 @@ content: "You didn't eat the magic bean!";
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
  }
-h1 {
+
+.site-title {
 animation-name: example;
 animation-duration: 4s;
 animation-iteration-count: infinite;
@@ -92,27 +99,31 @@ animation-iteration-count: infinite;
 
 @keyframes example {
 0% {
- color: rgb(240, 240, 240);
-font-weight: 100;
+color: black;
+transform: translateY(0px)
 }
-50% {
-    transform: translateX(15px);
-    
 
-color: red; font-weight: 800;
+20% {
+transform: translateY(-3px);
 }
- 75% {
-    transform: translatex(0px);
-    color: blue;
+40% {
+    transform: translateY(2px);
+    color: black;
+}
+ 60% {
+    color: black;
+transform: translateY(-5px);
 
-    font-weight: 200;
 
  }
 
+ 80% {
+    transform: translateY(0px);
+ }
+
  100% {
+    transform: translateY(0px);
 
-    color: rgb(240, 240, 240);
-    font-weight: 100;
-
+    color: black;
  }
 }

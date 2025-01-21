@@ -1,9 +1,9 @@
 ---
-title: "Pho Puns"
-layout: "base.njk"
+title: Pho Puns
+layout: base.njk
 ---
-
-This is a list of PHo puns I've got. Hope you enjoy.
+<div class="post-content">
+    This is a list of PHo puns I've got. Hope you enjoy.
 
 <ol>
 
@@ -25,3 +25,5 @@ This is a list of PHo puns I've got. Hope you enjoy.
 <li>Sprouts Bang-GA-lore</li>
 <li>BRISK-et, TENDON, bean sprouts piled high, loin and garlic fried up crispy HOT</li>
 <li>Davey PHO - kit, king of the PILED RAW SPROUTS (and brazil)</li>
+
+</div>

@@ -2,7 +2,6 @@
 title: Netbeanz.com
 layout: base.njk
 ---
-
 <div class="post-list">
     <ul>
         
