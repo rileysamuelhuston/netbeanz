@@ -7,7 +7,10 @@ layout: base.njk
         
         {% for post in collections.posts %}
 
-        <li>_[{{ post.data.title }}]({{ post.url }})_</li>
+        <div class="post-link">
+            [{{ post.data.title }}]({{ post.url }})
+        </div>
+        
         
         {% endfor %}
     </ul>

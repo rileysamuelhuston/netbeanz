@@ -2,6 +2,7 @@
 title: Volleyball Practice and Updates
 layout: base.njk
 ---
+<div class="post-content">
 
 Hey guys! Welcome back to another humor exploration - I’m going to show you some puns I came up with over the long weekend (thank upper management for that, they approved my request this time!)
 
@@ -60,3 +61,5 @@ GET HIM TO AN ICU!
 > Wakes up in hospital bed. Doctoer gives the prognosis- Terminal Brain Rot. He has 55 days to live.
 
 What’s up 55th street! Never commit suicide, and 5 is the best number. Five real.
+
+</div>

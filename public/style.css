@@ -34,7 +34,7 @@ list-style-type: armenian;
 }
 
 li {
-    padding: 4px 0px px 0px;
+    background-color: rgb(255, 251, 245)  ;
 }
 
 hr {
@@ -77,11 +77,6 @@ content: "You didn't eat the magic bean!";
 
  }
 
- div {
-       transition: all 2s;
-
- }
-
  header{
     background-color: white;
     padding-top: 20px;
@@ -95,6 +90,21 @@ content: "You didn't eat the magic bean!";
 animation-name: example;
 animation-duration: 4s;
 animation-iteration-count: infinite;
+}
+
+.post-link {
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0px 5px 0px;
+background-color: white;
+border: 1px solid black;
+}
+
+.post-link:hover {
+    transition: all .04s;
+    box-sizing: border-box;
+    border-left: solid 7px rgb(255, 14, 34);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 @keyframes example {
