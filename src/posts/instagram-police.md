@@ -1,14 +1,10 @@
 ---
-title: Humor Exploration
+title: Volleyball Practice and Updates
 layout: base.njk
-crate: 7-4-1989
-author: Cuncle Jack
-emoji: 😂🧠💀
 ---
-
 <div class="post-content">
 
-Hey gu2ys! Wfelcome back to another humor exploration - I’m going to show you some puns I came up with over the long weekend (thank upper management for that, they approved my request this time!)
+Hey guys! Welcome back to another humor exploration - I’m going to show you some puns I came up with over the long weekend (thank upper management for that, they approved my request this time!)
 
 Usually shelly is so “by the books” she barely approves my bathroom slips and I have to hold it, sometimes for days at a time. When I have beef stroganoff at lunch - (which Steven hates but I CRAVEs, his lunch bag is next to mine and one time we traded lunches. He had turkey breast and a sleeve of Saltines and hummus (roasted garlic, tahini) - I have these massive shiitake mushroom sharts that I have to blast into my cloth (diaper that is) and rinse out in the morn’ when the crows knock. Takes a few extra mins but ‘sall good to moi. That’s french not my stench.
 
@@ -65,4 +61,5 @@ GET HIM TO AN ICU!
 > Wakes up in hospital bed. Doctoer gives the prognosis- Terminal Brain Rot. He has 55 days to live.
 
 What’s up 55th street! Never commit suicide, and 5 is the best number. Five real.
+
 </div>
