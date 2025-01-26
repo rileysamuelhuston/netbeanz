@@ -8,3 +8,19 @@
 p {
 margin-bottom: 15px;
 }
+
+ol {
+    width: 400px;
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left: auto;
+margin-right: auto;
+    list-style: lower-roman;
+    color: orangered;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+li {
+    padding-bottom: 8px;
+}
