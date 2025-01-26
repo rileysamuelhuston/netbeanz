@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: "Karla";
+
 }
 
 @font-face {
@@ -27,11 +28,6 @@ body {
 max-width: 600px;
 }
 
-ul {
-padding: 10px;
-margin: 10px;
-list-style-type: armenian;
-}
 
 li {
     background-color: rgb(255, 251, 245)  ;
@@ -47,9 +43,26 @@ img {
     width: 100px;
     object-fit: cover;
  }
+
+ .nav-button {
+    text-decoration: none;
+    padding: 2px;
+ }
+
+ .nav-button:hover {
+    border: 1px solid blue;
+    background-color: rgb(226, 220, 253);
+    color: blue;
+    padding: 1px;
+
+ }
+
  footer {
 display: flex;
-justify-content: space-between;   }
+position: fixed;
+bottom: 0px;
+justify-content: space-between;
+ }
  .logo {
     object-fit: scale-down;
     width: 100px;
@@ -74,7 +87,6 @@ content: "You didn't eat the magic bean!";
 
  span {
  transition: all 2s;
-
  }
 
  header{
@@ -92,20 +104,6 @@ animation-duration: 4s;
 animation-iteration-count: infinite;
 }
 
-.post-link {
-    padding: 10px 10px 10px 10px;
-    margin: 5px 0px 5px 0px;
-background-color: white;
-border: 1px solid black;
-}
-
-.post-link:hover {
-    transition: all .04s;
-    box-sizing: border-box;
-    border-left: solid 7px rgb(255, 14, 34);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
 
 @keyframes example {
 0% {
@@ -137,3 +135,93 @@ transform: translateY(-5px);
     color: black;
  }
 }
+
+.missing-img:hover::after {
+transition: all 2s;
+display: none;
+content: "New!";
+}
+
+ .missing-img:hover::after {
+       transition: all 2s;
+    display: inline-block;
+    position: relative;
+ color: #883824;
+ }
+    
+.post-link {
+    line-height: 1;
+}
+.post-author {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+justify-content: center;
+    background-color: blanchedalmond;
+    font-style: italic;
+    width: fit-content;
+    border-radius: 810px;
+    padding: 2px;
+    font-size: 10px;
+
+}
+
+.byline {
+    font-style: normal;
+    text-decoration: none;
+        padding-right: 4px;
+    display: inline-block;}
+
+
+.post-list-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.post-info {
+align-content: center;
+padding-left: 20px;
+padding-right: 20px;
+    line-height: 1;
+    margin: 0px;
+    display: inline-block;
+}
+
+.post-link a {
+    font-weight: 400;
+    font-size: 20px;
+    
+    color: navy;
+
+    transition: all 0.04s;
+    text-decoration: none;
+}
+
+.post-link a:hover {
+    background-color: #883824;
+    color: greenyellow;
+}
+
+.post-link-container {
+background-color: whitesmoke;
+border: 1px solid darkgrey;
+padding: 3px;
+display: flex;
+}
+
+
+
+.section-header {
+    color: black;
+    font-weight: 500;
+    padding-bottom: 3px;
+    font-size: 14px;
+    background-color: white;
+width: fit-content;
+padding: 3px;
+border-top-left-radius: 2px;
+border-top-right-radius: 3px;
+border-bottom: 1px solid white;
+}
+
