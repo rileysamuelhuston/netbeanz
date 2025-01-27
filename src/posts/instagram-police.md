@@ -1,7 +1,12 @@
 ---
-title: Volleyball Practice and Updates
+title: Instagram Volleyball Practice and Updates
 layout: base.njk
+crate: 1-2-3456
+author: Riley
+category: Article
+emoji: 🎥🎞💚
 ---
+
 <div class="post-content">
 
 Hey guys! Welcome back to another humor exploration - I’m going to show you some puns I came up with over the long weekend (thank upper management for that, they approved my request this time!)

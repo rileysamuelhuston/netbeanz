@@ -3,6 +3,7 @@ title: "Dilm The Movie: What is it?"
 layout: base.njk
 crate: 5-13-2024
 author: Riley
+category: Article
 emoji: 🎥🎞💚
 ---
 

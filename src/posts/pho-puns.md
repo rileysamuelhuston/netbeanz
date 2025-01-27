@@ -1,6 +1,10 @@
 ---
 title: Pho Puns
 layout: base.njk
+crate: 4-2-4020
+author: Riley
+category: Article
+emoji: 🎥🎞💚
 ---
 <div class="post-content">
     This is a list of PHo puns I've got. Hope you enjoy.

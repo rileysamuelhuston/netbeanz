@@ -3,6 +3,7 @@ title: "Anthology of Interest I: A Walk in the Dark in the Park in the Dark"
 layout: base.njk
 crate: 5-5-1992
 author: One of Michaelangelo's Animatronio
+category: Article
 emoji: 🚶‍♂️🌴🔦
 ---
 <div class="post-content">
