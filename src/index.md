@@ -1,28 +1,18 @@
 ---
 title: netbeanz.com
-layout: front.njk
+layout: base.njk
 ---
 
 
 
 <div class="post-list">     
+
+        <h2>Coming Soon..</h2>
+        <h1>What's the Secret of Netbeanz.com?</h1>
         {% for post in collections.posts %}
 
-        <div class="post-link-container">
-        <div class="post-thumbnail"><img class="thumbnail-image" src="./images/{{ post.data.imagex }}" alt=""></div>
-        <div class="post-details-container">
-            <div class="post-title">[{{ post.data.title }}]({{ post.url }})</div>
-            <div class="post-details">
-                <ul>
-                  <li>  {{ post.data.crate }}</li>
-                  <li>{{ post.data.category }}</li> 
-                   <li>{{ post.data.author }}</li> 
-                </ul>          
-</div>
-</div>
-        
-        </div>
-        
+        [{{ post.data.title }}]
+        [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}] [{{ post.data.title }}]
         
         {% endfor %}
 </div>

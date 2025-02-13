@@ -1,9 +1,10 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: "Karla";
-
+    font-family: "American Typewriter";
+cursor: no-drop;
 }
+
 
 @font-face {
     font-family: "Karla";
@@ -17,7 +18,89 @@
 }
 
 
+@font-face {
+    font-family: "American Typewriter";
+    src: url(font/american-typewriter.ttf)
+}
 
+@font-face {
+    font-family: "Itc Avant Garde Bold";
+    src: url(font/itc-avant-garde-bold.otf)
+}
+
+body {
+    background-color: #4EDF41;
+    font-size: 23px;
+}
+
+.site-title {
+    font-size: 47px;
+    text-transform: uppercase;
+    -webkit-text-stroke: .5px black;
+
+}
+
+.nav-container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;}
+
+.nav-button-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-button {
+    color: whitesmoke;
+    font-size: 20px;
+    -webkit-text-stroke: .5px white;
+
+}
+.nav-button a {
+    color: whitesmoke;
+    -webkit-text-stroke: .5px white;
+
+}
+
+
+
+.nav-button-1::before {
+    content: "01 ";
+}
+
+.nav-button-2::before {
+    content: "02 ";
+}
+.nav-button-3::before {
+    content: "03 ";
+}
+.nav-button-4::before {
+    content: "04 ";
+}
+
+h1 {
+font-family: "itc avant garde bold";
+color: whitesmoke;
+font-size: 40px;
+text-shadow:
+   -.5px -.5px 0 whitesmoke,  
+    .5px -.5px 0 whitesmoke,
+    -.5px .5px 0 whitesmoke,
+     .5px .5px 0 whitesmoke;
+}
+
+h2 {
+    font-family: "itc avant garde bold";
+    color: black;
+    font-size: 32px;
+}
+
+
+
+/* 
 li {
     background-color: rgb(255, 251, 245)  ;
 }
@@ -176,7 +259,7 @@ main {
 max-width: 1080px;
 margin-left: auto;
 margin-right: auto;
-/* background-color: #883824; */
+ background-color: #883824; 
 }
 
 .content-container {
@@ -340,4 +423,4 @@ display: inline-flex;
     .thumbnail-image {
         height: 100%;
         width: 100%;
-    }
+    } */
