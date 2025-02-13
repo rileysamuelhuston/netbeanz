@@ -8,6 +8,7 @@ imagex: "img1.jpg"
 ---
 <div class="post-content">
 
+IF YOU SEE THIS EVERYTHING WORKS. 7:06pm
 
 Today I went for a walk in the partk. I grabbed my bike and helmet and my bag and camera - with a simple goal to go outside and write a bit on my laptop. For this website - Netbeanz.com.
 
