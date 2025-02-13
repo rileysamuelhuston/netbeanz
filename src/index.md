@@ -1,5 +1,5 @@
 ---
-title: Netbeanz.com
+title: netbeanz.com
 layout: front.njk
 ---
 
@@ -9,7 +9,7 @@ layout: front.njk
         {% for post in collections.posts %}
 
         <div class="post-link-container">
-        <div class="post-thumbnail"><img src="" alt=""></div>
+        <div class="post-thumbnail"><img class="thumbnail-image" src="./images/{{ post.data.imagex }}" alt=""></div>
         <div class="post-details-container">
             <div class="post-title">[{{ post.data.title }}]({{ post.url }})</div>
             <div class="post-details">
@@ -20,11 +20,7 @@ layout: front.njk
                 </ul>          
 </div>
 </div>
-            
-                            <div class="post-emoji">
-                                {{ post.data.emoji }}
-                            </div>
-
+        
         </div>
         
         

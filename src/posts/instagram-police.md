@@ -5,6 +5,7 @@ crate: 1-2-3456
 author: Riley
 category: Article
 emoji: 🎥🎞💚
+imagex: "img1.jpg"
 ---
 
 <div class="post-content">

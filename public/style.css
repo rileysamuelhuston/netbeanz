@@ -141,7 +141,6 @@ padding-right: 20px;
     color: black;
     font-weight: 500;
     padding-bottom: 3px;
-    font-size: 14px;
     background-color: white;
 width: fit-content;
 padding: 3px;
@@ -167,9 +166,9 @@ align-items: end;
 .site-title {
 animation: example;
 color: white;
-    font-size: 22px;
+    font-size: 25px;
     animation-duration: 4s;
-    font-weight: 600;
+    font-weight: 800;
 animation-iteration-count: infinite;
 }
 
@@ -280,7 +279,6 @@ transform: translateY(3px);
 .post-link-container {
     padding: 3px;
     display: flex;
-justify-content: space-around;   
 }
 
     .post-thumbnail {
@@ -306,15 +304,14 @@ max-width: fit-content;
     .post-title a {
         text-decoration: none;
         color: black;
-        font-size: 18px;
+        font-size: 23px;
         font-weight: 700;
     }
 
 
     .post-title a:hover {
         text-decoration: none;
-        color: royalblue;
-        font-size: 18px;
+        color: brown;
     }
 
 
@@ -329,4 +326,18 @@ max-width: fit-content;
 font-size: 14px;
         list-style-type: none;
 display: inline-flex;
+    }
+
+    .post-thumbnail {
+        min-height: 75px;
+        max-height: 75px;
+        min-width: 75px;
+        max-width: 75px;
+        background: green;
+
+    }
+
+    .thumbnail-image {
+        height: 100%;
+        width: 100%;
     }

@@ -1,12 +1,13 @@
 ---
 title: "Anthology of Interest I: A Walk in the Dark in the Park in the Dark"
-layout: base.njk
 crate: 5-5-1992
 author: One of Michaelangelo's Animatronio
 category: Article
 emoji: 🚶‍♂️🌴🔦
+imagex: "img1.jpg"
 ---
 <div class="post-content">
+
 
 Today I went for a walk in the partk. I grabbed my bike and helmet and my bag and camera - with a simple goal to go outside and write a bit on my laptop. For this website - Netbeanz.com.
 

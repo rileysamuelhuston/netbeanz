@@ -1,12 +1,14 @@
 ---
 title: Pho Puns
-layout: base.njk
 crate: 4-2-4020
 author: Riley
 category: Article
 emoji: 🎥🎞💚
+imagex: "img1.jpg"
 ---
 <div class="post-content">
+
+{{ post.data.title }}
     This is a list of PHo puns I've got. Hope you enjoy.
     <br><br><hr>
 <br>
