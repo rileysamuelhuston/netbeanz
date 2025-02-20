@@ -12,18 +12,20 @@
 </head>
 <body>
    
-  <main>
-      <div class="nav-container">
-        <header><span class="site-title">Netbeanz.com</span></header>
+<div class="nav-supercontainer">
+  <div class="nav-container">
+    <header><span class="site-title">Netbeanz.com</span></header>
 <div class="nav-button-container">
-  <div class="nav-button nav-button-1"><a href="">Info</a></div>
-  <div class="nav-button nav-button-2"><a href="/index.html">Home</a></div>
-  <div class="nav-button nav-button-3"><a href="/index.html">Back</a></div>
-  <div class="nav-button nav-button-4"><a href="">More</a></div>
+<div class="nav-button nav-button-1"><a href="">Info</a></div>
+<div class="nav-button nav-button-2"><a href="/index.html">Home</a></div>
+<div class="nav-button nav-button-3"><a href="/index.html">Back</a></div>
+<div class="nav-button nav-button-4"><a href="">More</a></div>
 
 </div>
-       
+</div>
       
+  <main>
+       
   
     </div>
     <div class="content-container">
@@ -94,7 +96,24 @@
   </div>
 
 
-    <footer><a href="https://github.com/rileysamuelhuston/netbeanz">Github</a></footer>
   </main>
 </body>
+<script>
+const links = document.querySelectorAll('.bouncing-link');
+
+links.forEach(link => {
+  const text = link.textContent;
+  link.innerHTML = '';
+
+  text.split('').forEach(letter => {
+    const span = document.createElement('span');
+    if (letter === ' ') {
+      span.innerHTML = '&nbsp;'; // Use non-breaking space for spaces
+    } else {
+      span.textContent = letter;
+    }
+    link.appendChild(span);
+  });
+});
+</script>
 </html>

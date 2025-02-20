@@ -12,32 +12,26 @@
 </head>
 <body>
    
-  <main>
-      <div class="nav-container">
-        <header><span class="site-title">Netbeanz.com</span></header>
+<div class="nav-supercontainer">
+  <div class="nav-container">
+    <header><span class="site-title">Netbeanz.com</span></header>
 <div class="nav-button-container">
-  <div class="nav-button nav-button-1"><a href="">Info</a></div>
-  <div class="nav-button nav-button-2"><a href="/index.html">Home</a></div>
-  <div class="nav-button nav-button-3"><a href="/index.html">Back</a></div>
-  <div class="nav-button nav-button-4"><a href="">More</a></div>
+<div class="nav-button nav-button-1"><a href="">Info</a></div>
+<div class="nav-button nav-button-2"><a href="/index.html">Home</a></div>
+<div class="nav-button nav-button-3"><a href="/index.html">Back</a></div>
+<div class="nav-button nav-button-4"><a href="">More</a></div>
 
 </div>
-       
+</div>
       
+  <main>
+       
   
     </div>
-    <div class="content-container">
+    <div class="post-content-container">
       
-  <div class="content">
-    
-<div>
-    
-  
-  
-
-</div>
-
-<div class="post-content">
+  <div class="post-content">
+    <div class="post-content">
 <p>IF YOU SEE THIS EVERYTHING WORKS. 7:06pm</p>
 <p>Today I went for a walk in the partk. I grabbed my bike and helmet and my bag and camera - with a simple goal to go outside and write a bit on my laptop. For this website - Netbeanz.com.</p>
 <p>An hour before I had arrived home by bike. So dark it was! I remember on the way home thinking about how lucky I was to have lights. Perhaps one of the last lines of defense for leg-powered bikers, but that's neither here nor there.</p>
@@ -53,7 +47,24 @@
   </div>
 
 
-    <footer><a href="https://github.com/rileysamuelhuston/netbeanz">Github</a></footer>
   </main>
 </body>
+<script>
+const links = document.querySelectorAll('.bouncing-link');
+
+links.forEach(link => {
+  const text = link.textContent;
+  link.innerHTML = '';
+
+  text.split('').forEach(letter => {
+    const span = document.createElement('span');
+    if (letter === ' ') {
+      span.innerHTML = '&nbsp;'; // Use non-breaking space for spaces
+    } else {
+      span.textContent = letter;
+    }
+    link.appendChild(span);
+  });
+});
+</script>
 </html>
