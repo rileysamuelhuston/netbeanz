@@ -29,7 +29,6 @@
 
 body {
     font-size: 23px;
-    min-height: 2000px;
     background-color: #4EDF41;
 
     
@@ -134,22 +133,18 @@ h3 {
     margin: 20px 20px 0px 20px;
 
     padding: 20px 20px 0px 20px;
-    background-image: repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px);
-    background-position: left top, right top, left top;
-    background-repeat: repeat-x, repeat-y, repeat-y;
-    background-size: 100% 2px, 2px 100%, 2px 100%;
-min-height: 2000px;}
+}
 
 .post-content-container {
     margin: 20px 20px 0px 20px;
     padding: 20px 20px 0px 20px;
-    height: 100%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.post-content-container {
+      background-image: repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px);
+    background-position: left top, right top, left top;
+    background-repeat: repeat-x, repeat-y, repeat-y;
+    background-size: 100% 2px, 2px 100%, 2px 100%;
     background-color: white;
 }
 
@@ -219,15 +214,17 @@ ul.sequenced-list {
   }
 
   .footer-box {
-min-height: 100px;
-background-color: #268f00;  
+min-height: 10px;
+background: #4EDF41;
+border-top: 2px solid #268f00;
+position: fixed;
+bottom: 0px;
+width: 100%;
 }
 
   .footer {
-    padding: 20px;
 margin-left: auto;
 margin-right: auto;
-border-top: 2px solid #51FF00;
 }
 
 .note {
