@@ -47,16 +47,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(107, 158, 30);
-    padding: 1px;
-}
 
-a:hover {
-    background-color: greenyellow;
-    color: black;
-}
 
 .post-content img {
     filter: grayscale(100%);
