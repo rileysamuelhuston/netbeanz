@@ -5,12 +5,11 @@ layout: base.njk
 
 
 
-<div class="post-list">     
- 
+<div class="post-list">
 
         <div class="chapter-container">
 <div class="chapter-image">
-        <img src="./images/computer.gif" alt="">
+        <img src="./images/computer.gif" alt="e">
 
         <H2>Chapter 1</H2>
         <h1>Welcome to Netbeanz</h1>

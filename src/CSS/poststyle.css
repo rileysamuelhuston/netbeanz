@@ -1,0 +1,60 @@
+:root {
+    --body-copy-size: 23px;
+}
+
+
+.post-content {
+    text-align: justify;
+    padding: 20px;
+    font-size: 18px;
+    }
+
+.post-content p {
+line-height: 1.36;
+margin-bottom: 20px;
+font-size: var(--body-copy-size);}
+
+.post-content li {
+    font-size: var(--body-copy-size);
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.post-content i {
+    font-family: "american typewriter italic";
+}
+
+
+.post-content-container {
+    margin: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px);
+    background-position: left top, right top, left bottom, left top;
+    background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    background-color: white;
+}
+
+img {
+    width: 300px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.post-content img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.post-content img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}

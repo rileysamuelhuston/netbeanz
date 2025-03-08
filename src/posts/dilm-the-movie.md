@@ -9,6 +9,8 @@ emoji: 🎥🎞💚
 
 <div class="post-content">
 
+What's up internet! It's your boy Chris double-X from the interwebzzz comin' at you with another hairbrained scheme. Chris Angel, if you're reading this:
+
     The real dilm ladies
 
     Won’t the real dilm ladies please stand up.
@@ -37,10 +39,8 @@ emoji: 🎥🎞💚
     
     
     Probably an interesting process, like what with the dilm and the developing maybe you eat it or there’s slime
-    
-    
-    
-    So essentially I’ts a crazy process. What about the dilm camera? Does it have some sort of a chemical tank that lets you put in the different chemicals. It has a tank on the side and you have to fill it up with the right chemicals and then it goes through the tubes and when you take a picture or wind the film the liquid kind of sloshes around. I think the form factor should be thus of a large military camera that is really interesting. 
+        
+    So essentially It's a crazy process. What about the dilm camera? Does it have some sort of a chemical tank that lets you put in the different chemicals. It has a tank on the side and you have to fill it up with the right chemicals and then it goes through the tubes and when you take a picture or wind the film the liquid kind of sloshes around. I think the form factor should be thus of a large military camera that is really interesting. 
     
     This could also easily be an installation in which participants experience developing dilm on their own! The only thing is that I’m not sure how to achieve the magic of dilm development, since people are very smart actually they might know it’s a trick when they can see the pre-taken pictures on a roll of dilm that has yet to be fully developed. So somehow we’d have to get their actual pictures out into a dilm roll.
     
@@ -54,11 +54,11 @@ emoji: 🎥🎞💚
     
     So how so yoy know if it’s going to ezplode?
     
-    Oh shit it’s gonna blow! Wait no, thats my hot pocket
+    Oh shit it’s gonna blow! Wait no, thats my hot pocket.
     
-    Dilm photos of the film crew that came in then its really creepy ohotos
+    Dilm photos of the film crew that came in then its really creepy photos.
     
-    How is this stupid thing still around? Patronage of a wealthy client that turns out to be someone’s mom or something
+    How is this stupid thing still around? Patronage of a wealthy client that turns out to be someone’s mom or something.
     
     
      

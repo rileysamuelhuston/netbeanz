@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "Karla";
-    src: url(font/Karla-Italic-VariableFont_wght.ttf)
+    src: url(font/Karla-Italic-VariableFont_wght.ttf);
     font-style: italic;
 }
 
@@ -20,6 +20,12 @@
 @font-face {
     font-family: "American Typewriter";
     src: url(font/american-typewriter.ttf)
+}
+
+@font-face {
+    font-family: "American Typewriter Italic";
+    src: url(font/american-Typewriter-Italic.ttf);
+    font-style: italic;
 }
 
 @font-face {
@@ -141,10 +147,10 @@ h3 {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-      background-image: repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px);
-    background-position: left top, right top, left top;
-    background-repeat: repeat-x, repeat-y, repeat-y;
-    background-size: 100% 2px, 2px 100%, 2px 100%;
+    background-image: repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px);
+    background-position: left top, right top, left bottom, left top;
+    background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
     background-color: white;
 }
 

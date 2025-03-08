@@ -7,24 +7,30 @@
 
 @font-face {
     font-family: "Karla";
-    src: url(font/Karla-Italic-VariableFont_wght.ttf)
+    src: url(/font/Karla-Italic-VariableFont_wght.ttf);
     font-style: italic;
 }
 
 @font-face {
     font-family: "Karla";
-    src: url(font/Karla-VariableFont_wght.ttf)
+    src: url(/font/Karla-VariableFont_wght.ttf)
 }
 
 
 @font-face {
     font-family: "American Typewriter";
-    src: url(font/american-typewriter.ttf)
+    src: url(/font/american-typewriter.ttf)
+}
+
+@font-face {
+    font-family: "American Typewriter Italic";
+    src: url(/font/american-Typewriter-Italic.ttf);
+    font-style: italic;
 }
 
 @font-face {
     font-family: "Itc Avant Garde Bold";
-    src: url(font/itc-avant-garde-bold.otf)
+    src: url(/font/itc-avant-garde-bold.otf)
 }
 
 body {
@@ -35,7 +41,6 @@ body {
 }
 
 main {
-
     max-width: 1100px;
     height: 100%;
     background-color: #4EDF41;
@@ -101,12 +106,24 @@ z-index: 1;
     content: "04 ";
 }
 
+a {
+    text-decoration: none;
+    color: rgb(107, 158, 30);
+    padding: 1px;
+}
+
+a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
 h1 {
 font-family: "itc avant garde bold";
 color: whitesmoke;
 font-size: 40px;
+line-height: 1;
 text-transform: uppercase;
-padding-bottom: 4px;
+padding-bottom: 15px;
 }
 
 h2 {
@@ -130,36 +147,18 @@ h3 {
 }
 
 .content-container {
-    margin: 20px 20px 0px 20px;
 
-    padding: 20px 20px 0px 20px;
-}
-
-.post-content-container {
-    margin: 20px 20px 0px 20px;
-    padding: 20px 20px 0px 20px;
-    max-width: 600px;
     margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-right: auto;
-      background-image: repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px);
-    background-position: left top, right top, left top;
-    background-repeat: repeat-x, repeat-y, repeat-y;
-    background-size: 100% 2px, 2px 100%, 2px 100%;
-    background-color: white;
 }
 
 .content {
     max-width: 1000px;
-    
     margin-left: auto;
     margin-right: auto;
     
-}
-
-.post-content {
-text-align: justify;
-padding: 20px;
-font-size: 18px;
 }
 
 .chapter-container {

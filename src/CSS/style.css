@@ -1,23 +1,244 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: "Karla";
-
+    font-family: "American Typewriter";
 }
+
 
 @font-face {
     font-family: "Karla";
-    src: url(font/Karla-Italic-VariableFont_wght.ttf)
+    src: url(/font/Karla-Italic-VariableFont_wght.ttf);
     font-style: italic;
 }
 
 @font-face {
     font-family: "Karla";
-    src: url(font/Karla-VariableFont_wght.ttf)
+    src: url(/font/Karla-VariableFont_wght.ttf)
+}
+
+
+@font-face {
+    font-family: "American Typewriter";
+    src: url(/font/american-typewriter.ttf)
+}
+
+@font-face {
+    font-family: "American Typewriter Italic";
+    src: url(/font/american-Typewriter-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Itc Avant Garde Bold";
+    src: url(/font/itc-avant-garde-bold.otf)
+}
+
+body {
+    font-size: 23px;
+    background-color: #4EDF41;
+
+    
+}
+
+main {
+    max-width: 1100px;
+    height: 100%;
+    background-color: #4EDF41;
+
+}
+
+.site-title {
+    font-size: 47px;
+    text-transform: uppercase;
+
+}
+
+main {
+    background-color: #4EDF41;
+}
+
+.nav-supercontainer {
+    background-color: #4EDF41;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(0px 2px 0px #268f00);
+z-index: 1;
+
+    
+}
+.nav-container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nav-button-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-button {
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+.nav-button a {
+    color: whitesmoke;
+
 }
 
 
 
+.nav-button-1::before {
+    content: "01 ";
+}
+
+.nav-button-2::before {
+    content: "02 ";
+}
+.nav-button-3::before {
+    content: "03 ";
+}
+.nav-button-4::before {
+    content: "04 ";
+}
+
+a {
+    text-decoration: none;
+    color: rgb(107, 158, 30);
+    padding: 1px;
+}
+
+a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+h1 {
+font-family: "itc avant garde bold";
+color: whitesmoke;
+font-size: 40px;
+line-height: 1;
+text-transform: uppercase;
+padding-bottom: 15px;
+}
+
+h2 {
+    font-family: "itc avant garde bold";
+    color: black;
+    line-height: 1;
+    font-size: 32px;
+    padding-top: 69px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "itc avant garde bold";
+    color: black;
+    line-height: 1;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.content-container {
+
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+}
+
+.content {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.chapter-container {
+margin-bottom: 160px;
+}
+.chapter-image {
+    margin-right: 2px;
+}
+.chapter-image img {
+    width: 100%;
+    height: 481px;
+    object-fit: cover;    
+}
+
+ul.sequenced-list {
+    counter-reset: list-counter;
+    list-style: none;
+    padding: 0; 
+  }
+  
+  ul.sequenced-list li {
+    counter-increment: list-counter; 
+    position: relative;
+    padding-left: 2em; 
+  }
+  
+  ul.sequenced-list li::before {
+    content: "0" counter(list-counter);
+    position: absolute;
+    left: 0;
+  }
+
+  .bouncing-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    position: relative;
+  }
+  
+  .bouncing-link span {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .bouncing-link span:hover {
+    transform: translateY(-8px);
+  }
+
+  .white-background {
+    background-color: white;
+  }
+
+  .footer-box {
+min-height: 10px;
+background: #4EDF41;
+border-top: 2px solid #268f00;
+position: fixed;
+bottom: 0px;
+width: 100%;
+}
+
+  .footer {
+margin-left: auto;
+margin-right: auto;
+}
+
+.note {
+    color: #51FF00;
+}
+
+  @media only screen and (max-width: 800px) {
+    .chapter-image img {
+        width: 100%;
+        height: 281px;
+        object-fit: cover;    
+    }
+  }
+
+/* 
 li {
     background-color: rgb(255, 251, 245)  ;
 }
@@ -176,7 +397,7 @@ main {
 max-width: 1080px;
 margin-left: auto;
 margin-right: auto;
-/* background-color: #883824; */
+ background-color: #883824; 
 }
 
 .content-container {
@@ -340,4 +561,4 @@ display: inline-flex;
     .thumbnail-image {
         height: 100%;
         width: 100%;
-    }
+    } */
