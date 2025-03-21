@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Le Journaux Digitale     
+title: Les Journaux Digitales   
 posted: 02 Febuary 2025 
 ---
 

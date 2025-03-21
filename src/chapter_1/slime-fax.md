@@ -1,0 +1,236 @@
+---
+layout: post.njk
+title: Slime Fax
+---
+
+### SLIME FAX
+<center><i>Written by Riley Huston & Oliver Norred</i></center>
+
+FADE IN
+
+Int. Office break room- day 
+
+An OFFICE bulletin board, we see a newly posted recreational basketball schedule on the board. The board is littered with other items of office culture, including a “Joke Board”:  
+
+
+Rec basketball schedule February 2024
+
+Feb 1 - practice 6 to 7 at B&GC<br>
+Feb 2 - practice 6 to 7 at B&GC<br>
+Feb 3 - practice 6 to 7 at B&GC<br>
+Feb 4 - practice 6 to 7 at B&GC<br>
+Feb 5 - ice cream social at TBD<br>
+Feb 6 - conditioning day at B&GC<br>
+Feb 7 - practice 6 to 7 at B&GC<br>
+Game day in 1 week.<br>
+Feb 8 - practice 6 to 7 at B&GC<br>
+Feb 9 - practice 6 to 7 at B&GC<br>
+Feb 10 - practice 6 to 7 at B&GC<br>
+Feb 11 - practice 6 to 7 at B&GC<br>
+Feb 12 - practice 6 to 7 at B&GC<br>
+Feb 13 - practice 6 to 6:30 at B&GC, followed by pasta at Kyle’s mom’s house<br>
+Feb 14 - game day at B&GC versus south central<br>
+Feb 15 - game review and practice 6 to 7 at B&GC
+Feb 17 - practice at 6:30
+INT. OFFICE OF THE BOSS- DAY
+INTERN, 23, young-looking and spry, knocks on the frame of the open door to BOSS’S office.
+INTERn
+Hey, you wanted to see me?
+BOSS, a bespectacled, mildly shifty-looking fourtysomething, dressed in drab office-casual shirt and tie looks up from his desk where he has been writing notes to god knows where.
+BOSS looks up slowly, distracted (his gaze fixed on his weird notes while his head moves to look up at INTERN.)
+BOSS
+(Slowly looking up)
+Yeah, just wanted to say, you’ve been doing a kickass job these last couple months, and I’m really pleased to see you progressing so quickly. 
+Leaning back in his chair, a look of mild incredulous admiration on his face.
+BOSS (CONT’D)
+I honestly can’t remember the last time this office had an intern that fits in our box so neatly. Ha ha!
+BOSS leans forward in his chair, takes glasses off. 
+BOSS (CONT’D)
+Uh, but no... Ifwecouldjustgetseriousforasec. Just wanted to sort of gauge the “vibe” on a few potential openings we might have starting this coming quarter, and be the first to clue
+you in that we’d love to keep you on board full time after your internship ends.
+BOSS starts playing with something on his desk, he’s a little bored now
+Boss (cont.)
+(Looking down)
+Nothing set in stone, nothing set in stone, but uh, you know, just uh, just wanted to, yeah, like I said, gauge the vibez.
+INTERN
+Thank you so much, I appreciate that. I’ve enjoyed my time here so far for sure.
+BOSS turning speaking slowly to INTERN, asks the question we’ve all been waiting for, but in a nonchalant way. As if he’s been faxing blood all his GD life.
+BOSS
+(Trailing off)
+That’s great. That’s great... And uh, did you get my blood fax this morning?
+Confused, INTERN doesn’t know how to respond. He’s never heard of the BLOOD FAX before. Come to think of it, he’s not sure how he even ended up here in the first place. But that’s a story for later...
+INTERN
+(swallows)
+Yeah, I think I- uh, I might have missed it. What was it about again? -Again?
+Suddenly, laughing while he speaks. BOSS looks at INTERN and waves his arms in a faux gesture of incredulity. Again.
+BOSS
+(Laughing, speaking fast)
+‘What was it about’? It’s a blood fax. It’s not about anything. I’m not asking you to count my peas and potatoes here, alright? I mean, it’s a blood fax! Gah- This could seriously impact your longevity at this company. I mean my hairline’s receding as I’m talkin’ to ya. My wife got me this far -
+BOSS quickly pulls back his hairline to reveal that it is quite receded. Looks at INTERN with wide eyes that say, “See? Look what I’m dealing with here!” (Or it’s more of an off-hand remark.)
+BOSS (CONT’D)
+I still got a few inches left.
+BOSS continues to mutter about this and that relating to his wife, hair, and job. 
+INTERN gathers his composure, speaks slowly at first- then regular cadence:
+INTERN
+(Slow, plodding at first)
+Yes, I was testing you! Like a blood test.
+BOSS
+AHHhhhhh love that energy. That’s goin on the joke board. That’s goin to Brenda. I’ll draw up a blood fax right now.
+BOSS starts sloshing around blood on his glass topped desk.
+INTERn
+I can see you’re busy, let’s talk about those openings later.
+
+BOSS
+Hm? Oh, yeah, whatevs, just send me a blood fax.
+Int. Office Hallway- day
+We see INTERN walking down the hall. He sees BRENDA.
+INTERN
+Hey, BRENDA!
+BRENDA, a voluptuous or sort of office-y lady with a bright outfit on and a southern drawl or some accent that’s funny comes into frame looking at papers.
+BRENDA 
+Hey! Got the BOSS’s blood fax by the way, loved the joke. So creative! Gonna go great on the joke board.
+INTERN
+Oh, thanks- I guess. 
+INTERN and BRENDA pass each other. INTERN walks into the bathroom.
+INT. HALLWAY BATHROOM- DAY
+INTERN enters. He takes his phone out to make a call to his MOM as he walks into an open stall / urinal.
+As he’s talking we can see his head but it is partially obscured by the stall modesty screen. We hear his MOM’s distorted responses through the telephone.
+INTERN
+Hey mom, yeah it’s been good, I just wanted to call cause I talked to the BOSS about going full time. Seems like a great opportunity. Love the people, love the office. I got on the joke board today. There’s just one thing. Have you ever worked something called a blood fax?
+MOM
+(Distorted, as on phone)
+bloob fac?
+INTERN
+Yeah, I was wondering if you knew anything about-
+INTERN is interrupted by a sudden “bang!” As RON slams open the door to the bathroom.
+RON, a crazy man with dirty clothes, unkempt hair, and a strange gait walks in to the bathroom. INTERN has never met this man before ... INTERN is startled! But doesn’t let it show - he’s still peeing - and on the phone.
+RON
+(walks in, loudly interrupts)
+HEYYYYYY, bathroom buddies. How bout that BLOOD FAX earlier? Been sending out Blood Faxes like crazy, like one is supposed to. That’s what it does. And yew?
+INTERN
+Oh, just gettin away from the office chaos, talkin’ to my MOM. 
+INTERN gestures with phone in hand.
+INTERN (CONT’D)
+Don’t tell the BOSS!
+RON makes his way to an open stall adjacent to the adjacent stall that INTERN occupies. He unzips his pants.
+RON
+Ahh, I see. Coaxing the log out. Yeah i did same thing with my step dad, divorced parents-wise. Course that was when I was living up in black butte? 
+RON looks over his shoulder to INTERN, who has moved from the bathroom stall.
+RON (CONT'D)
+Middle of nowhere Oregon. Was doing fuckall for first 16 years of my life. Loggin’ town. Ton-a-drugs. My dad was in it. My daddy’s dad was in it. My stepdad was clean ... for a year but they all get back on the horse after while. 
+RON sort of shrugs. Seems to have remembered why he started talking about this.
+RON (CONT'D)
+Anyfuckinway I moved up here bout 36 years ago been working goin’ on 25. Yeah, I’ve been more of a whitecollar type personality, so to speak, in a sense, for lack of a better term, on a account of my schooling. Teachers pet and all.
+We see RON violently shake as he finishes his business. He groans, struggles, and sputters. We hear a loud "ZIP" as RON finishes peeing. 
+RON flushes.
+RON (CONT'D)
+(Reminiscing)
+Yeah MS. SURELY always did have the voice like an angel and the bosom to match. Lets just say before the internet ... well anyway I loved recess cause I had the one room to myself up there and uh anyway well glad to see you’re settling in.
+INTERN gathers himself out of a stunned silence.
+INTERN
+Yeah good to meet (see?) you too, RON. 
+INTERN starts to leave, but is blocked by RON.
+RON steps in front of INTERN. Things are suddenly very tense. What is RON going to do? He's clearly erratic, and now he’s got something more to say.
+RON
+OH hey uhh, by the by. I heard you and the boss man talking earlier. 
+INTERN
+(confused, a little scared)
+Oh, uh yeah yeah well that was-
+RON
+(interrupting)
+-And uh, I just wanted to say I just wanted you to know I come from a lonnggg line of technicians.
+RON whispers with his hand next to his mouth as if to tell a secret.
+RON (CONT’D)
+the sort to work on a blood fax and the like. 
+RON (CONT’D)
+(Normal)
+And just wanted to bring to your attention if you needed ANYTHING ... you come to me. 
+INTERN
+Gotcha I’m sure I-
+RON
+(Interrupting, louder)
+See up n’ till they made this position of yours I had been- I HAD been the sort of-
+RON speaks punctuated by air quotes.
+RON (CONT’D)
+-“de facto” technician around here. And, uh, yeah I picked up the tricks-a-the trade. That was before they had this sort of “SANCTIONED” position so to speak if you will but uh like I said- if you need anything like I said-
+CUT TO BLACK
+INT. OFFICE OF THE BOSS- DAY
+Next day, boss offers BLOOD FAX technician job to INTERN.
+BOSS
+(Too loud)
+JIMMAYYY! Hey there he is, why don’t you take a seat?
+BOSS gestures to an open chair. INTERN takes a seat. BOSS speaks as INTERN takes said seat, the office chair.
+BOSS
+C’mon yeah just right there that’s great. Yeah yeah yeah that’s great, baby! Braggadocious!
+Taking a seat, INTERN speaks. He’s finally tried to send a blood fax.
+INTERN
+Hey boss, yeah just following up from the other day. did you get my, uh, bloo- blood fax?
+BOSS suddenly stops what he’s doing. He seems extremely distraught. He speaks under his breath - massaging his temple and bridge of his nose.
+BOSS
+Oh my god ... how... could I have missed. Oh my god. IN all my years y’know, take a seat, I’ve worked here for almost 24 months and NEVER in my decades of working here have I missed a blood fax. NEVER! 
+INTERN
+Oh uh that’s ok I didn’t even know if I sent it to the right person..
+BOSS has finished crying now. And he’s really trying to compose himself. He speaks and wipes tears from his eyes.
+BOSS
+NOO. No. uh uh. A monkey. Could do this. I’m ii’m sorry I sho oh god…
+INTERN
+That’s ok it’s really- it’s fine. Uhm sorry- You wanted to see me about that potential job opening with maintenance?
+Grabbing a tissue, INTERN offers it to BOSS, who accepts it and blows his nose. He blows, sniffs, and composes himself before speaking again.
+BOSS
+Yeah yes of course. You would be perfect. For this job. I’ve never seen someone operate that machine with such finesse.
+INTERN
+Actually I was curious about that. RON was talking to me in the bathroom earlier-
+BOSS motions for him to stop. He holds up a fist with startling speed and says “halt,” STOP, something in a British accent. He cuts him off like a conductor silences an orchestra for a dramatic pause. He waits… and speaks with eyes closed in reverence.
+BOSS
+Never. And I mean Never! In my nine long years of working for this company have I heard spake a more humble man. You are a gracious god. I mean really just a stand up deity. What a smooth way to accept a position. 
+INTERN
+Oh.. uh thanks.
+BOSS
+Shake my hand.
+BOSS extends his hand, camera focuses, gives a strong handshake.
+Back to INTERN and BOSS.
+BOSS 
+I look forward to seeing you in your new uniform. 
+BOSS holds up ridiculous uniform. Something with short shorts.
+Ext. parking lot- night
+We see INTERN walking towards his car. Lit dimly by the street lamps, RON enters from the side. 
+RON approaches INTERN from behind like some sort of serial killer. He says in a creepy way with a musical sting-
+RON
+Oh hey there. 
+INTERN jumps, turns.
+Intern
+(Startled)
+AH! Jesus, RON! You scared me.
+RoN
+Heard you got the blood fax technician job? 
+INTERN
+(Composed)
+Oh.. yeah Though I’m not really sure how. It seems kinda fast? I’ve never really even sent a ... blood fax ? Before and I don’t know much about the machine at all. 
+INTERN seems a little defeated in his confusion. How did he end up here again?
+INTERN (CONT’D)
+My background is in financial accounting and risk-management. Come to think of it I don’t really know why I started working here...
+RON puts his hand on INTERN’s shoulder in a supportive (if not a little intimidating) gesture.
+RON
+Listen, I like you kid. And I think you got both spunk and pizzaz which is EXACTLY the kind of thing that is out there in the world.
+RON starts to look around as if someone might jump out then and there and strike him down in the light of the moon!
+RON (CONT’D)
+But just one more thing I wanna say- just beware.  Lotta the folks round here treatin’ the machine like an animal. Like it’s a piece of livestock come to the slaughter. There’s sort of a quantum dissonance between us-
+
+RON gestures with both hands- clearly demonstrating and gesticulating the difference between “us” and “them”
+RON (CONT’D)
+(Gesturing)
+-and them. 
+Gesturing with a thumb now, swinging it between INTERN and himself, back and fourth RON points as he speaks. 
+RON uses the other hand and puts it over INTERN’s shoulder, bringing him in close. This is the juicy secret. RON is about to reveal something good here!
+CAMERA MOVES CLOSER AND CLOSER ...
+RON (CONT’D)
+Y’see we technicians, you and I, we. are. en-tangled with the machine. On a molecular level. With it. The machine.  Ijustwannasay Do unto.. Treat it as thy would your own kin. So to speak.
+
+I’m not gonna sugar coat it for ya, sweetie, I’m not gonna make it sound like a walk in the park. Well.. especially considering people ‘round here treat the BLOOD FAX machine like it is a piece of scrap from the junkyard. but it really is of utmost importance that you treat these BLOOD FAX emergencies as quickly as possible. And uhm if you do it to the best of your ability if you put in the best foot forward and uhm you ask for help when you need it. I’m here to help you as sort of the de-facto technician from before. Like I said like, uhhh, they kinda trust meeee, uhh, already to do what I can to help
+RON is really trailing off now. INTERN begins to realize that he’s just rambling.
+RON (CONT’D)
+And, uh, I know my way around that machine. I know its inner workings. I know its tubes; I know its wires. And, uh, j- t- i- i am on your side.. I am on your side and I want to see you suc-ceed. And I want to see you siphoning blood from that machine every weekend. I want to see you drinking blood… 
+RON seems to have a thought that isn’t bat**** insane. He perks up subtly at this realization. Very brief.
+RON (CONT’D)
+Y’know what why don’t you come in on Saturday? We’re blood brothers now, Hombre!
+CUT TO BLACK

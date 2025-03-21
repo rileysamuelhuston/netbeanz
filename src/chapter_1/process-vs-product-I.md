@@ -1,7 +1,6 @@
 ---
 layout: post.njk
 title: Process vs. Product     
-author: Snivley
 ---
 
 ### Process Vs. Product: Whiplash vs Perfect Days and a Comparison of my Reactions Thereof

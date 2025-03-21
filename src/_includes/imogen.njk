@@ -1,0 +1,71 @@
+---
+layout: base.njk
+---
+<style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(200px, 1fr));
+      grid-gap: 10px;
+      transition: all 0.3s ease-in-out;
+      margin-bottom: 100px;
+      margin-top: 20px;
+      transition: all 1s;
+
+
+    }
+
+    .grid-item {
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      transition: all 1s;
+
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: fit-content;
+      object-fit: cover;
+      padding: 0px;
+      margin: 0px;
+      transition: all 1s;
+
+    }
+
+    .active {
+      grid-column: span 2;  /* Make the image span 2 columns */
+      grid-row: span 2;     /* Make the image span 2 rows */
+      transition: all 1s;
+
+    }
+
+    .test {
+        background: blue;
+        display: block;
+    }
+
+  </style>
+</head>
+<body>
+<main>
+        {{ content | safe }}
+</main>
+
+  <script>
+
+
+
+
+    const gridItems = document.querySelectorAll('.grid-item');
+
+    gridItems.forEach(item => {
+      item.addEventListener('click', function() {
+        // Remove 'active' class from all other items
+        gridItems.forEach(i => i.classList.remove('active'));
+        // Add 'active' class to the clicked item
+        this.classList.add('active');
+        console.log("Click!")
+      });
+    });
+  </script>

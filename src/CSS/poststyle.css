@@ -1,3 +1,5 @@
+
+
 :root {
     --body-copy-size: 23px;
 }
@@ -24,11 +26,16 @@ font-size: var(--body-copy-size);}
     font-family: "american typewriter italic";
 }
 
+h2 {
+    margin-top: 20px;
+}
+
+
 
 .post-content-container {
     margin: 20px 20px 0px 20px;
     padding: 20px 20px 0px 20px;
-    max-width: 600px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     background-image: repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(90deg, #000000, #000000 10px, transparent 10px, transparent 30px), repeating-linear-gradient(180deg, #000000, #000000 10px, transparent 10px, transparent 30px);
@@ -36,6 +43,15 @@ font-size: var(--body-copy-size);}
     background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
     background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
     background-color: white;
+}
+
+header a {
+color: black;    
+}
+
+center {
+    margin-bottom: 20px;
+font-size: var(--body-copy-size);
 }
 
 img {
@@ -47,7 +63,14 @@ margin-left: auto;
 margin-right: auto;
 }
 
+hr {
+margin-top: 50px;
+margin-bottom: 20px;
+}
 
+.post-content p {
+    text-indent: 33px;
+}
 
 .post-content img {
     filter: grayscale(100%);
@@ -57,4 +80,8 @@ margin-right: auto;
 .post-content img:hover {
     filter: none;
     -webkit-filter: grayscale(0);
+}
+
+.poem {
+    line-height: 2;
 }
