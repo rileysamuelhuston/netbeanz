@@ -20,7 +20,7 @@ layout: base.njk
                 {%- for chapter in collections.chapter_1 -%}
                 <li>
                         <div class="post-link-box">
-                                <a href="{{ chapter.url }}" class="bouncing-link">{{ chapter.data.title }}</a>
+                                <a href=".{{ chapter.url }}" class="bouncing-link">{{ chapter.data.title }}</a>
                         </div>
                        <div class="date">{{ chapter.data.crate }}</div>
                         
