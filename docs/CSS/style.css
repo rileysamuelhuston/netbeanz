@@ -43,7 +43,7 @@
 
 @font-face {
     font-family: "Itc Avant Garde Bold";
-    src: url(/font/itc-avant-garde-bold.otf)
+    src: url(/font/itc-avant-garde-bold.otf), url(/netbeanz/font/itc-avant-garde-bold.otf);
 }
 
 i {

@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Linformatique</title>
-  <link rel="stylesheet" href="./docs/css/style.css">
-  <link rel="stylesheet" href="./docs/css/poststyle.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/poststyle.css">
 
 
   
@@ -41,6 +41,18 @@
   </main>
 </body>
 <script>
+// Script to replace the '/' in images 
+if (window.location.href.includes("github.io")) {
+  document.querySelectorAll('img').forEach(img => {
+    img.src = img.src.replace('/', '/netbeanz/');
+  
+  });
+  document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
+    link.href = link.href.replace('/', '/netbeanz/');
+  });
+}
+
+
 const links = document.querySelectorAll('.bouncing-link');
 
 links.forEach(link => {
