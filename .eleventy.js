@@ -3,6 +3,8 @@ module.exports = function
   eleventyConfig.addPassthroughCopy ("./src/CSS");
   eleventyConfig.addPassthroughCopy ("./src/font")
   eleventyConfig.addPassthroughCopy ("./src/images")
+  eleventyConfig.addPassthroughCopy ("./src/sound")
+
 
 
 

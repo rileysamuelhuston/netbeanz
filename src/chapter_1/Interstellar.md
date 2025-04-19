@@ -45,6 +45,5 @@ Rage, rage against the dying of the light.
 </i>
 
 </center>
-<br>
 
 <center>×</center>

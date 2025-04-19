@@ -5,6 +5,10 @@ title: Perfect Days vs. Whiplash
 
 ### Perfect Days vs. Whiplash and A Short Introspective Thereon
 
+<center><i>Updated April 20, 2025</i></center>
+
+
+
 ![Alt text](/images/pvp.jpg "A page from my sketchbook senior year.")
 
 I see here... what the heck is it OH yeah some fuggin' sketches or some shiss? Probz of an idea I had just two or three years ago... I am Q and here's a drop in the hat for you: there gonna start giving free land to the first and third customers of local Quizno's subs. Local Quizno's as part of an ongoing "Q-Anon of the Summer" campaign are giving away free land to the first and third enjoyers of a hot italian or sandwich of equal or lesser value. Get your free land "Q"-day, while supplies last. God ain't makin' more dirt. 
