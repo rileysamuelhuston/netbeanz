@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Leave Easy from some Bad Day
+title: Do Not Go Gentle into That Good Night
 ---
 
 

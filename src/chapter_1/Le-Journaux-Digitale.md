@@ -1,7 +1,8 @@
 ---
 layout: post.njk
 title: Les Journaux Digitales   
-posted: 02 Febuary 2025 
+posted: 02 Febuary 2025
+my-key: post-123
 ---
 
 ### Le Journaux Digitale

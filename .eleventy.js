@@ -4,7 +4,7 @@ module.exports = function
   eleventyConfig.addPassthroughCopy ("./src/font")
   eleventyConfig.addPassthroughCopy ("./src/images")
   eleventyConfig.addPassthroughCopy ("./src/sound")
-
+  eleventyConfig.addPassthroughCopy ("./src/_data")
 
 
 

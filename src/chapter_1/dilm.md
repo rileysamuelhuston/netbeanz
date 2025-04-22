@@ -1,6 +1,7 @@
 ---
-title: A.F.N.O.R. Dilm
+title: DILM
 layout: post.njk
+permalink: /chapter_1/dilm/
 ---
 
 ### DILM: WELCOME TO YOUR OWN PERSONAL HELL
@@ -11,23 +12,7 @@ layout: post.njk
 
 What’s up, Internet! It’s your boy Chris Double‑X from the interwebs, coming at you with another hair‑brained scheme. Conan O’Brien, if you’re reading this: I’m here for you. I’ve got some new ideas for you to try, like some crazy stunts on the show, maybe with Jordan Schlansky or Andy too. Just hit me up, Conan, I’ve got some great material and some great sketches you can do around the office. Great remote ideas for you in the queue. It’s all in my Google Docs so it’s easy to pull up at any time during the day or night.
 
-I actually do pay for the extra storage, which is, like, the one thing that I’ll actually willingly fork over the cash for. I’ll give you something for free right now (this one’s good): it’s your classic transparent coffin prank. A real Chaplin original, but the gist is you get some guy, right, to go to the funeral, which you and your crew are already at. And just to keep it interesting I’ll ask my French cousin Le Pouf to translate what I wrote down into French and back again. Le Pouf!
-
-<i><center>Le Pouf et Le Cadeau</center></i>
-
-<i>You’re at the funeral, yes? And it doesn’t really matter whose it is or what it’s about. But, you see, it is not a funeral of reality. Non, non, non. It is a prank funeral: a funeral made of tricks and deceptions. All the people weep; they are overcome by sadness. But you? You are in the coffin. You already switched the coffins, yes? It is a brilliant idea. You have… how do you say… infiltrated the coffin with a slithering.</i>
-
-<i>But here’s a twist my slimy friend: the coffin is of a transparent hue, which is to say it has no hue at all! And who is inside? It is you! You, alive! Some sort of miracle? No, of course not. It is all planned, but the people do not see this they only see the lie.</i>
-
-<i>They walk; they cry, but then they look and there in the coffin and you are smiling. In the confusion they ask a question: “Who is this man? Why is he there?” Yes, they will ask. But the real question in their minds that shall forever be left unanswered rings: “how did he do it?”</i>
-
-<i>Some of them begin to chase you. They chase your pallbearers three and around and around you go, until one slips on a banana peel. Ha ha ha! What a laugh and a fool and a jaunt</i>
-
-<i>The comedy ends with a magnificent purple hat. A very nice hat made of good, strong material. It is large and purple and, to the funeral-goers, as inexplicable as your transparent coffin. You, on the ground now, pull it from your bosom. They will ask, “Where does the hat come from?” and in response you start pulling birds! Birds from nowhere in particular! Spawning them from your sleeves where you also have cards, ribbons, and smiles. You throw them all like the wind, singing: “Ahh, the Hollywood. We love the sights, the sounds, the stars. All the glories of Hollywooood!”</i>
-
-<i>Your time in the lime has come to a line so fine, and now you topple over the edge. The sadness… it begins to return. Some weep, some hold back tears, and some feel true emotion, but you are prepared. You take out the flower that sprays water. A simple trick and a spray to the face. Now the laughter has returned, and they can no longer cry, for the birds are flying, the ribbons are dancing, and your hand pulls a carrot from the well-made purple hat. The people cannot, or will not, understand, but they laugh because of the absurdity… it is perfect. You are pagliacci.</i>
-
-</i></i>
+I actually do pay for the extra storage, which is, like, the one thing that I’ll actually willingly fork over the cash for. I’ll give you something for free right now (this one’s good): it’s your classic transparent coffin prank. A real Chaplin original, but the gist is you get some guy, right, to go to the funeral, which you and your crew are already at. And just to keep it interesting I’ll ask my French cousin Le Pouf to translate what I wrote down into French and back again. [Check it out here](/chapter_1/Le-pouf-et-le-cadeau/)
 
 
 
