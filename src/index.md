@@ -7,15 +7,26 @@ layout: base.njk
 
 <div class="post-list">
 
-<div class="test">
+        <div class="chapter-container">
+        
+<div class="chapter-image">
+       
+        <img src="/images/A_Night_Out-2025_01_01-8.jpg" alt="" srcset="">
+        <h2>Photograph</h2>
+        <h1>Les Experts de Collision</h1>
+        <h4>04 23 2025</h4>
+
+</div>
 </div>
         <div class="chapter-container">
 <div class="chapter-image">
-        <img src="./images/computer.gif" alt="e">
+        <img src="/images/computer.gif" alt="e">
 </div>
 
         <H2>Chapter 1</H2>
         <h1>Welcome to Netbeanz</h1>
+        <h4>{{ authors.riley.role }}: {{ authors.riley.name }}</h4>
+<h5>Date: 02 02 2022</h5>
         <ul class="sequenced-list">
                 {%- for chapter in collections.chapter_1 -%}
                 <li>
