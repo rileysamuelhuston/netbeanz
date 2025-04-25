@@ -7,10 +7,6 @@
     --global-tertiary-color: greenyellow;
 }
 
-::selection {
-    color: ;
-}
-
 .fart {
     border: 10px solid transparent;
     padding: 15px;
