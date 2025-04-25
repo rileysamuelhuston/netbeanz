@@ -33,10 +33,8 @@
   <div class="nav-container">
     <header id="clickable-div" class="sound-trigger"><span class="site-title">Netbeanz.com</span></header>
 <div class="nav-button-container">
-<div class="nav-button nav-button-1"><a href="/clerical/info">Info</a></div>
-<div class="nav-button nav-button-2"><a href="/index.html">Home</a></div>
-<div class="nav-button nav-button-3"><a href="/index.html">Back</a></div>
-<div class="nav-button nav-button-4"><a href="/clerical/more/index.html">More</a></div>
+<div class="nav-button nav-button"><a href="/clerical/info">Info</a></div>
+<div class="nav-button nav-button-new"><a href="/index.html">Horoscopes</a></div>
 
 </div>
 </div>
@@ -63,36 +61,41 @@
 </div>
 <p><H2>Chapter 1</H2>
 <h1>Welcome to Netbeanz</h1>
-<h4>Author: Huston, Riley</h4></p>
-<h5>Date: 02 02 2022</h5>
-        <ul class="sequenced-list"><li>
-                        <div class="post-link-box">
-                                <a href="./chapter_1/A-Clone-of-my-own/" class="bouncing-link">A Clone of My Own</a>
-                        </div>
-                       <div class="date"></div>
+<h5>Huston, Riley</h5>
+<ul class="sequenced-list"><li>
+<div class="post-link-box">
+<a href="./chapter_1/A-Clone-of-my-own/" class="bouncing-link">A Clone of My Own</a>
+<p>February 13, 2025</p>
+</div>
+<div class="date"></div></p>
 <p></li><li>
 <div class="post-link-box">
 <a href="./chapter_1/Le-Journaux-Digitale/" class="bouncing-link">Les Journaux Digitales</a>
+<p>February 20, 2025</p>
 </div>
 <div class="date"></div></p>
 <p></li><li>
 <div class="post-link-box">
 <a href="./chapter_1/process-vs-product-I/" class="bouncing-link">Perfect Days vs. Whiplash</a>
+<p>March  5, 2025</p>
 </div>
 <div class="date"></div></p>
 <p></li><li>
 <div class="post-link-box">
 <a href="./chapter_1/dilm/" class="bouncing-link">DILM</a>
+<p>March 15, 2025</p>
 </div>
 <div class="date"></div></p>
 <p></li><li>
 <div class="post-link-box">
 <a href="./chapter_1/Interstellar/" class="bouncing-link">Do Not Go Gentle into That Good Night</a>
+<p>March 16, 2025</p>
 </div>
 <div class="date"></div></p>
 <p></li><li>
 <div class="post-link-box">
 <a href="./chapter_1/Le-pouf-et-le-cadeau/" class="bouncing-link">A Letter from Your French Cousin, Le Pouf</a>
+<p>April 19, 2025</p>
 </div>
 <div class="date"></div></p>
 <p></li></ul></p>
@@ -160,5 +163,13 @@ links.forEach(link => {
     link.appendChild(span);
   });
 });
+
+var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+if (viewportWidth > 640) {
+	console.log('Wide viewport');
+} else {
+	console.log('Small viewport');
+}
+
 </script>
 </html>

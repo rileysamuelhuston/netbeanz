@@ -33,10 +33,8 @@
   <div class="nav-container">
     <header id="clickable-div" class="sound-trigger"><span class="site-title">Netbeanz.com</span></header>
 <div class="nav-button-container">
-<div class="nav-button nav-button-1"><a href="/clerical/info">Info</a></div>
-<div class="nav-button nav-button-2"><a href="/index.html">Home</a></div>
-<div class="nav-button nav-button-3"><a href="/index.html">Back</a></div>
-<div class="nav-button nav-button-4"><a href="/clerical/more/index.html">More</a></div>
+<div class="nav-button nav-button"><a href="/clerical/info">Info</a></div>
+<div class="nav-button nav-button-new"><a href="/index.html">Horoscopes</a></div>
 
 </div>
 </div>
@@ -111,5 +109,13 @@ links.forEach(link => {
     link.appendChild(span);
   });
 });
+
+var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+if (viewportWidth > 640) {
+	console.log('Wide viewport');
+} else {
+	console.log('Small viewport');
+}
+
 </script>
 </html>

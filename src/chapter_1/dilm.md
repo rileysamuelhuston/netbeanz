@@ -2,6 +2,7 @@
 title: DILM
 layout: post.njk
 permalink: /chapter_1/dilm/
+date: 
 ---
 
 ### DILM: WELCOME TO YOUR OWN PERSONAL HELL
