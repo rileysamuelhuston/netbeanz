@@ -6,7 +6,7 @@ my-key: special
 permalink: /chapter_1/Le-pouf-et-le-cadeau/
 ---
 ### Le Pouf et Le Cadeau
-<i><center>02 Febuary 2025</center></i>
+<center><i>A letter from your French cousin, Le Pouf. The following text I dutifully transcribed and translated from the original tattered envelope which bound this scripture to your name.</i></center>
 
 <i>You’re at the funeral, yes? And it doesn’t really matter whose it is or what it’s about. But, you see, it is not a funeral of reality. Non, non, non. It is a prank funeral: a funeral made of tricks and deceptions. All the people weep; they are overcome by sadness. But you? You are in the coffin. You already switched the coffins, yes? It is a brilliant idea. You have… how do you say… infiltrated the coffin with a slithering.</i>
 

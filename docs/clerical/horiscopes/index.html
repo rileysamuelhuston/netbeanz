@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Graham&#39;s New DOOM (Emulator)</title>
+  <title>Linformatique</title>
   <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/poststyle.css">
 
 
   
@@ -28,25 +29,30 @@
 <audio id="audio14" src="/sound/narration13.mp3" preload="auto"></audio>
 
 
+
+
 <div class="nav-supercontainer">
   <div class="nav-container">
     <header id="clickable-div" class="sound-trigger"><span class="site-title">Netbeanz.com</span></header>
 <div class="nav-button-container">
-<div class="nav-button nav-button-1"><a href="/clerical/info">Info</a></div>
-<div class="nav-button nav-button-2"><a href="/clerical/horoscopes">Horoscopes</a></div>
-<div class="nav-button nav-button-4"><a href="/clerical/more/index.html">More</a></div>
+<div class="nav-button nav-button"><a href="/clerical/info">Info</a></div>
+<div class="nav-button nav-button-new"><a href="/clerical/horoscopes">Horoscopes</a></div>
 
 </div>
-    </div>
 </div>
       
-  <main>
        
   
+    </div>
+
+    
     <div class="content-container">
-      
+
+
+      <main>
   <div class="content">
-    <p>Grahm didn't make it to the UFO conference because of his abduction.</p>
+    
+    <p>This is a test a crest arrest</p>
 
 
     </div>
@@ -56,6 +62,14 @@
   </main>
 </body>
 <script>
+
+function toggleDiv() {
+  const div = document.getElementById('horiscopes-widget');
+  div.classList.toggle('transformed');
+
+  console.log('test')
+}
+
 // Script for the random audio files
   document.addEventListener('DOMContentLoaded', function() {
 const clickableDiv = document.getElementById('clickable-div');
@@ -109,5 +123,13 @@ links.forEach(link => {
     link.appendChild(span);
   });
 });
+
+var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+if (viewportWidth > 640) {
+	console.log('Wide viewport');
+} else {
+	console.log('Small viewport');
+}
+
 </script>
 </html>

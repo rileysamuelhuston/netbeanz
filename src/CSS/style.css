@@ -5,6 +5,9 @@
     --global-primary-color: #4EDF41;
     --global-secondary-color:rgb(107, 158, 30);
     --global-tertiary-color: greenyellow;
+
+
+    --nav-height: 100px;
 }
 
 .fart {
@@ -47,19 +50,18 @@
     src: url(/font/itc-avant-garde-demi.ttf);
 }
 
-i {
-    font-family: "american typewriter italic";
-}
 
 body {
     font-size: 23px;
-    background-color: var(--global-primary-color);   
+    background-color: var(--global-primary-color);
 }
 
 main {
     max-width: 1100px;
     height: 100%;
     background-color: var(--global-primary-color);
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -77,81 +79,20 @@ big {
     border: 2px solid var(--global-tertiary-color);
 }
 
-.site-title {
-    font-size: 47px;
-    text-transform: uppercase;
-
-}
-
-main {
-    background-color: #4EDF41;
-}
-
-.nav-supercontainer {
-    background-color: #4EDF41;
-    padding-bottom: 10px;
-    position: sticky;
-    top: 0;
-    filter: drop-shadow(0px 2px 0px #268f00);
-z-index: 1;
-
-    
-}
-.nav-container {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.nav-button-container {
-    /* border: 1px solid var(--global-secondary-color); */
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-button {
-    color: whitesmoke;
-    font-size: 20px;
-    text-decoration: none;
-
-}
-.nav-button a {
-    color: whitesmoke;
-    text-decoration: none;
-
-}
-
-.nav-button-new::after {
-    content: "⊸ New!";
-    font-family: "american typewriter italic";
-}
-
-/* 
-
-
-.nav-button-2::before {
-    content: "02 ";
-}
-.nav-button-3::before {
-    content: "03 ";
-}
-.nav-button-4::before {
-    content: "04 ";
-} */ */
-
 a {
     text-decoration: none;
     color: rgb(107, 158, 30);
     padding: 1px;
 }
 
+
 a:hover {
     background-color: greenyellow;
     color: black;
+}
+
+i {
+    font-family: "american typewriter italic";
 }
 
 h1 {
@@ -201,6 +142,98 @@ h5::after {
     content: "⊸ UNVERIFIED";
     color: olivedrab;
     /* ᎕⊷⊸⊶⊷⊸⋯⊸⊶⊸⊶⊸⊶⊸⊶⊸⊶⊸⊶ */
+}
+
+
+
+.site-title {
+    font-size: 47px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+}
+
+
+.nav-supercontainer {
+    height: fit-content;
+    background-color: #4EDF41;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(0px 2px 0px #268f00);
+z-index: 1;    
+}
+.nav-container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.nav-button-container {
+    /* border: 1px solid var(--global-secondary-color); */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+display: flex;
+justify-content: space-between;
+
+    
+
+}
+
+.nav-button {
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.nav-button a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-button-1::before {
+    content: "01 "
+}
+
+.nav-button-2::before {
+    content: "02 "
+}
+
+.nav-button-3::before {
+    content: "03 "
+}
+
+.nav-button-4::before {
+    content: "04 "
+}
+
+.nav-button-new::after {
+    content: "⊸ New!";
+    font-family: "american typewriter italic";
+}
+
+
+/* _-*^#$v., | A SWEET SWEET HOME IS BLESSED AND CONSUMATED BY THE BREATH OF ITS LUNGS | ,.v$#^*-_ */
+
+.horiscope-widget {
+    width: 250px;
+height: fit-content;
+    position: sticky;
+background-color: var(--global-primary-color);
+outline: 2px solid var(--global-secondary-color);
+}
+
+.transformed {
+    transform: translateY(calc(-100% + 24px));
+    position: fixed;
+}
+
+
+.horiscope-list {
+    height: 300px;
+    overflow-x: scroll;
 }
 
 .content-container {
@@ -319,8 +352,9 @@ margin-right: auto;
         overflow-wrap: break-word; /* preferred */
     }
 
+
       .post-link-box p {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
       }
     
   }

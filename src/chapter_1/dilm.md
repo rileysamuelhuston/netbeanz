@@ -6,7 +6,7 @@ date:
 ---
 
 ### DILM: WELCOME TO YOUR OWN PERSONAL HELL
-<CENTER>3/15/2025</center>
+<center><i>Updated April 26, 2025</i></center>
 
 <BIG><I>
 “Ah crap it’s gonna blow! Wait... nope. That’s just my hot pocket.”</BIG></i>
@@ -124,5 +124,4 @@ Meet Fluoride Ges, news anchor for Channel 88, Cherry News. Welcome to your own 
 “Well, it’s all shit. All of it. We can’t use any of that, uh—yeah, he’s an eccentric guy who does this weird and rare profession—starting out with him at his home, some cool shot of the outside, then cutting to the inside as we hear narration, ‘Meet the last Dilm developer in Arkansas.’ I was gonna get on Sweeps. I was really gunning for the Sweeps spot but it is for sure going to Hauser now. How is this stupid thing still around? Patronage of a wealthy client that turns out to be someone’s mom or something. Dilm photos of the film crew that came in—there are some really creepy photos.”
 
 ヾ(⌐■_■)ノ♪
-
 <center>×</center>

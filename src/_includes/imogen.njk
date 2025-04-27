@@ -45,6 +45,21 @@ layout: base.njk
         display: block;
     }
 
+    @media only screen and (max-width: 666px) {
+      .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(100px, 1fr));
+      grid-gap: 10px;
+      transition: all 0.3s ease-in-out;
+      margin-bottom: 100px;
+      margin-top: 20px;
+      transition: all 1s;
+
+
+    }
+
+    }
+
   </style>
 </head>
 <body>

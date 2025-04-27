@@ -4,7 +4,6 @@ layout: base.njk
 ---
 
 
-
 <div class="post-list">
 
         <div class="chapter-container">
@@ -39,7 +38,7 @@ layout: base.njk
               {%- endfor -%}
         </ul>
        
-
+        
 
 </div>
 

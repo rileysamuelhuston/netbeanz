@@ -1,5 +1,10 @@
 ---
 title: Linformatique
+layout: post.njk
 ---
 
-This is a test a crest arrest
+Welcome to Netbeanz.com
+
+Site created by {{ authors.riley.name }}
+
+Please browse all of the offerings! Or check your [Horoscope](/clerical/horoscopes/)

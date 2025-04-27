@@ -6,6 +6,7 @@
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/CSS/poststyle.css">
   <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/horoscopes.css">
 
 
 
@@ -25,30 +26,29 @@
 
 </div>
 </div>
-      
+</div>
   <main>
        
   
-    </div>
+
     <div class="post-content-container">
       
   <div class="post-content">
+    
     {{ content | safe }}
+
 
     </div>
   </div>
-</main>
 
 
+  </main>
   <div class="footer-box">
     <div class="footer">
       <div class="note">This note is a special one!</div>
     </div>
   </div>
 </body>
-
-{# script for bouncing links. Note to self: should be injected with Javascript! So this is temporary. ~2025.04.26 #}
-
 <script>
 const links = document.querySelectorAll('.bouncing-link');
 
