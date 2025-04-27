@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linformatique</title>
+  <link rel="stylesheet" href="/CSS/poststyle.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+
+
+
+  
+</head>
+<body>
+  
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+
+<div class="nav-supercontainer">
+  <div class="nav-container">
+    <header><span class="site-title"><a href="/index.html">Netbeanz.com</a></span></header>
+<div class="nav-button-container">
+
+</div>
+</div>
+      
+  <main>
+       
+  
+    </div>
+    <div class="post-content-container">
+      
+  <div class="post-content">
+    <p>Welcome to Netbeanz.com</p>
+<p>Site created by Riley Huston</p>
+<p>Please browse all of the offerings! Or check your <a href="/clerical/horoscopes/">Horoscope</a></p>
+
+
+    </div>
+  </div>
+</main>
+
+
+  <div class="footer-box">
+    <div class="footer">
+      <div class="note">This note is a special one!</div>
+    </div>
+  </div>
+</body>
+
+
+
+<script>
+const links = document.querySelectorAll('.bouncing-link');
+
+links.forEach(link => {
+  const text = link.textContent;
+  link.innerHTML = '';
+
+  text.split('').forEach(letter => {
+    const span = document.createElement('span');
+    if (letter === ' ') {
+      span.innerHTML = '&nbsp;'; // Use non-breaking space for spaces
+    } else {
+      span.textContent = letter;
+    }
+    link.appendChild(span);
+  });
+});
+</script>
+</html>

@@ -1,0 +1,366 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "American Typewriter";
+    --global-primary-color: #4EDF41;
+    --global-secondary-color:rgb(107, 158, 30);
+    --global-tertiary-color: greenyellow;
+
+
+    --nav-height: 100px;
+}
+
+.fart {
+    border: 10px solid transparent;
+    padding: 15px;
+    background-image: url("/images/2-1-1.png")
+}
+
+
+@font-face {
+    font-family: "Karla";
+    src: url(/font/Karla-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(/font/Karla-VariableFont_wght.ttf)
+}
+
+
+@font-face {
+    font-family: "American Typewriter";
+    src: url(/font/american-typewriter.ttf)
+}
+
+@font-face {
+    font-family: "American Typewriter Italic";
+    src: url(/font/american-Typewriter-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Itc Avant Garde Bold";
+    src: url(/font/itc-avant-garde-bold.otf), url(/netbeanz/font/itc-avant-garde-bold.otf);
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Demi";
+    src: url(/font/itc-avant-garde-demi.ttf);
+}
+
+
+body {
+    font-size: 23px;
+    background-color: var(--global-primary-color);
+}
+
+main {
+    max-width: 1100px;
+    height: 100%;
+    background-color: var(--global-primary-color);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+::selection {
+    color: var(--global-secondary-color);
+    background-color: var(--global-tertiary-color);
+}
+
+big {
+    font-size: 30px;
+    text-align: center;
+    /* background-color: var(--global-secondary-color); */
+    color: var(--global-secondary-color);
+    border: 2px solid var(--global-tertiary-color);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(107, 158, 30);
+    padding: 1px;
+}
+
+
+a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+i {
+    font-family: "american typewriter italic";
+}
+
+h1 {
+font-family: "itc avant garde bold";
+color: whitesmoke;
+font-size: 40px;
+line-height: 1;
+text-transform: uppercase;
+padding-bottom: 15px;
+}
+
+h2 {
+    font-family: "itc avant garde bold";
+    color: black;
+    line-height: 1;
+    font-size: 32px;
+    padding-top: 39px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "itc avant garde bold";
+    color: black;
+    line-height: 1;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+h4, h5 {
+    font-family: "ITC Avant Garde Demi";
+    margin-top: -12px;
+    margin-bottom: 12px;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+h4::after {
+    content: "⊸ OK!";
+    color: red;
+    /* ᎕⊷⊸⊶⊷⊸⋯⊸⊶⊸⊶⊸⊶⊸⊶⊸⊶⊸⊶ */
+}
+
+h5::after {
+    content: "⊸ UNVERIFIED";
+    color: olivedrab;
+    /* ᎕⊷⊸⊶⊷⊸⋯⊸⊶⊸⊶⊸⊶⊸⊶⊸⊶⊸⊶ */
+}
+
+
+
+.site-title {
+    font-size: 47px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+}
+
+
+.nav-supercontainer {
+    height: fit-content;
+    background-color: #4EDF41;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(0px 2px 0px #268f00);
+z-index: 1;    
+}
+.nav-container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.nav-button-container {
+    /* border: 1px solid var(--global-secondary-color); */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+display: flex;
+justify-content: space-between;
+
+    
+
+}
+
+.nav-button {
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.nav-button a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-button-1::before {
+    content: "01 "
+}
+
+.nav-button-2::before {
+    content: "02 "
+}
+
+.nav-button-3::before {
+    content: "03 "
+}
+
+.nav-button-4::before {
+    content: "04 "
+}
+
+.nav-button-new::after {
+    content: "⊸ New!";
+    font-family: "american typewriter italic";
+}
+
+
+/* _-*^#$v., | A SWEET SWEET HOME IS BLESSED AND CONSUMATED BY THE BREATH OF ITS LUNGS | ,.v$#^*-_ */
+
+.horiscope-widget {
+    width: 250px;
+height: fit-content;
+    position: sticky;
+background-color: var(--global-primary-color);
+outline: 2px solid var(--global-secondary-color);
+}
+
+.transformed {
+    transform: translateY(calc(-100% + 24px));
+    position: fixed;
+}
+
+
+.horiscope-list {
+    height: 300px;
+    overflow-x: scroll;
+}
+
+.content-container {
+
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+}
+
+.content {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.chapter-container {
+margin-bottom: 160px;
+}
+
+.inline-chapter-container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.chapter-image {
+    margin-right: 2px;
+    /* background-image: url("/images/2-1-1.png"); */
+}
+.chapter-image img {
+    width: 100%;
+    height: 481px;
+    object-fit: cover;    
+}
+
+ul.sequenced-list {
+    counter-reset: list-counter;
+    list-style: none;
+    padding: 0; 
+  }
+  
+  ul.sequenced-list li {
+    counter-increment: list-counter; 
+    position: relative;
+    padding-left: 2em; 
+  }
+  
+  ul.sequenced-list li::before {
+    content: "0" counter(list-counter);
+    position: absolute;
+    left: 0;
+  }
+
+
+.date {
+}
+
+  .post-link-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bouncing-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    position: relative;
+  }
+  
+  .bouncing-link span {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .bouncing-link span:hover {
+    transform: translateY(-8px);
+  }
+
+  .white-background {
+    background-color: white;
+  }
+
+  .footer-box {
+min-height: 10px;
+background: #4EDF41;
+border-top: 2px solid #268f00;
+position: fixed;
+bottom: 0px;
+width: 100%;
+}
+
+  .footer {
+margin-left: auto;
+margin-right: auto;
+}
+
+.note {
+    color: #51FF00;
+}
+
+  @media only screen and (max-width: 800px) {
+    .chapter-image img {
+        width: 100%;
+        height: 281px;
+        object-fit: cover;    
+    }
+
+
+
+    .post-link-box {
+        display: block;
+        justify-content: space-between;
+        word-break: normal; /* fallback */
+        overflow-wrap: break-word; /* preferred */
+    }
+
+
+      .post-link-box p {
+        margin-bottom: 10px;
+      }
+    
+  }
+
+  /* CUSTOM STYLING ON CHAPTERS INLINE */
+
+#poems {
+    background: white;
+}

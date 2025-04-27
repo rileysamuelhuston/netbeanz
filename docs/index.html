@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>netbeanz.com</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+
+
+  
+</head>
+<body>
+   
+<!-- Audio elements (THIS IS THE SECRET OF NETBEANZ.COM Or is it? :D) -->
+<audio id="audio1" src="/sound/narration0.mp3" preload="auto"></audio>
+<audio id="audio2" src="/sound/narration1.mp3" preload="auto"></audio>
+<audio id="audio3" src="/sound/narration2.mp3" preload="auto"></audio>
+<audio id="audio4" src="/sound/narration3.mp3" preload="auto"></audio>
+<audio id="audio5" src="/sound/narration4.mp3" preload="auto"></audio>
+<audio id="audio6" src="/sound/narration5.mp3" preload="auto"></audio>
+<audio id="audio7" src="/sound/narration6.mp3" preload="auto"></audio>
+<audio id="audio8" src="/sound/narration7.mp3" preload="auto"></audio>
+<audio id="audio9" src="/sound/narration8.mp3" preload="auto"></audio>
+<audio id="audio10" src="/sound/narration9.mp3" preload="auto"></audio>
+<audio id="audio11" src="/sound/narration10.mp3" preload="auto"></audio>
+<audio id="audio12" src="/sound/narration11.mp3" preload="auto"></audio>
+<audio id="audio13" src="/sound/narration12.mp3" preload="auto"></audio>
+<audio id="audio14" src="/sound/narration13.mp3" preload="auto"></audio>
+
+
+<div class="nav-supercontainer">
+  <div class="nav-container">
+    <header id="clickable-div" class="sound-trigger"><span class="site-title">Netbeanz.com</span></header>
+<div class="nav-button-container">
+<div class="nav-button nav-button-1"><a href="/clerical/info">Info</a></div>
+<div class="nav-button nav-button-2"><a href="/clerical/horoscopes">Horoscopes</a></div>
+<div class="nav-button nav-button-4"><a href="/clerical/more/index.html">More</a></div>
+
+</div>
+    </div>
+</div>
+      
+  <main>
+       
+  
+    <div class="content-container">
+      
+  <div class="content">
+    <div class="post-list">
+<p><div class="chapter-container"></p>
+<div class="chapter-image">
+<p><img src="/images/A_Night_Out-2025_01_01-8.jpg" alt="" srcset="">
+<h2>Photograph</h2>
+<h1>Les Experts de Collision</h1>
+<h4>04 23 2025</h4></p>
+</div>
+</div>
+        <div class="chapter-container">
+<div class="chapter-image">
+        <img src="/images/computer.gif" alt="e">
+</div>
+<p><H2>Chapter 1</H2>
+<h1>Welcome to Netbeanz</h1>
+<h5>Riley Huston</h5>
+<ul class="sequenced-list"><li>
+<div class="post-link-box">
+<a href="./chapter_1/A-Clone-of-my-own/" class="bouncing-link">A Clone of My Own</a>
+<p>February 13, 2025</p>
+</div>
+<div class="date"></div></p>
+<p></li><li>
+<div class="post-link-box">
+<a href="./chapter_1/Le-Journaux-Digitale/" class="bouncing-link">Les Journaux Digitales</a>
+<p>February 20, 2025</p>
+</div>
+<div class="date"></div></p>
+<p></li><li>
+<div class="post-link-box">
+<a href="./chapter_1/process-vs-product-I/" class="bouncing-link">Perfect Days vs. Whiplash</a>
+<p>March  5, 2025</p>
+</div>
+<div class="date"></div></p>
+<p></li><li>
+<div class="post-link-box">
+<a href="./chapter_1/dilm/" class="bouncing-link">DILM</a>
+<p>March 15, 2025</p>
+</div>
+<div class="date"></div></p>
+<p></li><li>
+<div class="post-link-box">
+<a href="./chapter_1/Interstellar/" class="bouncing-link">Do Not Go Gentle into That Good Night</a>
+<p>March 16, 2025</p>
+</div>
+<div class="date"></div></p>
+<p></li><li>
+<div class="post-link-box">
+<a href="./chapter_1/Le-pouf-et-le-cadeau/" class="bouncing-link">A Letter from Your French Cousin, Le Pouf</a>
+<p>April 19, 2025</p>
+</div>
+<div class="date"></div></p>
+<p></li></ul></p>
+</div>
+</div>
+
+
+    </div>
+  </div>
+
+
+  </main>
+</body>
+<script>
+// Script for the random audio files
+  document.addEventListener('DOMContentLoaded', function() {
+const clickableDiv = document.getElementById('clickable-div');
+
+// array of audio element IDs
+const audioFiles = ['audio1', 'audio2', 'audio3', 'audio4', 'audio5', 'audio6', 'audio7', 'audio8', 'audio9', 'audio10', 'audio11', 'audio12', 'audio13', 'audio14'];
+
+
+clickableDiv.addEventListener('click', function() {
+    // Get a random audio file ID
+    const randomIndex = Math.floor(Math.random() * audioFiles.length);
+    const randomAudioId = audioFiles[randomIndex];
+    
+    // Get the audio element
+    const audio = document.getElementById(randomAudioId);
+    
+    // Stop and reset if already playing
+    audio.pause();
+    audio.currentTime = 0;
+    
+    // Play the audio
+    audio.play().catch(e => console.log("Audio playback prevented:", e));
+  });
+});
+
+// Script to replace the '/' in images 
+if (window.location.href.includes("github.io")) {
+  document.querySelectorAll('img').forEach(img => {
+    img.src = img.src.replace('/', '/netbeanz/');
+  
+  });
+  document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
+    link.href = link.href.replace('/', '/netbeanz/');
+  });
+}
+
+
+const links = document.querySelectorAll('.bouncing-link');
+
+links.forEach(link => {
+  const text = link.textContent;
+  link.innerHTML = '';
+
+  text.split('').forEach(letter => {
+    const span = document.createElement('span');
+    if (letter === ' ') {
+      span.innerHTML = '&nbsp;'; // Use non-breaking space for spaces
+    } else {
+      span.textContent = letter;
+    }
+    link.appendChild(span);
+  });
+});
+</script>
+</html>

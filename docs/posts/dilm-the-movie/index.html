@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dilm The Movie: What is it?</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+
+
+  
+</head>
+<body>
+   
+<!-- Audio elements (THIS IS THE SECRET OF NETBEANZ.COM Or is it? :D) -->
+<audio id="audio1" src="/sound/narration0.mp3" preload="auto"></audio>
+<audio id="audio2" src="/sound/narration1.mp3" preload="auto"></audio>
+<audio id="audio3" src="/sound/narration2.mp3" preload="auto"></audio>
+<audio id="audio4" src="/sound/narration3.mp3" preload="auto"></audio>
+<audio id="audio5" src="/sound/narration4.mp3" preload="auto"></audio>
+<audio id="audio6" src="/sound/narration5.mp3" preload="auto"></audio>
+<audio id="audio7" src="/sound/narration6.mp3" preload="auto"></audio>
+<audio id="audio8" src="/sound/narration7.mp3" preload="auto"></audio>
+<audio id="audio9" src="/sound/narration8.mp3" preload="auto"></audio>
+<audio id="audio10" src="/sound/narration9.mp3" preload="auto"></audio>
+<audio id="audio11" src="/sound/narration10.mp3" preload="auto"></audio>
+<audio id="audio12" src="/sound/narration11.mp3" preload="auto"></audio>
+<audio id="audio13" src="/sound/narration12.mp3" preload="auto"></audio>
+<audio id="audio14" src="/sound/narration13.mp3" preload="auto"></audio>
+
+
+<div class="nav-supercontainer">
+  <div class="nav-container">
+    <header id="clickable-div" class="sound-trigger"><span class="site-title">Netbeanz.com</span></header>
+<div class="nav-button-container">
+<div class="nav-button nav-button-1"><a href="/clerical/info">Info</a></div>
+<div class="nav-button nav-button-2"><a href="/clerical/horoscopes">Horoscopes</a></div>
+<div class="nav-button nav-button-4"><a href="/clerical/more/index.html">More</a></div>
+
+</div>
+    </div>
+</div>
+      
+  <main>
+       
+  
+    <div class="content-container">
+      
+  <div class="content">
+    <div class="post-content">
+<p>What's up internet! It's your boy Chris double-X from the interwebzzz comin' at you with another hairbrained scheme. Chris Angel, if you're reading this:</p>
+<p>The real dilm ladies</p>
+<p>Won’t the real dilm ladies please stand up.</p>
+<p>please stand up.</p>
+<p>please stand up.</p>
+<p>Slimey Dilm</p>
+<p>Dilm. Does it sound too close to “MILF” or “DILF”?</p>
+<p>Welcome to your own personal Hell.</p>
+<p>“Meet the last surviving Dilm developer in Arkansas.”</p>
+<p>THE PROCESS OF DEVELOPING DILM IS ACTAULLY VERY SIMPLE EVERYONE. I’M NOT SURE YOU FULLY UNDERSTAND IT!</p>
+<p>TAKE the the camera and activate the dilm release valve. This will set the roll into “evacuation mode.”</p>
+<p>RELEASE the roll from the camera’s capture mechanism.</p>
+<p>Probably an interesting process, like what with the dilm and the developing maybe you eat it or there’s slime</p>
+<p>So essentially It's a crazy process. What about the dilm camera? Does it have some sort of a chemical tank that lets you put in the different chemicals. It has a tank on the side and you have to fill it up with the right chemicals and then it goes through the tubes and when you take a picture or wind the film the liquid kind of sloshes around. I think the form factor should be thus of a large military camera that is really interesting.</p>
+<p>This could also easily be an installation in which participants experience developing dilm on their own! The only thing is that I’m not sure how to achieve the magic of dilm development, since people are very smart actually they might know it’s a trick when they can see the pre-taken pictures on a roll of dilm that has yet to be fully developed. So somehow we’d have to get their actual pictures out into a dilm roll.</p>
+<p>Yeah he’s an excentric guy that does this weird and rare profession - starting out with him at his home, some cool shot of the outdide then cutting to the inside as we hear narration”meet the last Dilm deceloper in Arkansas”</p>
+<p>“Oh thats a sloppy one”</p>
+<p>“Lemme show you the tanks, we got bessie and old crummy here and these beauties doe all the work isnt that roght”</p>
+<p>The sound of it brwaking and going catastrophically wrong like its about to catch fire is the same as when its working</p>
+<p>So how so yoy know if it’s going to ezplode?</p>
+<p>Oh shit it’s gonna blow! Wait no, thats my hot pocket.</p>
+<p>Dilm photos of the film crew that came in then its really creepy photos.</p>
+<p>How is this stupid thing still around? Patronage of a wealthy client that turns out to be someone’s mom or something.</p>
+</div>
+
+    </div>
+  </div>
+
+
+  </main>
+</body>
+<script>
+// Script for the random audio files
+  document.addEventListener('DOMContentLoaded', function() {
+const clickableDiv = document.getElementById('clickable-div');
+
+// array of audio element IDs
+const audioFiles = ['audio1', 'audio2', 'audio3', 'audio4', 'audio5', 'audio6', 'audio7', 'audio8', 'audio9', 'audio10', 'audio11', 'audio12', 'audio13', 'audio14'];
+
+
+clickableDiv.addEventListener('click', function() {
+    // Get a random audio file ID
+    const randomIndex = Math.floor(Math.random() * audioFiles.length);
+    const randomAudioId = audioFiles[randomIndex];
+    
+    // Get the audio element
+    const audio = document.getElementById(randomAudioId);
+    
+    // Stop and reset if already playing
+    audio.pause();
+    audio.currentTime = 0;
+    
+    // Play the audio
+    audio.play().catch(e => console.log("Audio playback prevented:", e));
+  });
+});
+
+// Script to replace the '/' in images 
+if (window.location.href.includes("github.io")) {
+  document.querySelectorAll('img').forEach(img => {
+    img.src = img.src.replace('/', '/netbeanz/');
+  
+  });
+  document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
+    link.href = link.href.replace('/', '/netbeanz/');
+  });
+}
+
+
+const links = document.querySelectorAll('.bouncing-link');
+
+links.forEach(link => {
+  const text = link.textContent;
+  link.innerHTML = '';
+
+  text.split('').forEach(letter => {
+    const span = document.createElement('span');
+    if (letter === ' ') {
+      span.innerHTML = '&nbsp;'; // Use non-breaking space for spaces
+    } else {
+      span.textContent = letter;
+    }
+    link.appendChild(span);
+  });
+});
+</script>
+</html>

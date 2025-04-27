@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horoscopes</title>
+  <link rel="stylesheet" href="/CSS/poststyle.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/horoscopes.css">
+
+
+
+  
+</head>
+<body>
+  
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+
+<div class="nav-supercontainer">
+  <div class="nav-container">
+    <header><span class="site-title"><a href="/index.html">Netbeanz.com</a></span></header>
+<div class="nav-button-container">
+
+</div>
+</div>
+</div>
+  <main>
+       
+  
+
+    <div class="post-content-container">
+      
+  <div class="post-content">
+    
+    <div class="horoscope">
+    <div class="horoscope-img">
+        <img src="/images/Garbanzo.png" alt="" srcset="">
+    </div>
+    <div class="horoscope-info">
+    <span>Garbanzo April 12th 2025</h3>
+        <p>Your smelly biscuits are not as stinky as they seem! Some will try and taste your smelly biscuits anyway.</p>
+    </div>
+</div>
+<div class="horoscope">
+    <div class="horoscope-img">
+        <img src="/images/Pinto.png" alt="" srcset="">
+    </div>
+    <div class="horoscope-info">
+    <span>Pinto Febuary 19th 2023</h3>
+        <p>Something wonderful will loft your way soon.</p>
+    </div>
+</div>
+<div class="horoscope">
+    <div class="horoscope-img">
+        <img src="/images/Garbanzo.png" alt="" srcset="">
+    </div>
+    <div class="horoscope-info">
+    <span>Garbanzo April 12th 2025</h3>
+        <p>Your smelly biscuits are not as stinky as they seem! Some will try and taste your smelly biscuits anyway.</p>
+    </div>
+</div>
+<div class="horoscope">
+    <div class="horoscope-img">
+        <img src="/images/Pinto.png" alt="" srcset="">
+    </div>
+    <div class="horoscope-info">
+    <span>Pinto Febuary 19th 2023</h3>
+        <p>Something wonderful will loft your way soon.</p>
+    </div>
+</div>
+<div class="horoscope">
+    <div class="horoscope-img">
+        <img src="/images/Garbanzo.png" alt="" srcset="">
+    </div>
+    <div class="horoscope-info">
+    <span>Garbanzo April 12th 2025</h3>
+        <p>Your smelly biscuits are not as stinky as they seem! Some will try and taste your smelly biscuits anyway.</p>
+    </div>
+</div>
+<div class="horoscope">
+    <div class="horoscope-img">
+        <img src="/images/Pinto.png" alt="" srcset="">
+    </div>
+    <div class="horoscope-info">
+    <span>Pinto Febuary 19th 2023</h3>
+        <p>Something wonderful will loft your way soon.</p>
+    </div>
+</div>
+
+
+    </div>
+  </div>
+
+
+  </main>
+  <div class="footer-box">
+    <div class="footer">
+      <div class="note">This note is a special one!</div>
+    </div>
+  </div>
+</body>
+<script>
+const links = document.querySelectorAll('.bouncing-link');
+
+links.forEach(link => {
+  const text = link.textContent;
+  link.innerHTML = '';
+
+  text.split('').forEach(letter => {
+    const span = document.createElement('span');
+    if (letter === ' ') {
+      span.innerHTML = '&nbsp;'; // Use non-breaking space for spaces
+    } else {
+      span.textContent = letter;
+    }
+    link.appendChild(span);
+  });
+});
+</script>
+</html>
