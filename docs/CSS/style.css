@@ -8,6 +8,14 @@
 
 
     --nav-height: 100px;
+
+    cursor:cell;
+}
+
+a:hover {cursor: grab;}
+
+span:hover {
+    cursor: grab;
 }
 
 .fart {
@@ -151,6 +159,10 @@ h5::after {
     text-transform: uppercase;
     margin-bottom: 0px;
 
+}
+
+.site-title:hover {
+    cursor: help;
 }
 
 

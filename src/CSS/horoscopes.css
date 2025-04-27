@@ -151,3 +151,29 @@ padding: 0px 15px 0px 15px;
     mix-blend-mode: multiply;
     width: 70px;
 }
+
+@media only screen and (max-width: 700px) {
+
+
+.horoscope {
+    display: block;
+}
+
+.horoscope-info span {
+    line-height: 1;
+    font-size: 16px;
+}
+
+.horoscope-info p {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.post-content-container{
+    max-width: 300px;
+    margin-left: -150px; /* Negative half of width. */
+
+
+}
+
+
+}
