@@ -139,11 +139,15 @@ padding: 0px 15px 0px 15px;
 
 .horoscope-info span {
     line-height: 3;
+    text-transform: capitalize;
 }
+
+
 
 .horoscope-info p {
     font-size: 18px;
     font-family: "ITC Avant garde demi";
+    color: whitesmoke;
 }
 
 .horoscope-img img {

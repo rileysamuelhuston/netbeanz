@@ -7,11 +7,11 @@ permalink: /clerical/horoscopes/
 
 <div class="horoscope">
     <div class="horoscope-img">
-        <img src="/images/{{ horoscopes.garbanzo.name }}.png" alt="" srcset="">
+        <img src="/images/{{ horoscopes.lima.name }}.png" alt="" srcset="">
     </div>
     <div class="horoscope-info">
-    <span>{{ horoscopes.garbanzo.name }} {{ horoscopes.garbanzo.date}}</h3>
-        <p>Your smelly biscuits are not as stinky as they seem! Some will try and taste your smelly biscuits anyway.</p>
+    <span>{{ horoscopes.lima.name }} {{ horoscopes.lima.date}}</span>
+        <p>Great change will happen in your life! Don't bet on it, though.</p>
     </div>
 </div>
 
@@ -20,51 +20,9 @@ permalink: /clerical/horoscopes/
         <img src="/images/{{ horoscopes.pinto.name }}.png" alt="" srcset="">
     </div>
     <div class="horoscope-info">
-    <span>{{ horoscopes.pinto.name }} {{ horoscopes.pinto.date}}</h3>
+    <span>{{ horoscopes.pinto.name }} {{ horoscopes.pinto.date}}</span>
         <p>Something wonderful will loft your way soon.</p>
     </div>
 </div>
 
 
-
-<div class="horoscope">
-    <div class="horoscope-img">
-        <img src="/images/{{ horoscopes.garbanzo.name }}.png" alt="" srcset="">
-    </div>
-    <div class="horoscope-info">
-    <span>{{ horoscopes.garbanzo.name }} {{ horoscopes.garbanzo.date}}</h3>
-        <p>Your smelly biscuits are not as stinky as they seem! Some will try and taste your smelly biscuits anyway.</p>
-    </div>
-</div>
-
-<div class="horoscope">
-    <div class="horoscope-img">
-        <img src="/images/{{ horoscopes.pinto.name }}.png" alt="" srcset="">
-    </div>
-    <div class="horoscope-info">
-    <span>{{ horoscopes.pinto.name }} {{ horoscopes.pinto.date}}</h3>
-        <p>Something wonderful will loft your way soon.</p>
-    </div>
-</div>
-
-
-
-<div class="horoscope">
-    <div class="horoscope-img">
-        <img src="/images/{{ horoscopes.garbanzo.name }}.png" alt="" srcset="">
-    </div>
-    <div class="horoscope-info">
-    <span>{{ horoscopes.garbanzo.name }} {{ horoscopes.garbanzo.date}}</h3>
-        <p>Your smelly biscuits are not as stinky as they seem! Some will try and taste your smelly biscuits anyway.</p>
-    </div>
-</div>
-
-<div class="horoscope">
-    <div class="horoscope-img">
-        <img src="/images/{{ horoscopes.pinto.name }}.png" alt="" srcset="">
-    </div>
-    <div class="horoscope-info">
-    <span>{{ horoscopes.pinto.name }} {{ horoscopes.pinto.date}}</h3>
-        <p>Something wonderful will loft your way soon.</p>
-    </div>
-</div>
