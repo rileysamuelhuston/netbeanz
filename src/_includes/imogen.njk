@@ -1,7 +1,15 @@
 ---
-layout: base.njk
+layout: post.njk
 ---
 <style>
+
+
+body {
+  background: white;
+}
+  main {
+    background: none; 
+  }
     .grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(200px, 1fr));
@@ -33,11 +41,21 @@ layout: base.njk
 
     }
 
+    .grid-item img:hover {
+      cursor: zoom-in;
+      -webkit-filter: invert();
+      transition: all 1s;
+    }
+
     .active {
       grid-column: span 2;  /* Make the image span 2 columns */
       grid-row: span 2;     /* Make the image span 2 rows */
       transition: all 1s;
 
+    }
+
+    .active:hover {
+      cursor: zoom-out;
     }
 
     .test {
@@ -54,6 +72,13 @@ layout: base.njk
       margin-bottom: 100px;
       margin-top: 20px;
       transition: all 1s;
+
+      .active {
+      grid-column: span 1;  /* Make the image span 2 columns */
+      grid-row: span 1;     /* Make the image span 2 rows */
+      transition: all 1s;
+
+    }
 
 
     }

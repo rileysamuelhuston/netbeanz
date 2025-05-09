@@ -85,6 +85,16 @@ margin-bottom: 20px;
     -webkit-filter: grayscale(0);
 }
 
+.caption {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    transform: translateY(20px);
+    color: grey;
+    cursor: cell;
+}
+
 .poem {
     line-height: 2;
 }
