@@ -4,12 +4,14 @@ title: Les Journaux Digitales
 posted: 02 Febuary 2025
 my-key: post-123
 ---
+<center><i>February 9</i></center>
 
 ### Le Journaux Digitale
 
-<center><i>February 9</i></center>
-
 ![Alt text](/images/_MG_0799.jpg "Kitchen at E 6th St Long Beach")
+
+<br>
+<br>
 
 I finally found why I like that I find it weird in Long Beach.
 
@@ -39,3 +41,11 @@ Long discussion at work about the validity of the painted “hammer” finish on
 The paint, as my opinion personally stands now as a mammalian nurturable, is that it’s great! Looks super cool and is very durable.
 
 <center>×</center>
+
+
+  <div class="footer-box">
+    <div class="footer">
+      <div class="note">This is a small jornal post I wrote after I took out the trash. Trash thoughts. Like shower thoughts but stinkier.</div>
+    </div>
+  </div>
+</body>

@@ -4,7 +4,7 @@
     font-family: "American Typewriter";
     --global-primary-color: #4EDF41;
     --global-secondary-color:rgb(107, 158, 30);
-    --global-tertiary-color: greenyellow;
+    --global-tertiary-color: rgb(30, 255, 0);
 
 
     --nav-height: 100px;
@@ -62,12 +62,12 @@ span:hover {
 body {
     font-size: 23px;
     background-color: var(--global-primary-color);
+
 }
 
 main {
     max-width: 1100px;
     height: 100%;
-    background-color: var(--global-primary-color);
     margin-left: auto;
     margin-right: auto;
 
@@ -104,6 +104,7 @@ i {
 }
 
 h1 {
+padding-top: 3px;
 font-family: "itc avant garde bold";
 color: whitesmoke;
 font-size: 40px;
@@ -113,6 +114,7 @@ padding-bottom: 15px;
 }
 
 h2 {
+
     font-family: "itc avant garde bold";
     color: black;
     line-height: 1;
@@ -254,6 +256,7 @@ outline: 2px solid var(--global-secondary-color);
     padding-left: 10px;
     padding-right: 10px;
     margin-right: auto;
+    padding: 20px;
 }
 
 .content {
@@ -265,7 +268,6 @@ outline: 2px solid var(--global-secondary-color);
 
 .chapter-container {
 margin-bottom: 160px;
-
 }
 
 .inline-chapter-container {
@@ -286,6 +288,8 @@ ul.sequenced-list {
     counter-reset: list-counter;
     list-style: none;
     padding: 0; 
+border-top: 2px solid whitesmoke;
+
   }
   
   ul.sequenced-list li {
@@ -295,6 +299,7 @@ ul.sequenced-list {
   }
   
   ul.sequenced-list li::before {
+    
     content: "0" counter(list-counter);
     position: absolute;
     left: 0;
@@ -337,6 +342,7 @@ background: #4EDF41;
 border-top: 2px solid #268f00;
 position: fixed;
 bottom: 0px;
+left: 0px;
 width: 100%;
 }
 
@@ -345,9 +351,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.note {
-    color: #51FF00;
-}
 
   @media only screen and (max-width: 800px) {
     .chapter-image img {

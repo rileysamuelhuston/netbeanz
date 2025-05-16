@@ -30,8 +30,27 @@ font-size: var(--body-copy-size);}
 }
 
 h2 {
-    margin-top: 20px;
+    margin-top: 50px;
 }
+
+h3 {
+    text-align: center;
+    font-family: "itc avant garde bold";
+    color: black;
+    line-height: 1;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+
+center {
+    font-size: calc(var(--body-copy-size) * 50%);
+    margin-top: calc(var(--body-copy-size) * 1.5);
+    margin-bottom: calc(var(--body-copy-size) * .5);
+
+}
+
 
 
 
@@ -50,11 +69,6 @@ h2 {
 
 header a {
 color: black;    
-}
-
-center {
-    margin-bottom: 20px;
-font-size: var(--body-copy-size);
 }
 
 img {
@@ -95,6 +109,24 @@ margin-bottom: 20px;
     cursor: cell;
 }
 
+
+.note {
+    color: var(--global-tertiary-color);
+    font-size: calc(var(--body-copy-size) * .8);
+padding: 3px;
+}
+
+.note::before {
+    content: "Please Note: ";
+    font-family: "American Typewriter Italic";
+    font-size: calc(var(--global-tertiary-color) * .8);
+
+}
+
+.note:hover {
+    color: black;
+    cursor: help;
+}
 .poem {
     line-height: 2;
 }

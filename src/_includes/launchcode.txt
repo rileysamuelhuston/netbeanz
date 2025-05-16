@@ -1,24 +1,11 @@
----
-title: netbeanz.com
-layout: base.njk
----
 
+                <div class="chapter-container">
 
-<div class="post-list">
-
-        
-
-
-        <div class="chapter-container">
-<div class="chapter-image">
-        <img src="/images/computer.gif" alt="e">
-</div>
-
-        <H2>Chapter 1</H2>
-        <h1>Welcome to Netbeanz</h1>
+        <H2>Chapter 2</H2>
+        <h1>i don’t sniff and tell</h1>
         <h5>{{ authors.riley.name }}</h5>
         <ul class="sequenced-list">
-                {%- for chapter in collections.chapter_1 -%}
+                {%- for chapter in collections.chapter_2 -%}
                 <li>
                         <div class="post-link-box">
                                 <a href=".{{ chapter.url }}" class="bouncing-link">{{ chapter.data.title }}</a>
@@ -29,7 +16,4 @@ layout: base.njk
                        </li> 
               {%- endfor -%}
         </ul>
-</div>
-
-
 </div>

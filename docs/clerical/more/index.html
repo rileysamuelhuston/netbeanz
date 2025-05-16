@@ -44,7 +44,7 @@ body {
   }
     .grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(200px, 1fr));
+      grid-template-columns: repeat(2, minmax(200px, 1fr));
       grid-gap: 10px;
       transition: all 0.3s ease-in-out;
       margin-bottom: 100px;
@@ -70,13 +70,15 @@ body {
       padding: 0px;
       margin: 0px;
       transition: all 1s;
+      -webkit-filter: none;
+
 
     }
 
     .grid-item img:hover {
       cursor: zoom-in;
-      -webkit-filter: invert();
       transition: all 1s;
+      -webkit-filter: non;
     }
 
     .active {
@@ -106,7 +108,7 @@ body {
       transition: all 1s;
 
       .active {
-      grid-column: span 1;  /* Make the image span 2 columns */
+      grid-column: span 2;  /* Make the image span 2 columns */
       grid-row: span 1;     /* Make the image span 2 rows */
       transition: all 1s;
 
@@ -126,6 +128,11 @@ body {
       margin-top: 20px;
       transition: all 1s;
 
+      
+    .active {
+      grid-column: span 1;  /* Make the image span 2 columns */
+      grid-row: span 1;     /* Make the image span 2 rows */
+      transition: all 1s;
 
     }
 
@@ -206,19 +213,12 @@ body {
       });
     });
   </script>
-
+</body>
 
     </div>
   </div>
 </main>
 
-
-  <div class="footer-box">
-    <div class="footer">
-      <div class="note">This note is a special one!</div>
-    </div>
-  </div>
-</body>
 
 
 

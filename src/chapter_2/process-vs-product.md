@@ -5,11 +5,11 @@ title: Perfect Days vs. Whiplash
 
 ### Perfect Days vs. Whiplash and A Short Introspective Thereon
 
-<center><i>Updated April 26, 2025</i></center>
+<center><i>Updated May 12, 2025</i></center>
 
 ![Alt text](/images/pvp.jpg "A page from my sketchbook senior year.")
 
-I see here... what the heck is it OH yeah some fuggin’ sketches or some shiss? Probz of an idea I had just two or three years ago... I am Q and here’s a drop in the hat for you: there gonna start giving free land to the first and third customers of local Quizno’s subs. Local Quizno’s as part of an ongoing “Q-Anon of the Summer" campaign are giving away free land to the first and third enjoyers of a hot italian or sandwich of equal or lesser value. Get your free land “Q”-day, while supplies last. God ain’t makin’ more dirt. 
+I see here... what the heck is it OH yeah some sketches or some shiss? Probz of an idea I had just two or three years ago... 
 
 Over the X-Mas break I watched this movie “Perfect Days” by Wim Wenders on [Yesmovies.mn](https://yesmovies.mn). Perfect Days is a movie about feeling content (Wim Wenders just so happens to share a pair of initials with a certian other “W.W.”) I saw another movie last year called ”Whiplash” Whiplash! Muthafuckin’ it’'s the dub to the -iplash with Cave Johnson starring of <i>Portal 2</i> fame. Both stories follow the lives and livelihoods of their protagonists. Shocker!
 Hirayama, a Public toilet cleaner in Tokyo’s upscale Shibuya district, and Andrew Neiman, an ambitious young drummer at the prestigious Shaffer Conservatory in New York City. Neiman is sort of similar to Hirayama if Neiman and Hirayama were looking into a backwards broken mirror and were also blind and deaf.
@@ -26,7 +26,7 @@ Hirayama, stedfast and stalwart against the siren song of a better life, job, or
 
 ![Alt text](/images/perfect-days-reading.png "Perfect Days 45:18–45:27")
 
-Ohh, gods below! I really want to be like Hirayama. So at peace. Jealous of his contentment I thought, “I wish I were as humble/content as he.” How ironic is that? At the same time, though, I also wanted to be Andrew Neiman of <i>Whiplash</i>. I even felt like I was living out, or going to live out, the plot of the movie whether that would be through my job, or my future schooling endeavors, or both. I related to Andrew and his foolish quest to achieve a measure of greatness, thus I was thrilled by the end of the movie: Andrew does succeed and becomes what he set out to shissing become. At least in my interpretation. Apparently the truth, and what made me so introspective in the first place, was that the director intended Andrew's story to be more like an Icarus allegory... oh crap. 
+Ohh, gods below! I really want to be like Hirayama. So at peace. Jealous of his contentment I thought, “I wish I were as humble/content as he.” How ironic is that? At the same time, though, I also wanted to be Andrew Neiman of <i>Whiplash</i>. I even felt like I was living out, or going to live out, the plot of the movie through my job, future schooling endeavors, or both. I related to Andrew and his foolish quest to achieve a measure of greatness, thus I was thrilled by the end of the movie: Andrew does succeed and becomes what he set out to shissing become. I later leanerd that the director intended Andrew's story to be more like an Icarus allegory... oh crap. 
 
 It is growth, ya know. Especially now as the future is uncertain (writing in the Winter and Spring of 2025...) I am okay with good enough, hah.
 
