@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/CSS/style.css">
-
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
 
   
@@ -29,7 +29,7 @@
 <audio id="audio14" src="/sound/narration13.mp3" preload="auto"></audio>
 
 
-<div class="nav-supercontainer">
+<div id="navSupercontainer">
   <div class="nav-container">
     <header id="clickable-div" class="sound-trigger"><span class="site-title">Netbeanz.com</span></header>
 <div class="nav-button-container">
@@ -44,23 +44,99 @@
   <main>
        
   
-    <div class="content-container">
       
   <div class="content">
     {{ content | safe }}
 
     </div>
-  </div>
 
 
   </main>
 </body>
 <script>
+
+// Scripty poo to change the friggin nav bar.
+const navbar = document.getElementById('navSupercontainer');
+const siteTitle = document.querySelector('.site-title');
+const sections = document.querySelectorAll('.chapter-container');
+
+let currentSection = null;
+let navHeight = navbar.offsetHeight;
+
+if (sections.length > 0) {
+
+  function onScroll() {
+    const offsetPoint = navHeight;
+    let newSection = null;
+
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+
+      if (sectionTop <= offsetPoint) {
+        newSection = section;
+      }
+    });
+
+    if (newSection && newSection !== currentSection) {
+      currentSection = newSection;
+
+      const navbarColor = newSection.dataset.navbar || '#4EDF41';
+      const titleColor = newSection.dataset.title || 'Black';
+      const bgImage = newSection.dataset.backgroundImage || '';
+
+      navbar.style.backgroundColor = navbarColor;
+
+      if (bgImage) {
+        navbar.style.backgroundImage = bgImage;
+        navbar.style.backgroundSize = 'cover';
+        navbar.style.backgroundPosition = 'center';
+      } else {
+        navbar.style.backgroundImage = 'none';
+      }
+
+      siteTitle.style.color = titleColor;
+    }
+  }
+
+  // Throttle scroll handler
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        onScroll();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  });
+
+  // Resize/orientation recalculations
+  window.addEventListener('resize', () => {
+    navHeight = navbar.offsetHeight;
+  });
+
+  window.addEventListener('orientationchange', () => {
+    navHeight = navbar.offsetHeight;
+  });
+
+  window.addEventListener('DOMContentLoaded', onScroll);
+
+} else {
+  // No sections? Keep defaults.
+  navbar.style.backgroundColor = '#4EDF41';
+  navbar.style.backgroundImage = 'none';
+  siteTitle.style.color = 'Black';
+}
+
+
+
+
+
+
 // Script for the random audio files
   document.addEventListener('DOMContentLoaded', function() {
 const clickableDiv = document.getElementById('clickable-div');
 
-// array of audio element IDs
 const audioFiles = ['audio1', 'audio2', 'audio3', 'audio4', 'audio5', 'audio6', 'audio7', 'audio8', 'audio9', 'audio10', 'audio11', 'audio12', 'audio13', 'audio14'];
 
 

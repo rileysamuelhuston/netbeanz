@@ -1,18 +1,18 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: "American Typewriter";
     --global-primary-color: #4EDF41;
     --global-secondary-color:rgb(107, 158, 30);
     --global-tertiary-color: rgb(30, 255, 0);
 
 
     --nav-height: 100px;
-
+--global-font-size: 23px;
     cursor:cell;
 }
 
-a:hover {cursor: grab;}
+a:hover {cursor: grab;
+color: var(--global-secondary-color);}
 
 span:hover {
     cursor: grab;
@@ -60,13 +60,13 @@ span:hover {
 
 
 body {
-    font-size: 23px;
+    font-family: "American Typewriter";
+    font-size: var(--global-font-size);
     background-color: var(--global-primary-color);
 
 }
 
 main {
-    max-width: 1100px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +80,7 @@ main {
 }
 
 big {
-    font-size: 30px;
+    font-size: calc(var(--global-font-size) + 7px);
     text-align: center;
     /* background-color: var(--global-secondary-color); */
     color: var(--global-secondary-color);
@@ -103,25 +103,54 @@ i {
     font-family: "american typewriter italic";
 }
 
+
+.red {
+    color: red;
+}
+
+.orange {
+color: orangered;
+}
+
+.whitesmoke {
+    color: whitesmoke;
+}
+
+.grey-bricks-background {
+background-image: repeating-linear-gradient(45deg, transparent, transparent 32px, #a2a0a0 32px, #a2a0a0 64px);
+background-color: #767676;
+
+
+}
+
+.grey {
+    background-color: blue;
+}
+
+
+
 h1 {
 padding-top: 3px;
 font-family: "itc avant garde bold";
 color: whitesmoke;
-font-size: 40px;
+font-size: calc(var(--global-font-size) * 1.75);
 line-height: 1;
 text-transform: uppercase;
-padding-bottom: 15px;
+/* about 15px at full size */
+padding-bottom:  calc(var(--global-font-size) * .65);
 }
+
 
 h2 {
 
     font-family: "itc avant garde bold";
     color: black;
     line-height: 1;
-    font-size: 32px;
-    padding-top: 39px;
+font-size: calc(var(--global-font-size) * 1.4);
+/* about 39px at full size */
+    padding-top:  calc(var(--global-font-size) * 1.7);
     text-transform: uppercase;
-    margin-bottom: 12px;
+    margin-bottom:  calc(var(--global-font-size) * .5);
 }
 
 h3 {
@@ -129,17 +158,18 @@ h3 {
     font-family: "itc avant garde bold";
     color: black;
     line-height: 1;
-    font-size: 32px;
+font-size: calc(var(--global-font-size) * 1.4);
     text-transform: uppercase;
-    margin-bottom: 12px;
+    margin-bottom:  calc(var(--global-font-size) * .5);
 }
 
 h4, h5 {
     font-family: "ITC Avant Garde Demi";
     margin-top: -12px;
-    margin-bottom: 12px;
+    margin-bottom:  calc(var(--global-font-size) * .5);
     color: whitesmoke;
-    font-size: 24px;
+font-size: calc(var(--global-font-size));
+
 }
 
 h4::after {
@@ -157,7 +187,8 @@ h5::after {
 
 
 .site-title {
-    font-size: 47px;
+    font-family: "American Typewriter";
+font-size: calc(var(--global-font-size) * 2);
     text-transform: uppercase;
     margin-bottom: 0px;
 
@@ -168,10 +199,10 @@ h5::after {
 }
 
 
-.nav-supercontainer {
+#navSupercontainer {
     height: fit-content;
     background-color: #4EDF41;
-    padding-bottom: 10px;
+    padding-bottom: calc(var(--global-font-size) * .5);
     position: sticky;
     top: 0;
     filter: drop-shadow(0px 2px 0px #268f00);
@@ -197,8 +228,9 @@ justify-content: space-between;
 }
 
 .nav-button {
+    font-family: "American Typewriter";
     color: whitesmoke;
-    font-size: 20px;
+font-size: calc(var(--global-font-size) - 3px);
     text-decoration: none;
 
 }
@@ -260,35 +292,47 @@ outline: 2px solid var(--global-secondary-color);
 }
 
 .content {
-    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     
 }
 
-.chapter-container {
-margin-bottom: 160px;
+
+.sub-container {
+    /* about 160px at full font size */
+    padding-bottom: calc(var(--global-font-size) * 7);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.video-container {
+width: 100%;    margin-left: auto;
+    margin-right: auto;
+background-color: black;
+}
+
 
 .inline-chapter-container {
     margin-bottom: 50px;
     margin-top: 20px;
 }
 .chapter-image {
-    margin-right: 2px;
+d    margin-right: 2px;
     /* background-image: url("/images/2-1-1.png"); */
 }
-.chapter-image img {
+.chapter-image img, .video-container .responsive-iframe {
     width: 100%;
     height: 481px;
     object-fit: cover;    
 }
 
 ul.sequenced-list {
+    font-family: "American Typewriter";
     counter-reset: list-counter;
     list-style: none;
     padding: 0; 
-border-top: 2px solid whitesmoke;
+border-top: 1px solid black;
 
   }
   
@@ -305,10 +349,6 @@ border-top: 2px solid whitesmoke;
     left: 0;
   }
 
-
-.date {
-}
-
   .post-link-box {
     width: 100%;
     display: flex;
@@ -318,7 +358,7 @@ border-top: 2px solid whitesmoke;
   .bouncing-link {
     display: inline-block;
     text-decoration: none;
-    font-size: 24px;
+    font-size: var(--global-font-size);
     color: #000;
     position: relative;
   }
@@ -352,14 +392,27 @@ margin-right: auto;
 }
 
 
-  @media only screen and (max-width: 800px) {
-    .chapter-image img {
+  @media only screen and (max-width: 700px) {
+* {
+    --global-font-size: 20px;
+}
+
+
+
+    .chapter-image img, .video-container .responsive-iframe  {
         width: 100%;
         height: 281px;
         object-fit: cover;    
     }
 
 
+ul {
+    counter-reset: list-counter;
+    list-style: none;
+    padding: 0; 
+
+  }
+  
 
     .post-link-box {
         display: block;

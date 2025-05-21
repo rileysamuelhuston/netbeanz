@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>netbeanz.com</title>
   <link rel="stylesheet" href="/CSS/style.css">
-
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
 
   
@@ -29,7 +29,7 @@
 <audio id="audio14" src="/sound/narration13.mp3" preload="auto"></audio>
 
 
-<div class="nav-supercontainer">
+<div id="navSupercontainer">
   <div class="nav-container">
     <header id="clickable-div" class="sound-trigger"><span class="site-title">Netbeanz.com</span></header>
 <div class="nav-button-container">
@@ -44,23 +44,40 @@
   <main>
        
   
-    <div class="content-container">
       
   <div class="content">
     <div class="post-list">
-<p><div class="chapter-container"></p>
+</div>
+<div class="chapter-container"
+        data-navbar="black"
+        data-title="whitesmoke">
+<p><div class="video-container">
+<div class="sub-container"></p>
 <div class="chapter-image">
+       <iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?modestbranding=1&rel=0&color=white" title="A Lens to Remember" frameborder="0" allowfullscreen></iframe>
+<h2 class="red">Video</h2>
+<h1>A Lens to Remember</h1>
+<h4>Netbeanz Bureau of Thought Shaping & Outreach</h4>
+</div>
+             </div>
+        </div>
+</div>
+<div class="chapter-container"
+        data-navbar="#4EDF41"
+        data-title="black">
+<div class="sub-container">
+        <div class="chapter-image">
         <img src="/images/computer.gif" alt="e">
 </div>
-<p><H2>Chapter 1</H2>
-<h1>Welcome to Netbeanz</h1>
-<h5>Riley Huston</h5>
-<ul class="sequenced-list"><li>
-<div class="post-link-box">
-<a href="./chapter_1/A-Clone-of-my-own/" class="bouncing-link">A Clone of My Own</a>
-<p>February 13, 2025</p>
-</div>
-<div class="date"></div></p>
+ <H2>Chapter 1</H2>
+        <h1>Welcome to Netbeanz</h1>
+        <h5>Riley Huston</h5>
+        <ul class="sequenced-list"><li>
+                        <div class="post-link-box">
+                                <a href="./chapter_1/A-Clone-of-my-own/" class="bouncing-link">A Clone of My Own</a>
+                                <p>February 13, 2025</p>
+                        </div>
+                       <div class="date"></div>
 <p></li><li>
 <div class="post-link-box">
 <a href="./chapter_1/Le-Journaux-Digitale/" class="bouncing-link">Les Journaux Digitales</a>
@@ -88,20 +105,98 @@
 <p></li></ul></p>
 </div>
 </div>
+</div>
 
 
     </div>
-  </div>
 
 
   </main>
 </body>
 <script>
+
+// Scripty poo to change the friggin nav bar.
+const navbar = document.getElementById('navSupercontainer');
+const siteTitle = document.querySelector('.site-title');
+const sections = document.querySelectorAll('.chapter-container');
+
+let currentSection = null;
+let navHeight = navbar.offsetHeight;
+
+if (sections.length > 0) {
+
+  function onScroll() {
+    const offsetPoint = navHeight;
+    let newSection = null;
+
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+
+      if (sectionTop <= offsetPoint) {
+        newSection = section;
+      }
+    });
+
+    if (newSection && newSection !== currentSection) {
+      currentSection = newSection;
+
+      const navbarColor = newSection.dataset.navbar || '#4EDF41';
+      const titleColor = newSection.dataset.title || 'Black';
+      const bgImage = newSection.dataset.backgroundImage || '';
+
+      navbar.style.backgroundColor = navbarColor;
+
+      if (bgImage) {
+        navbar.style.backgroundImage = bgImage;
+        navbar.style.backgroundSize = 'cover';
+        navbar.style.backgroundPosition = 'center';
+      } else {
+        navbar.style.backgroundImage = 'none';
+      }
+
+      siteTitle.style.color = titleColor;
+    }
+  }
+
+  // Throttle scroll handler
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        onScroll();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  });
+
+  // Resize/orientation recalculations
+  window.addEventListener('resize', () => {
+    navHeight = navbar.offsetHeight;
+  });
+
+  window.addEventListener('orientationchange', () => {
+    navHeight = navbar.offsetHeight;
+  });
+
+  window.addEventListener('DOMContentLoaded', onScroll);
+
+} else {
+  // No sections? Keep defaults.
+  navbar.style.backgroundColor = '#4EDF41';
+  navbar.style.backgroundImage = 'none';
+  siteTitle.style.color = 'Black';
+}
+
+
+
+
+
+
 // Script for the random audio files
   document.addEventListener('DOMContentLoaded', function() {
 const clickableDiv = document.getElementById('clickable-div');
 
-// array of audio element IDs
 const audioFiles = ['audio1', 'audio2', 'audio3', 'audio4', 'audio5', 'audio6', 'audio7', 'audio8', 'audio9', 'audio10', 'audio11', 'audio12', 'audio13', 'audio14'];
 
 
