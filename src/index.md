@@ -6,12 +6,43 @@ layout: base.njk
 <div class="post-list">
 
 
-</div>
 
+
+
+<div class="chapter-container gainsboro-bg" 
+data-navbar="gainsboro"
+data-title="firebrick"
+data-background-image="conic-gradient(from 116.56deg at calc(100%/3) 0, #0000 90deg,#f2f2f2 0),
+      conic-gradient(from -63.44deg at calc(200%/3) 100%, #0000 90deg,#f2f2f2 0)
+      #ffffff;">
+
+<div class="sub-container gainsboro-bg">
+
+        <div class="chapter-image">
+                <img src="/images/sf.jpg" alt="">
+        </div>
+
+       <h2 class="firebrick">Chaper 2</h2>
+        <h1 class="firebrick">A Trip to San Francisco</h1>
+        <ul class="sequenced-list">
+                        {%- for chapter in collections.chapter_2 -%}
+                <li>
+                        <div class="post-link-box">
+                                <a href=".{{ chapter.url }}" class="bouncing-link">{{ chapter.data.title }}</a>
+                                <p>{{ chapter.date | date: "%B %e, %Y" }}</p>
+                        </div>
+                       <div class="date">{{ chapter.data.crate }}</div>
+                        
+                       </li> 
+              {%- endfor -%}
+        </ul>
+</div>
+</div>
 
 <div class="chapter-container"
         data-navbar="black"
-        data-title="whitesmoke">
+        data-title="whitesmoke"
+        data-background-image="">
 
         <div class="video-container">
              <div class="sub-container">
@@ -23,6 +54,7 @@ layout: base.njk
 <h2 class="red">Video</h2>
 <h1>A Lens to Remember</h1>
 <h4>Netbeanz Bureau of Thought Shaping & Outreach</h4>
+
 </div>
              </div>
         </div>

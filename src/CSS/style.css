@@ -108,8 +108,18 @@ i {
     color: red;
 }
 
+
 .orange {
 color: orangered;
+}
+
+.firebrick {
+    color: firebrick;
+}
+
+
+.gainsboro-bg {
+    background-color: gainsboro;
 }
 
 .whitesmoke {
@@ -119,8 +129,12 @@ color: orangered;
 .grey-bricks-background {
 background-image: repeating-linear-gradient(45deg, transparent, transparent 32px, #a2a0a0 32px, #a2a0a0 64px);
 background-color: #767676;
+}
 
-
+.post-its-background {
+    background-image:  conic-gradient(from 116.56deg at calc(100%/3) 0, #0000 90deg,#f2f2f2 0),
+      conic-gradient(from -63.44deg at calc(200%/3) 100%, #0000 90deg,#f2f2f2 0)
+      #ffffff;
 }
 
 .grey {

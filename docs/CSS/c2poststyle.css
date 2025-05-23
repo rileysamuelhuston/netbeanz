@@ -1,0 +1,17 @@
+body {
+    background-color: gainsboro;
+}
+
+#navSupercontainer {
+    background-color: gainsboro;
+}
+
+/* site title */
+
+header a {
+    color: firebrick;
+}
+
+h3 {
+    color: firebrick;
+}
