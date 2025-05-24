@@ -188,7 +188,7 @@ font-size: calc(var(--global-font-size));
 
 h4::after {
     content: "⊸ OK!";
-    color: red;
+    color: rgb(141, 141, 141);
     /* ᎕⊷⊸⊶⊷⊸⋯⊸⊶⊸⊶⊸⊶⊸⊶⊸⊶⊸⊶ */
 }
 

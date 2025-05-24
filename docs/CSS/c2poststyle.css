@@ -15,3 +15,8 @@ header a {
 h3 {
     color: firebrick;
 }
+
+.post-content img {
+    transition: all 1s ease-in-out;
+}
+
