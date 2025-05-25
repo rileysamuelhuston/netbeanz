@@ -45,3 +45,5 @@ Yesterday, 05/23/ we did the following:
 - 3:00pm visited De Young museum
 
 <img src="/images/sf11.webp" alt="">
+
+<center>×</center>
