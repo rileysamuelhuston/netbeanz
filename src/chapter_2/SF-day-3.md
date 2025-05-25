@@ -16,7 +16,15 @@ A grand test and a grand crest of a wave for a Mr. Beast-type folk hero.
 
 Here’s what we did on 5/24:
 
+- Ate a delicious Persian Breakfast
+
+<img src="/images/sf3-49.webp" alt="">
+
+
 - Saw one of the world’s The Thinker statues by Rodin at the Legion of Honor
+<img src="/images/sf3-91.webp" alt="">
+
+
 - Boke to land’s end - Sutro Baths
 <img src="/images/sf3-64.webp" alt="">
 <img src="/images/sf3-63.webp" alt="">
@@ -43,10 +51,7 @@ Here’s what we did on 5/24:
 <img src="/images/sf3-9.webp" alt="">
 <img src="/images/sf3-11.webp" alt="">
 
-
-
 - Gazed upon the grazing Bison in GG park
-<img src="/images/sf3-15.webp" alt="">
 
 <img src="/images/sf3-13.webp" alt="">
 
@@ -125,6 +130,11 @@ Here’s what we did on 5/24:
 
 - Big hill, walked up more
 - Walked to Italian Ristorante
+<img src="/images/sf3-82.webp" alt="">
+
+<img src="/images/sf3-83.webp" alt="">
+
+
 - Bus to GG bridge, Crissy Field
 <img src="/images/sf3-0b.webp" alt="">
 <img src="/images/sf3-1b.webp" alt="">
