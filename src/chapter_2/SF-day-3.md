@@ -127,7 +127,6 @@ Here’s what we did on 5/24:
 - Walked to Italian Ristorante
 - Bus to GG bridge, Crissy Field
 <img src="/images/sf3-0b.webp" alt="">
-<img src="/images/sf3-3b.webp" alt="">
 <img src="/images/sf3-1b.webp" alt="">
 
 
