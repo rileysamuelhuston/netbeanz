@@ -16,7 +16,6 @@ Welcome to the end of the trip. We spent most of our time today in the SF MOMA, 
 - Got coffee in the morning
 - Hopped on bay wheels
 - Arrived at SF MOMA
-<img src="/images/sf4-4.webp" alt="">
 
 - Saw Ruth Asawa exhibit
 
