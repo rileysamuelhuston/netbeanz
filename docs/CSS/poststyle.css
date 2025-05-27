@@ -102,10 +102,9 @@ margin-bottom: 20px;
 
 .caption {
     padding: 0px;
-    margin: 0px;
+    margin: 50px 0px 0px 0px;
     text-align: center;
     display: block;
-    transform: translateY(20px);
     color: grey;
     cursor: cell;
 }

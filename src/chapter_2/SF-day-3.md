@@ -68,8 +68,6 @@ Here’s what we did on 5/24:
 <img src="/images/sf3-18.webp" alt="">
 
 
-
-
 - Checked out the ballet concert in the plaza by the academy of sciences
 
 <img src="/images/sf3-22.webp" alt="">
@@ -121,7 +119,9 @@ Here’s what we did on 5/24:
 - Talked to a wise man sitting on a bench there who told us about SF fires and earthquakes
 <img src="/images/sf3-5b.webp" alt="">
 
-<img src="/images/sf3-53.webp" alt="">
+<div class="caption">Below: Check it out! Dan and I made sketches that perfectly line up. What are the odds? Probably pretty high, since we were sitting on the same bench... but still it's cool!</div>
+
+<img src="/images/palaceofart.gif" alt="">
 
 - Walk up to johnny Ive’s house
 
@@ -130,6 +130,8 @@ Here’s what we did on 5/24:
 
 - Big hill, walked up more
 - Walked to Italian Ristorante
+<img src="/images/sf3-1c.webp" alt="">
+
 <img src="/images/sf3-82.webp" alt="">
 
 <img src="/images/sf3-83.webp" alt="">
@@ -137,6 +139,8 @@ Here’s what we did on 5/24:
 
 - Bus to GG bridge, Crissy Field
 <img src="/images/sf3-0b.webp" alt="">
+<img src="/images/sf3-2c.webp" alt="">
+
 <img src="/images/sf3-1b.webp" alt="">
 
 
@@ -144,6 +148,8 @@ Here’s what we did on 5/24:
 - Almost missed the 43 but it was going the wrong way, hopped off, started to walk and saw the 5
 - Catch the 5 to Fulton St
 - Arrive chez Dan
+<img src="/images/sf3-3c.webp" alt="">
+
 - Turkish Delight
 - Stick War
 - Castle Crashers
