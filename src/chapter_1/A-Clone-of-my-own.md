@@ -10,10 +10,14 @@ author: Snivley
 
 <center>This is only the beginning.</center>
 <br>
-<br>
 
+Welcome to my website - now with a “mute” button. I am finally happy to announce the creation of Netbeanz.com. This website is a small project I began midway through January of 2025.
 
-Welcome to my website. I am finally happy to announce the creation of Netbeanz.com as a neural "network" if you krill. A way to get my thoughts out onto paper into the world and onto the swirling vortub.
+This site comprises one of three ways that I present myself online, and the other two are somewhere to be found on google.com or Instagram.
+
+I'd like to expand my presence, though, across the internet... eventually into three neighboring sites that cover my writing, projects, and travels (Netbeanz); my photography; and my design work. (I <3 grammar.)
+
+But for right now, I think netbeanz.com alone is more than enough.
 
 There are a couple of secrets on the site, one to be exact. Let's see if you can discover it before time runs out!
 

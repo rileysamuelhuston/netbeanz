@@ -274,6 +274,12 @@ font-size: calc(var(--global-font-size) - 3px);
     font-family: "american typewriter italic";
 }
 
+button {
+    font-family: "American Typewriter Italic";
+    color: black;
+    background-color: transparent;
+}
+
 #mute-toggle {
     background-color: transparent;
       position: fixed;
