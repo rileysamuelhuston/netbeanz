@@ -277,7 +277,7 @@ font-size: calc(var(--global-font-size) - 3px);
 button {
     font-family: "American Typewriter Italic", sans-serif;
     color: black;
-    background-color: transparent;
+    background-color: var(--global-primary-color);
 }
 
 #mute-toggle {

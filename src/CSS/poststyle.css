@@ -75,7 +75,7 @@ color: black;
 button {
     font-family: "American Typewriter Italic", sans-serif;
     color: black;
-    background-color: transparent;
+    background-color: var(--global-primary-color);
 }
 
 img {
