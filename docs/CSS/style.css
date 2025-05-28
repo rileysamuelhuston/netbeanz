@@ -287,7 +287,7 @@ button {
   z-index: 9999;
   padding: 2px;
   font-size: 20px;
-  font-family: "American Typewriter Italic";
+  font-family: "American Typewriter Italic", monospace;
 }
 
 
