@@ -11,7 +11,7 @@
   
 </head>
 <body>
-   
+
 <!-- Audio elements (THIS IS THE SECRET OF NETBEANZ.COM Or is it? :D) -->
 <audio id="audio1" src="/sound/narration0.mp3" preload="auto"></audio>
 <audio id="audio2" src="/sound/narration1.mp3" preload="auto"></audio>
@@ -33,9 +33,10 @@
   <div class="nav-container">
     <header id="clickable-div" class="sound-trigger"><span class="site-title">Netbeanz.com</span></header>
 <div class="nav-button-container">
-<div class="nav-button nav-button-1"><a href="/clerical/info">Info</a></div>
-<div class="nav-button nav-button-2"><a href="/clerical/horoscopes">Horoscopes</a></div>
-<div class="nav-button nav-button-4"><a href="/clerical/more/index.html">More</a></div>
+<div class="nav-button nav-button"><a href="/clerical/info">Info</a></div>
+<div class="nav-button nav-button"><a href="/clerical/horoscopes">Horoscopes</a></div>
+<div class="nav-button nav-button"><a href="/clerical/more/index.html">More</a></div>
+
 
 </div>
     </div>
@@ -46,7 +47,10 @@
   
       
   <div class="content">
-    <div class="post-list">
+       <audio id="background-music" loop>
+  <source src="/sound/windowgazing.mp3" type="audio/mpeg" />
+</audio>
+<div class="post-list">
 <div class="chapter-container gainsboro-bg" 
 data-navbar="gainsboro"
 data-title="firebrick"
@@ -94,7 +98,7 @@ data-background-image="conic-gradient(from 116.56deg at calc(100%/3) 0, #0000 90
 <p><div class="video-container">
 <div class="sub-container"></p>
 <div class="chapter-image">
-       <iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?modestbranding=1&rel=0&color=white" title="A Lens to Remember" frameborder="0" allowfullscreen></iframe>
+       <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?modestbranding=1&rel=0&color=white" title="A Lens to Remember" frameborder="0" allowfullscreen></iframe>
 <h2 class="red">Video</h2>
 <h1>A Lens to Remember</h1>
 <h4>Netbeanz Bureau of Thought Shaping & Outreach</h4>
@@ -155,7 +159,59 @@ data-background-image="conic-gradient(from 116.56deg at calc(100%/3) 0, #0000 90
 </body>
 <script>
 
-// Scripty poo to change the friggin nav bar.
+// BG music =========================================================================================
+ const music = document.getElementById('background-music');
+  const STORAGE_KEY = 'bg-music-time';
+  let triggered = false;
+
+  // Load saved time
+  const savedTime = localStorage.getItem(STORAGE_KEY);
+  if (savedTime) {
+    music.currentTime = parseFloat(savedTime);
+  }
+
+  // Save position every second
+  setInterval(() => {
+    localStorage.setItem(STORAGE_KEY, music.currentTime);
+  }, 1000);
+
+  window.addEventListener('beforeunload', () => {
+    localStorage.setItem(STORAGE_KEY, music.currentTime);
+  });
+
+  function fadeInAudio(audio, targetVolume = 1, step = 0.05, interval = 200) {
+    audio.volume = 0;
+    const fade = setInterval(() => {
+      if (audio.volume < targetVolume) {
+        audio.volume = Math.min(audio.volume + step, targetVolume);
+      } else {
+        clearInterval(fade);
+      }
+    }, interval);
+  }
+
+  function autoPlayMusic() {
+    if (triggered) return;
+    triggered = true;
+
+    music.play().then(() => {
+      fadeInAudio(music);
+    }).catch(e => {
+      console.warn("Autoplay blocked until user interaction:", e);
+    });
+
+    // Clean up both triggers
+    document.removeEventListener('click', autoPlayMusic);
+    window.removeEventListener('scroll', autoPlayMusic);
+  }
+
+  // Trigger on click or scroll (only once)
+  document.addEventListener('click', autoPlayMusic, { once: true });
+  window.addEventListener('scroll', autoPlayMusic, { once: true });
+
+
+
+// Scripty poo to change the friggin nav bar. =========================================================================================
 const navbar = document.getElementById('navSupercontainer');
 const siteTitle = document.querySelector('.site-title');
 const sections = document.querySelectorAll('.chapter-container');
@@ -233,7 +289,7 @@ if (sections.length > 0) {
 
 
 
-// Script for the random audio files
+// Script for the random audio files =========================================================================================
   document.addEventListener('DOMContentLoaded', function() {
 const clickableDiv = document.getElementById('clickable-div');
 
@@ -257,7 +313,7 @@ clickableDiv.addEventListener('click', function() {
   });
 });
 
-// Script to replace the '/' in images 
+// Script to replace the '/' in images  =========================================================================================
 if (window.location.href.includes("github.io")) {
   document.querySelectorAll('img').forEach(img => {
     img.src = img.src.replace('/', '/netbeanz/');
