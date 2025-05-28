@@ -55,7 +55,13 @@ data-background-image="conic-gradient(from 116.56deg at calc(100%/3) 0, #0000 90
 
 
 <div class="chapter-image">
-       <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?modestbranding=1&rel=0&color=white" title="A Lens to Remember" frameborder="0" allowfullscreen></iframe>
+       <iframe 
+                class="responsive-iframe"
+                id="embedded-video"
+                src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?enablejsapi=1&modestbranding=1&rel=0&color=white" 
+                title="A Lens to Remember" 
+                frameborder="0" 
+                allowfullscreen></iframe>
 
 <h2 class="red">Video</h2>
 <h1>A Lens to Remember</h1>

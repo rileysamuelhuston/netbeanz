@@ -274,6 +274,17 @@ font-size: calc(var(--global-font-size) - 3px);
     font-family: "american typewriter italic";
 }
 
+#mute-toggle {
+    background-color: transparent;
+      position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 9999;
+  padding: 2px;
+  font-size: 20px;
+  font-family: "American Typewriter Italic";
+}
+
 
 /* _-*^#$v., | A SWEET SWEET HOME IS BLESSED AND CONSUMATED BY THE BREATH OF ITS LUNGS | ,.v$#^*-_ */
 
@@ -391,13 +402,8 @@ border-top: 1px solid black;
   }
 
   .footer-box {
+    padding-top: 20px;
 min-height: 10px;
-background: #4EDF41;
-border-top: 2px solid #268f00;
-position: fixed;
-bottom: 0px;
-left: 0px;
-width: 100%;
 }
 
   .footer {

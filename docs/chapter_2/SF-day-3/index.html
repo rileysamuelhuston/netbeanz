@@ -14,7 +14,14 @@
   
 </head>
 <body>
-  
+<audio id="background-music" loop>
+  <source id="audio-source" src="" type="audio/mpeg">
+</audio>
+
+
+  <button id="mute-toggle">
+</button>
+
   <div id="left"></div>
   <div id="right"></div>
   <div id="top"></div>
@@ -196,73 +203,93 @@
 
 
 <script>
-const links = document.querySelectorAll('.bouncing-link');
 
-links.forEach(link => {
-  const text = link.textContent;
-  link.innerHTML = '';
+(() => {
+  const music = document.getElementById('background-music');
+  const source = document.getElementById('audio-source');
+  const muteButton = document.getElementById('mute-toggle');
 
-  text.split('').forEach(letter => {
-    const span = document.createElement('span');
-    if (letter === ' ') {
-      span.innerHTML = '&nbsp;'; // Use non-breaking space for spaces
-    } else {
-      span.textContent = letter;
-    }
-    link.appendChild(span);
+  if (!music || !source || !muteButton) return;
+
+  const path = window.location.pathname;
+  const MUSIC_MUTED_KEY = 'bg-music-muted';
+  const SCROLL_KEY = `scrollY-${path}`;
+
+  // 🎵 Route-to-audio map
+  const audioMap = {
+    '/chapter_2/SF-day-1/': '/sound/leskings-oriza.mp3',
+    '/chapter_2/SF-day-2/': '/sound/leskings-oriza.mp3',
+    '/chapter_2/SF-day-3/': '/sound/leskings-oriza.mp3',
+    '/chapter_2/SF-day-4/': '/sound/leskings-oriza.mp3',
+    '/chapter_1/Interstellar/': '/sound/office.mp3',
+    '/chapter_1/dilm/': '/sound/office.mp3',
+    '/chapter_1/Le-Journaux-Digitale/': '/sound/office.mp3',
+    '/chapter_1/Le-pouf-et-le-cadeau/': '/sound/office.mp3',
+
+  };
+
+  const track = audioMap[path] || '/sound/narration0.mp3';
+  const TIME_KEY = `bg-music-time-${track}`; // ← the magic fix
+
+  source.src = track;
+  music.load();
+
+  // 🔄 Restore scroll
+  window.addEventListener('load', () => {
+    const scrollY = localStorage.getItem(SCROLL_KEY);
+    if (scrollY !== null) window.scrollTo(0, parseInt(scrollY));
   });
-});
 
+  window.addEventListener('scroll', () => {
+    localStorage.setItem(SCROLL_KEY, window.scrollY);
+  });
 
-// BG music =========================================================================================
- const music = document.getElementById('background-music');
-  const STORAGE_KEY = 'bg-music-time2';
-  let triggered = false;
+  // 🕰 Resume audio time
+  const savedTime = localStorage.getItem(TIME_KEY);
+  if (savedTime) music.currentTime = parseFloat(savedTime);
 
-  // Load saved time
-  const savedTime = localStorage.getItem(STORAGE_KEY);
-  if (savedTime) {
-    music.currentTime = parseFloat(savedTime);
-  }
+  // 🔇 Restore mute state
+  const isMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
+  music.muted = isMuted;
+  updateMuteIcon(isMuted);
 
-  // Save position every second
+  // ▶️ Autoplay with fallback
+  music.play().catch(() => {
+    document.body.addEventListener('click', () => music.play(), { once: true });
+  });
+
+  // 💾 Save playback time
   setInterval(() => {
-    localStorage.setItem(STORAGE_KEY, music.currentTime);
+    if (!music.paused) {
+      localStorage.setItem(TIME_KEY, music.currentTime);
+    }
   }, 1000);
 
   window.addEventListener('beforeunload', () => {
-    localStorage.setItem(STORAGE_KEY, music.currentTime);
+    localStorage.setItem(TIME_KEY, music.currentTime);
   });
 
-  function fadeInAudio(audio, targetVolume = 1, step = 0.05, interval = 200) {
-    audio.volume = 0;
-    const fade = setInterval(() => {
-      if (audio.volume < targetVolume) {
-        audio.volume = Math.min(audio.volume + step, targetVolume);
-      } else {
-        clearInterval(fade);
-      }
-    }, interval);
+  // 🎚 Mute toggle
+  muteButton.addEventListener('click', () => {
+    music.muted = !music.muted;
+    localStorage.setItem(MUSIC_MUTED_KEY, music.muted);
+    updateMuteIcon(music.muted);
+  });
+
+  function updateMuteIcon(isMuted) {
+    muteButton.textContent = isMuted ? 'Muted' : 'Mute';
   }
 
-  function autoPlayMusic() {
-    if (triggered) return;
-    triggered = true;
-
-    music.play().then(() => {
-      fadeInAudio(music);
-    }).catch(e => {
-      console.warn("Autoplay blocked until user interaction:", e);
-    });
-
-    // Clean up both triggers
-    document.removeEventListener('click', autoPlayMusic);
-    window.removeEventListener('scroll', autoPlayMusic);
-  }
-
-  // Trigger on click or scroll (only once)
-  document.addEventListener('click', autoPlayMusic, { once: true });
-  window.addEventListener('scroll', autoPlayMusic, { once: true });
-
+  // 👀 Auto-mute on tab switch
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      music.muted = true;
+    } else {
+      const userMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
+      music.muted = userMuted;
+    }
+    updateMuteIcon(music.muted);
+  });
+})();
 </script>
 </html>
