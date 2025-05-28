@@ -72,6 +72,12 @@ header a {
 color: black;    
 }
 
+button {
+    font-family: "American Typewriter Italic", sans-serif;
+    color: black;
+    background-color: transparent;
+}
+
 img {
     width: 100%;
     margin-top: 23px;
