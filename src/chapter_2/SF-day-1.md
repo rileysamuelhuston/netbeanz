@@ -50,7 +50,6 @@ We also did the following that I will have to update later:
 - Played Pong at a pinball arcade
 
 <img src="/images/sf1-0b.webp" alt="">
-<img src="/images/sf1-6b.webp" alt="">
 
 <img src="/images/sf1-10.webp" alt="">
 
