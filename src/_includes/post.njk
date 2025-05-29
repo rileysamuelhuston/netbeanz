@@ -14,13 +14,14 @@
   
 </head>
 <body>
+{#   
 <audio id="background-music" loop>
   <source id="audio-source" src="" type="audio/mpeg">
 </audio>
 
 
   <button id="mute-toggle">
-</button>
+</button> #}
 
   <div id="left"></div>
   <div id="right"></div>
@@ -53,92 +54,92 @@
 
 <script>
 
-(() => {
-  const music = document.getElementById('background-music');
-  const source = document.getElementById('audio-source');
-  const muteButton = document.getElementById('mute-toggle');
+// (() => {
+//   const music = document.getElementById('background-music');
+//   const source = document.getElementById('audio-source');
+//   const muteButton = document.getElementById('mute-toggle');
 
-  if (!music || !source || !muteButton) return;
+//   if (!music || !source || !muteButton) return;
 
-  const path = window.location.pathname;
-  const MUSIC_MUTED_KEY = 'bg-music-muted';
-  const SCROLL_KEY = `scrollY-${path}`;
+//   const path = window.location.pathname;
+//   const MUSIC_MUTED_KEY = 'bg-music-muted';
+//   const SCROLL_KEY = `scrollY-${path}`;
 
-  // 🎵 Route-to-audio map
-  const audioMap = {
-    '/chapter_2/SF-day-1/': '/sound/leskings-oriza.mp3',
-    '/chapter_2/SF-day-2/': '/sound/leskings-oriza.mp3',
-    '/chapter_2/SF-day-3/': '/sound/leskings-oriza.mp3',
-    '/chapter_2/SF-day-4/': '/sound/leskings-oriza.mp3',
-    '/chapter_1/Interstellar/': '/sound/office.mp3',
-    '/chapter_1/dilm/': '/sound/office.mp3',
-    '/chapter_1/Le-Journaux-Digitale/': '/sound/office.mp3',
-    '/chapter_1/Le-pouf-et-le-cadeau/': '/sound/office.mp3',
+//   // 🎵 Route-to-audio map
+//   const audioMap = {
+//     '/chapter_2/SF-day-1/': '/sound/leskings-oriza.mp3',
+//     '/chapter_2/SF-day-2/': '/sound/leskings-oriza.mp3',
+//     '/chapter_2/SF-day-3/': '/sound/leskings-oriza.mp3',
+//     '/chapter_2/SF-day-4/': '/sound/leskings-oriza.mp3',
+//     '/chapter_1/Interstellar/': '/sound/office.mp3',
+//     '/chapter_1/dilm/': '/sound/office.mp3',
+//     '/chapter_1/Le-Journaux-Digitale/': '/sound/office.mp3',
+//     '/chapter_1/Le-pouf-et-le-cadeau/': '/sound/office.mp3',
 
-  };
+//   };
 
-  const track = audioMap[path] || '/sound/office.mp3';
-  const TIME_KEY = `bg-music-time-${track}`; // ← the magic fix
+//   const track = audioMap[path] || '/sound/office.mp3';
+//   const TIME_KEY = `bg-music-time-${track}`; // ← the magic fix
 
-  source.src = track;
-  music.load();
+//   source.src = track;
+//   music.load();
 
-  // 🔄 Restore scroll
-  window.addEventListener('load', () => {
-    const scrollY = localStorage.getItem(SCROLL_KEY);
-    if (scrollY !== null) window.scrollTo(0, parseInt(scrollY));
-  });
+//   // 🔄 Restore scroll
+//   window.addEventListener('load', () => {
+//     const scrollY = localStorage.getItem(SCROLL_KEY);
+//     if (scrollY !== null) window.scrollTo(0, parseInt(scrollY));
+//   });
 
-  window.addEventListener('scroll', () => {
-    localStorage.setItem(SCROLL_KEY, window.scrollY);
-  });
+//   window.addEventListener('scroll', () => {
+//     localStorage.setItem(SCROLL_KEY, window.scrollY);
+//   });
 
-  // 🕰 Resume audio time
-  const savedTime = localStorage.getItem(TIME_KEY);
-  if (savedTime) music.currentTime = parseFloat(savedTime);
+//   // 🕰 Resume audio time
+//   const savedTime = localStorage.getItem(TIME_KEY);
+//   if (savedTime) music.currentTime = parseFloat(savedTime);
 
-  // 🔇 Restore mute state
-  const isMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
-  music.muted = isMuted;
-  updateMuteIcon(isMuted);
+//   // 🔇 Restore mute state
+//   const isMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
+//   music.muted = isMuted;
+//   updateMuteIcon(isMuted);
 
-  // ▶️ Autoplay with fallback
-  music.play().catch(() => {
-    document.body.addEventListener('click', () => music.play(), { once: true });
-  });
+//   // ▶️ Autoplay with fallback
+//   music.play().catch(() => {
+//     document.body.addEventListener('click', () => music.play(), { once: true });
+//   });
 
-  // 💾 Save playback time
-  setInterval(() => {
-    if (!music.paused) {
-      localStorage.setItem(TIME_KEY, music.currentTime);
-    }
-  }, 1000);
+//   // 💾 Save playback time
+//   setInterval(() => {
+//     if (!music.paused) {
+//       localStorage.setItem(TIME_KEY, music.currentTime);
+//     }
+//   }, 1000);
 
-  window.addEventListener('beforeunload', () => {
-    localStorage.setItem(TIME_KEY, music.currentTime);
-  });
+//   window.addEventListener('beforeunload', () => {
+//     localStorage.setItem(TIME_KEY, music.currentTime);
+//   });
 
-  // 🎚 Mute toggle
-  muteButton.addEventListener('click', () => {
-    music.muted = !music.muted;
-    localStorage.setItem(MUSIC_MUTED_KEY, music.muted);
-    updateMuteIcon(music.muted);
-  });
+//   // 🎚 Mute toggle
+//   muteButton.addEventListener('click', () => {
+//     music.muted = !music.muted;
+//     localStorage.setItem(MUSIC_MUTED_KEY, music.muted);
+//     updateMuteIcon(music.muted);
+//   });
 
-  function updateMuteIcon(isMuted) {
-    muteButton.textContent = isMuted ? 'Muted' : 'Mute';
-  }
+//   function updateMuteIcon(isMuted) {
+//     muteButton.textContent = isMuted ? 'Muted' : 'Mute';
+//   }
 
-  // 👀 Auto-mute on tab switch
-  document.addEventListener('visibilitychange', () => {
-    if (document.hidden) {
-      music.muted = true;
-    } else {
-      const userMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
-      music.muted = userMuted;
-    }
-    updateMuteIcon(music.muted);
-  });
-})();
+//   // 👀 Auto-mute on tab switch
+//   document.addEventListener('visibilitychange', () => {
+//     if (document.hidden) {
+//       music.muted = true;
+//     } else {
+//       const userMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
+//       music.muted = userMuted;
+//     }
+//     updateMuteIcon(music.muted);
+//   });
+// })();
 </script>
 </html>
