@@ -11,8 +11,8 @@
   
 </head>
 <body>
-<button id="mute-toggle">
-</button>
+
+
 <!-- Audio elements (THIS IS THE SECRET OF NETBEANZ.COM Or is it? :D) -->
 <audio id="audio1" src="/sound/narration0.mp3" preload="auto"></audio>
 <audio id="audio2" src="/sound/narration1.mp3" preload="auto"></audio>
@@ -116,72 +116,74 @@
 </body>
 
 <script>
-  const music = document.getElementById('background-music');
-  const muteButton = document.getElementById('mute-toggle');
 
-  const MUSIC_MUTED_KEY = 'bg-music-muted';
-  const STORAGE_KEY = 'bg-music-time';
 
-  // --- Restore scroll position
-  window.addEventListener('load', () => {
-    const scrollY = localStorage.getItem('scrollY');
-    if (scrollY !== null) {
-      window.scrollTo(0, parseInt(scrollY));
-    }
-  });
+  // const music = document.getElementById('background-music');
+  // const muteButton = document.getElementById('mute-toggle');
 
-  // --- Save scroll position on scroll
-  window.addEventListener('scroll', () => {
-    localStorage.setItem('scrollY', window.scrollY);
-  });
+  // const MUSIC_MUTED_KEY = 'bg-music-muted';
+  // const STORAGE_KEY = 'bg-music-time';
 
-  // --- Restore audio time
-  const savedTime = localStorage.getItem(STORAGE_KEY);
-  if (savedTime) music.currentTime = parseFloat(savedTime);
+  // // --- Restore scroll position
+  // window.addEventListener('load', () => {
+  //   const scrollY = localStorage.getItem('scrollY');
+  //   if (scrollY !== null) {
+  //     window.scrollTo(0, parseInt(scrollY));
+  //   }
+  // });
 
-  // --- Restore mute state
-  const isMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
-  music.muted = isMuted;
-  updateMuteIcon(isMuted);
+  // // --- Save scroll position on scroll
+  // window.addEventListener('scroll', () => {
+  //   localStorage.setItem('scrollY', window.scrollY);
+  // });
 
-  // --- Try autoplay or wait for click
-  music.play().catch(() => {
-    document.body.addEventListener('click', () => music.play(), { once: true });
-  });
+  // // --- Restore audio time
+  // const savedTime = localStorage.getItem(STORAGE_KEY);
+  // if (savedTime) music.currentTime = parseFloat(savedTime);
 
-  // --- Save music position every second
+  // // --- Restore mute state
+  // const isMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
+  // music.muted = isMuted;
+  // updateMuteIcon(isMuted);
+
+  // // --- Try autoplay or wait for click
+  // music.play().catch(() => {
+  //   document.body.addEventListener('click', () => music.play(), { once: true });
+  // });
+
+  // // --- Save music position every second
   
-  setInterval(() => {
-    if (!music.paused) {
-      localStorage.setItem(STORAGE_KEY, music.currentTime);
-    }
-  }, 1000);
+  // setInterval(() => {
+  //   if (!music.paused) {
+  //     localStorage.setItem(STORAGE_KEY, music.currentTime);
+  //   }
+  // }, 1000);
 
-  window.addEventListener('beforeunload', () => {
-    localStorage.setItem(STORAGE_KEY, music.currentTime);
-  });
+  // window.addEventListener('beforeunload', () => {
+  //   localStorage.setItem(STORAGE_KEY, music.currentTime);
+  // });
 
-  // --- Mute button logic
-  muteButton.addEventListener('click', () => {
-    music.muted = !music.muted;
-    localStorage.setItem(MUSIC_MUTED_KEY, music.muted);
-    updateMuteIcon(music.muted);
-  });
+  // // --- Mute button logic
+  // muteButton.addEventListener('click', () => {
+  //   music.muted = !music.muted;
+  //   localStorage.setItem(MUSIC_MUTED_KEY, music.muted);
+  //   updateMuteIcon(music.muted);
+  // });
 
-  function updateMuteIcon(isMuted) {
-    muteButton.textContent = isMuted ? 'Muted' : 'Mute';
-  }
+  // function updateMuteIcon(isMuted) {
+  //   muteButton.textContent = isMuted ? 'Muted' : 'Mute';
+  // }
 
-  // --- Mute when tab is hidden
-  document.addEventListener('visibilitychange', () => {
-    if (document.hidden) {
-      music.muted = true;
-    } else {
-      const userMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
-      music.muted = userMuted;
-    }
-    updateMuteIcon(music.muted);
-  });
+  // // --- Mute when tab is hidden
+  // document.addEventListener('visibilitychange', () => {
+  //   if (document.hidden) {
+  //     music.muted = true;
+  //   } else {
+  //     const userMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
+  //     music.muted = userMuted;
+  //   }
+  //   updateMuteIcon(music.muted);
+  // });
 
 
 // Scripty poo to change the friggin nav bar. =========================================================================================
