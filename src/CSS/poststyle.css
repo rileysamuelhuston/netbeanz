@@ -148,7 +148,7 @@ margin-top: 0px;
     font-size: var(--body-copy-size);
     outline: none;
     font-variant-ligatures: normal;
-    width: 100%;
+width: 100%;
     display: block;
     height: calc(var(--body-copy-size) + 4px);
     margin-bottom: 10px;
