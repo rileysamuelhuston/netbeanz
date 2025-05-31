@@ -73,6 +73,7 @@ color: black;
 }
 
 button {
+    background-color: lightgrey;
     font-family: "American Typewriter Italic", sans-serif;
     color: black;
     background-color: var(--global-primary-color);
@@ -137,6 +138,92 @@ padding: 3px;
     line-height: 2;
 }
 
+
+#comments-section {
+margin-top: 0px;
+}
+
+#commentInput, #nameInput{
+    font-family: "American Typewriter Italic";
+    font-size: var(--body-copy-size);
+    outline: none;
+    font-variant-ligatures: normal;
+    width: 100%;
+    display: block;
+    height: calc(var(--body-copy-size) + 4px);
+    margin-bottom: 10px;
+    padding: 3px;    
+}
+
+#nameInput {
+    resize: none;
+}
+
+#commentInput {
+    resize: vertical;
+    height: 100px;
+}
+
+#commentsList {
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+#commentsList{
+    border: 2px solid black;
+}
+
+
+
+
+.comment {
+    white-space: wrap;
+    overflow-x: hidden;
+    display: block;
+    padding: 1px;
+    margin-bottom: 20px;
+
+}
+
+
+#submitBtn {
+    font-size: var(--body-copy-size);
+    margin-bottom: 30px ;
+        background-color: lightgrey;
+
+}
+
+#submitBtn:hover {
+    background-color: greenyellow;
+}
+
+#submitBtn:active {
+    background-color: var(--global-tertiary-color);
+}
+
+.comment-name {
+    padding: 1px;
+    font-family: "ITC avant garde bold";
+    border-bottom: 1px dotted black;
+}
+
+.comment-name::after {
+    content: " says...";
+    font-family: "American Typewriter Italic";
+    font-size: var(--body-copy-size);
+    text-decoration: none;
+color: grey;
+}
+
+
+.comment-date {
+    color:grey;
+    margin-left: 10px;
+
+}
+
+
+
 @media only screen and (max-width: 555px) {
 
 
@@ -168,3 +255,4 @@ padding: 3px;
         }
     
   }
+

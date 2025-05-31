@@ -219,13 +219,126 @@ body {
 </body>
 
     </div>
+    
   </div>
+
+  <div class="post-content-container">
+
+  <div id="commentsSection">
+      <h3>Leave a Comment</h3>
+      <textarea id="nameInput" placeholder="Name"></textarea>
+    <textarea id="commentInput" placeholder="Write something..."></textarea>
+    <button id="submitBtn">Post Comment</button>
+    <div id="commentsList">
+    </div>
+  </div>
+<br>
+</div>
+
+<footer >
+  
+  <br>
+<h3>THanks for visiting</h3>
+<img src="/images/2-1-1.png" alt="" srcset="" style="height: 100px; margin-bottom: 30px;">
+</footer>
+
+
 </main>
 
 
 
 
-<script>
+
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  onSnapshot,
+  query,  
+  where,          // <--- THIS is the missing line
+  orderBy,
+  serverTimestamp
+} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAf-VX4hGXJO2wLove1bFosjT0J1Y_WXts",
+    authDomain: "netbeanz-2d4c6.firebaseapp.com",
+    projectId: "netbeanz-2d4c6",
+    storageBucket: "netbeanz-2d4c6.firebasestorage.app",
+    messagingSenderId: "891235124821",
+    appId: "1:891235124821:web:927032f8eda9912865b6dc"
+  };
+
+  // Initialize Firebase  const app = initializeApp(firebaseConfig);
+  const app = initializeApp(firebaseConfig);  // ✅ define app here
+
+  const db = getFirestore(app);
+
+  // --- Get DOM elements
+  const nameInput = document.getElementById("nameInput");
+  const commentInput = document.getElementById("commentInput");
+  const submitBtn = document.getElementById("submitBtn");
+  const commentsList = document.getElementById("commentsList");
+
+  // 🔧 Get unique page ID (based on URL path)
+  const pageId = window.location.pathname;
+
+  // --- Submit comment
+  submitBtn.addEventListener("click", async () => {
+    const name = nameInput.value.trim();
+    const comment = commentInput.value.trim();
+
+    if (name && comment) {
+      try {
+        await addDoc(collection(db, "comments"), {
+          name,
+          comment,
+          createdAt: serverTimestamp(),
+          page: pageId // 🔧 Save which page this comment belongs to
+        });
+
+        nameInput.value = "";
+        commentInput.value = "";
+      } catch (error) {
+        console.error("Error posting comment:", error);
+      }
+    }
+  });
+
+  // --- Load comments for this page only
+  const q = query(
+    collection(db, "comments"),
+    where("page", "==", pageId), // 🔧 Only show comments for this page
+    orderBy("createdAt", "desc")
+  );
+
+  onSnapshot(q, (snapshot) => {
+    commentsList.innerHTML = ""; // Clear current list
+
+    snapshot.forEach((doc) => {
+      const data = doc.data();
+      const timestamp = data.createdAt?.toDate?.();
+      const formattedDate = timestamp
+        ? timestamp.toLocaleString(undefined, {
+            dateStyle: "medium",
+            timeStyle: "short"
+          })
+        : "";
+
+    
+    
+      const el = document.createElement("div");
+      el.innerHTML = `<div class="comment-name">${data.name}</div> <span class="comment">${data.comment}<span class="comment-date">${formattedDate}</span></span>`;
+      commentsList.appendChild(el);
+    });
+  });
+
 
 // (() => {
 //   const music = document.getElementById('background-music');

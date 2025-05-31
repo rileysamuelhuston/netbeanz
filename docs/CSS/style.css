@@ -3,7 +3,7 @@
     margin: 0px;
     --global-primary-color: #4EDF41;
     --global-secondary-color:rgb(107, 158, 30);
-    --global-tertiary-color: rgb(30, 255, 0);
+    --global-tertiary-color: rgb(255, 42, 0);
 
 
     --nav-height: 100px;
@@ -75,7 +75,7 @@ main {
 
 
 ::selection {
-    color: var(--global-secondary-color);
+    color: var(--global-primary-color);
     background-color: var(--global-tertiary-color);
 }
 
