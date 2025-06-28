@@ -6,6 +6,10 @@
 
 body {
     background-color: whitesmoke;
+background-color: #ffffff;
+background-size: 100% 6px;
+    background-image: linear-gradient(#ff0000 1px, transparent 1px);
+
 }
 
 .post-content {
@@ -65,7 +69,6 @@ center {
     background-position: left top, right top, left bottom, left top;
     background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
     background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
-    background-color: white;
 }
 
 header a {

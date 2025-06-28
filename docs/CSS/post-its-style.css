@@ -1,0 +1,135 @@
+body {
+    background-color: #ffffff;
+    background-image: linear-gradient(#1521ff 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, #1521ff 0.6000000000000001px, #ffffff 0.6000000000000001px);
+    background-size: 14px 14px;
+    overflow: scroll;
+    overflow-y: scroll;
+}
+
+/* styles.css */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.controls {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 22px;
+    background-color: rgb(240, 240, 240);
+    /* Semi-transparent background */
+    position: fixed;
+    /* Make the navbar fixed */
+    width: 100%;
+    left: 0;
+    z-index: 10090000;
+    /* Ensure it is on top of other element */
+
+
+}
+
+#noteInput {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#addNoteButton,
+#clearAllButton,
+#backButton {
+    padding:3px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#noteInput, #addNoteButton, #clearAllButton, #backButton {
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    border-radius: 9px;
+}
+
+#addNoteButton:hover,
+#clearAllButton:hover,
+#backButton:hover {
+    box-shadow: 1px 1px black;
+} 
+
+#backButton {
+    margin-right: 10px;
+}
+
+.canvas {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 70px); /* Adjusted height to account for controls */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 70px 20px 20px 20px; /* Add top padding to avoid overlapping with navbar */
+}
+
+.sticky-note {
+    text-rendering: optimizeLegibility;
+    font-family: 'Noto Sans', sans-serif;
+    width: 100px;
+    height: 100px;
+    background-color: #ffc700;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 2px 2px black;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    /* Change to absolute for draggable functionality */
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: grab;
+
+}
+
+.sticky-note:hover {
+    z-index: 100000;
+    transform: rotate(12deg) scale(1.2);
+    box-shadow: 3px 3px black;
+}
+
+.sticky-note span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    outline: none;
+    /* Remove outline when editing */
+}
+
+.trash-can {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 24px;
+    cursor: pointer;
+}

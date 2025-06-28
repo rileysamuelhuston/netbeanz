@@ -2,160 +2,148 @@
 title: "Turkish Delight, Stick War, Castle Crashers"
 ---
 
-<center>5/25/2023</center>
+<script src="/scripts/lightbox.js"></script>
 
-### Turkish Delight, Stick War, Castle Crashers
 
-<center>A full day and a visit to the GG bridge at the setting of the sun.</center>
-<br>
+<div class="title-section">
 
-<img src="/images/oceanbeach.gif" alt="">
+# A full day and a visit to the GG bridge at the setting of the sun
 
+<div class="byline">
 
-A grand test and a grand crest of a wave for a Mr. Beast-type folk hero.
 
-Here’s what we did on 5/24:
+## May 25 2025
+## by {{ authors.riley.name }}
 
-- Ate a delicious Persian Breakfast
 
-<img src="/images/sf3-49.webp" alt="">
+<div class="dummy"></div>
 
+</div>
 
-- Saw one of the world’s The Thinker statues by Rodin at the Legion of Honor
-<img src="/images/sf3-91.webp" alt="">
 
 
-- Boke to land’s end - Sutro Baths
-<img src="/images/sf3-64.webp" alt="">
-<img src="/images/sf3-63.webp" alt="">
+</div>
 
 
-- Boke to ocean beach
+<details>
+  <summary><a class="vibrate">Click to reveal gallery</a></summary>
+<ul class="image-grid">
+<li><img class="grid-image" src="/images/sf3-64.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-63.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-3.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-4.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-7.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-8.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-12.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-10.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-9.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-11.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-13.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-20.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-17.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-19.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-18.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-22.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-23.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-24.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-25.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-26.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-27.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-28.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-30.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-31.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-32.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-37.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-36.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-39.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-5b.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-52.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-1c.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-82.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-83.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-0b.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-2c.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-1b.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-3c.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-55.webp" alt="" onclick="openLightbox(this)"></li>
+<li><img class="grid-image" src="/images/sf3-54.webp" alt="" onclick="openLightbox(this)"></li>
 
-<img src="/images/sf3-3.webp" alt="">
+</ul>
+</details>
 
-<img src="/images/sf3-4.webp" alt="">
+<div class="columns">
+        <div class="left-column">
 
+### A grand test and a grand crest of a wave for a Mr. Beast-type folk hero. Here's what we did on May Twenty-Fourth:
 
-<img src="/images/sf3-7.webp" alt="">
+🥙 Ate a delicious Persian Breakfast
 
-<img src="/images/sf3-8.webp" alt="">
+<img class="square-image" src="/images/sf3-49.webp" alt="I <3 LAVASH and FETA">
 
+( ・◇・)？ Saw one of the world’s The Thinker statues by Rodin at the Legion of Honor, which was only a short bike ride from Daniel's apartment.
 
+<img class="square-image" src="/images/sf3-91.webp" alt="">
 
+    ( ఠൠఠ )ﾉ Boke to land’s end - Sutro Baths
 
-- Saw the windmills at the corners of GG park
-- Boke around the Chain of lakes
-<img src="/images/sf3-12.webp" alt="">
-<img src="/images/sf3-10.webp" alt="">
-<img src="/images/sf3-9.webp" alt="">
-<img src="/images/sf3-11.webp" alt="">
+    ┏ (゜ω゜)=☞ Boke to ocean beach
 
-- Gazed upon the grazing Bison in GG park
+<img class="square-image" src="/images/oceanbeach.gif" alt="">
 
-<img src="/images/sf3-13.webp" alt="">
+</div>
 
+<div class="right-column">
 
+After Ocean Beach, which, by the way, is my favorite name for a beach ever, I think, we kept going down the road, turned, and saw the windmills at the corners of GG park. Then we boke around the Chain of lakes, and then we gazed upon the grazing Bison in GG park.
 
-- Hooked a righty to strawberry hill gardens & temple facility
+### We also...
 
-<img src="/images/sf3-20.webp" alt="">
+🍓 Hooked a righty to Strawberry Hill gardens & temple facility
 
-<img src="/images/sf3-17.webp" alt="">
+🩰 Checked out the ballet concert in the plaza by the Academy of Sciences
 
-<img src="/images/sf3-19.webp" alt="">
+🎷 Saw the four-man old-man jazz group
 
-<img src="/images/sf3-18.webp" alt="">
+🚴‍♂️ Boke back home
 
+🚲 Rented some bikes, checked out Crissy Field on the way to the Palace of Fine Arts, looked for bike parking
 
-- Checked out the ballet concert in the plaza by the academy of sciences
+☕ Hit up Starbucks and grabbed a coffee
 
-<img src="/images/sf3-22.webp" alt="">
+🌊🛸 Also looked at the Yoda statue fountain 
 
 
-- Saw the four-man old-man jazz group
+🏛️ Walked to the Palace of Fine Arts
 
-<img src="/images/sf3-23.webp" alt="">
+✏️ Took lots of pictures and sketched the palace from across the water
 
-- Boke back home
+👴 Talked to a wise man sitting on a bench there who told us about SF fires and earthquakes
 
-<img src="/images/sf3-24.webp" alt="">
+Below: Check it out! Dan and I made sketches that perfectly line up. What are the odds? Probably pretty high, since we were sitting on the same bench... but still it's cool!
 
-- Rented some bikes, check out crissy field on the way to the palace of fine arts, look for bike parking
+<img class="square-image" src="/images/palaceofart.gif" alt="palaceofart.gif" title="palaceofart.gif">
 
-<img src="/images/sf3-25.webp" alt="">
+🧑‍💻 Walked up to Johnny Ive’s house
 
-- Hit up starbucks and grab a coffee
-- Also looked at the Yoda statue fountain
+🧗‍♂️ Big hill, walked up more
 
-<img src="/images/sf3-26.webp" alt="">
+🍝 Walked to Italian Ristorante
 
-- Walked to the palace of fine arts
+🚌 Bus to GG bridge, Crissy Field
 
-<img src="/images/sf3-27.webp" alt="">
-<img src="/images/sf3-28.webp" alt="">
-<img src="/images/sf3-30.webp" alt="">
-<img src="/images/sf3-31.webp" alt="">
-<img src="/images/sf3-32.webp" alt="">
+😵‍💫 Almost missed the 43 but it was going the wrong way, hopped off, started to walk and saw the 5
 
+🛣️ Caught the 5 to Fulton St
 
+🏡 Arrived chez Dan
 
-- Took lots of pictures and sketch the palace from across the water
+🍬 Turkish Delight
 
-<img src="/images/sf3-37.webp" alt="">
-<img src="/images/sf3-35.webp" alt="">
-<img src="/images/sf3-34.webp" alt="">
+⚔️ Stick War
 
-<img src="/images/sf3-38.webp" alt="">
+🏰 Castle Crashers
 
-<img src="/images/sf3-36.webp" alt="">
-
-<img src="/images/sf3-39.webp" alt="">
-<img src="/images/sf3-40.webp" alt="">
-<img src="/images/sf3-41.webp" alt="">
-
-
-
-- Talked to a wise man sitting on a bench there who told us about SF fires and earthquakes
-<img src="/images/sf3-5b.webp" alt="">
-
-<div class="caption">Below: Check it out! Dan and I made sketches that perfectly line up. What are the odds? Probably pretty high, since we were sitting on the same bench... but still it's cool!</div>
-
-<img src="/images/palaceofart.gif" alt="">
-
-- Walk up to johnny Ive’s house
-
-<img src="/images/sf3-52.webp" alt="">
-
-
-- Big hill, walked up more
-- Walked to Italian Ristorante
-<img src="/images/sf3-1c.webp" alt="">
-
-<img src="/images/sf3-82.webp" alt="">
-
-<img src="/images/sf3-83.webp" alt="">
-
-
-- Bus to GG bridge, Crissy Field
-<img src="/images/sf3-0b.webp" alt="">
-<img src="/images/sf3-2c.webp" alt="">
-
-<img src="/images/sf3-1b.webp" alt="">
-
-
-
-- Almost missed the 43 but it was going the wrong way, hopped off, started to walk and saw the 5
-- Catch the 5 to Fulton St
-- Arrive chez Dan
-<img src="/images/sf3-3c.webp" alt="">
-
-- Turkish Delight
-- Stick War
-- Castle Crashers
-
-<img src="/images/sf3-55.webp" alt="">
-<img src="/images/sf3-54.webp" alt="">
-
+</div>
+    </div>
 
 <center>×</center>

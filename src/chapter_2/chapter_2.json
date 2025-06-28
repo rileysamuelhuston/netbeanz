@@ -1,4 +1,4 @@
 {
-    "layout": "c2post.njk",
+    "layout": "2grid.njk",
     "tags": "chapter_2"
 }

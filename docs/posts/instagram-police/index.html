@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Instagram Volleyball Practice and Updates</title>
   <link rel="stylesheet" href="/CSS/style.css">
-<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
   
 </head>
@@ -43,11 +43,9 @@
     </div>
 </div>
       
-  <main>
        
   
       
-  <div class="content">
     <div class="post-content">
 <p>Hey guys! Welcome back to another humor exploration - I’m going to show you some puns I came up with over the long weekend (thank upper management for that, they approved my request this time!)</p>
 <p>Usually shelly is so “by the books” she barely approves my bathroom slips and I have to hold it, sometimes for days at a time. When I have beef stroganoff at lunch - (which Steven hates but I CRAVEs, his lunch bag is next to mine and one time we traded lunches. He had turkey breast and a sleeve of Saltines and hummus (roasted garlic, tahini) - I have these massive shiitake mushroom sharts that I have to blast into my cloth (diaper that is) and rinse out in the morn’ when the crows knock. Takes a few extra mins but ‘sall good to moi. That’s french not my stench.</p>
@@ -109,11 +107,14 @@
 </div>
 
 
-    </div>
 
 
-  </main>
 </body>
+
+
+<script src="/scripts/bouncing-link.js"></script>
+<script src="/scripts/themes.js"></script>
+
 
 <script>
 
@@ -187,78 +188,6 @@
 
 
 // Scripty poo to change the friggin nav bar. =========================================================================================
-const navbar = document.getElementById('navSupercontainer');
-const siteTitle = document.querySelector('.site-title');
-const sections = document.querySelectorAll('.chapter-container');
-
-let currentSection = null;
-let navHeight = navbar.offsetHeight;
-
-if (sections.length > 0) {
-
-  function onScroll() {
-    const offsetPoint = navHeight;
-    let newSection = null;
-
-    sections.forEach(section => {
-      const sectionTop = section.getBoundingClientRect().top;
-
-      if (sectionTop <= offsetPoint) {
-        newSection = section;
-      }
-    });
-
-    if (newSection && newSection !== currentSection) {
-      currentSection = newSection;
-
-      const navbarColor = newSection.dataset.navbar || '#4EDF41';
-      const titleColor = newSection.dataset.title || 'Black';
-      const bgImage = newSection.dataset.backgroundImage || '';
-
-      navbar.style.backgroundColor = navbarColor;
-
-      if (bgImage) {
-        navbar.style.backgroundImage = bgImage;
-        navbar.style.backgroundSize = 'cover';
-        navbar.style.backgroundPosition = 'center';
-      } else {
-        navbar.style.backgroundImage = 'none';
-      }
-
-      siteTitle.style.color = titleColor;
-    }
-  }
-
-  // Throttle scroll handler
-  let ticking = false;
-  window.addEventListener('scroll', () => {
-    if (!ticking) {
-      window.requestAnimationFrame(() => {
-        onScroll();
-        ticking = false;
-      });
-      ticking = true;
-    }
-  });
-
-  // Resize/orientation recalculations
-  window.addEventListener('resize', () => {
-    navHeight = navbar.offsetHeight;
-  });
-
-  window.addEventListener('orientationchange', () => {
-    navHeight = navbar.offsetHeight;
-  });
-
-  window.addEventListener('DOMContentLoaded', onScroll);
-
-} else {
-  // No sections? Keep defaults
-  navbar.style.backgroundColor = '#4EDF41';
-  navbar.style.backgroundImage = 'none';
-  siteTitle.style.color = 'Black';
-}
-
 
 
 
@@ -300,21 +229,6 @@ if (window.location.href.includes("github.io")) {
 }
 
 
-const links = document.querySelectorAll('.bouncing-link');
-
-links.forEach(link => {
-  const text = link.textContent;
-  link.innerHTML = '';
-
-  text.split('').forEach(letter => {
-    const span = document.createElement('span');
-    if (letter === ' ') {
-      span.innerHTML = '&nbsp;'; // Use non-breaking space for spaces
-    } else {
-      span.textContent = letter;
-    }
-    link.appendChild(span);
-  });
-});
 </script>
+
 </html>

@@ -2,19 +2,73 @@
 title: Yeah, I'm from the Bay Area
 ---
 
-<center>05/23/25</center>
+<div class="title-section">
 
-### Welcome to San Francisco, The City that Never Squeaks
+# Welcome to San Francisco, The City that Never Squeaks
 
-<center>The First Day</center>
+<div class="byline">
 
-<img src="/images/sf1-0.webp" alt="">
-<img src="/images/sf1-2.webp" alt="">
-<img src="/images/sf1-5b.webp" alt="">
+## May 23 2025
+## by {{ authors.riley.name }}
+
+<div class="dummy"></div>
+
+</div>
+
+</div>
+
+<details>
+  <summary><a class="vibrate">Click to reveal gallery</a></summary>
+<ul class="image-grid">
+    
+   <li><img class="grid-image" src="/images/sf1-0.webp" alt="dark kitchen, view of front door" title="dark kitchen, view of front door"></li>
+    <li><img class="grid-image" src="/images/sf1-2.webp" alt="airplane" title="airplane"></li>
+    <li><img class="grid-image" src="/images/sf1-3.webp" alt="" title="sf1-3.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-5.webp" alt="" title="sf1-5.webp"></li>
+    <li><img class="grid-image" src="/images/sf/sf1-5b.png" alt="mirror selfie in orange and yellow sleeping bag" title="mirror selfie in orange and yellow sleeping bag"></li>
+    <li><img class="grid-image" src="/images/sf1-12.webp" alt="" title="sf1-12.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-19.webp" alt="" title="sf1-19.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-20b.webp" alt="" title="sf1-20b.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-22.webp" alt="" title="sf1-22.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-23.webp" alt="" title="sf1-23.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-26.webp" alt="" title="sf1-26.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-27.webp" alt="" title="sf1-27.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-28.webp" alt="" title="sf1-28.webp"></li>
+    <li><img class="grid-image" src="/images/sf1-30.webp" alt="" title="sf1-30.webp"></li>
+    <li><img class="grid-image" src="/images/twinpeaks.gif" alt="" title="twinpeaks.gif"></li>
+    <li><img class="grid-image" src="/images/thumbsdown.gif" alt="" title="thumbsdown.gif"></li>
+  
+
+<li>
+<img class="grid-image" src="/images/sf1-10.webp" alt="">
+    </li>
+    
+    <li>
+<img class="grid-image" src="/images/sf1-15.webp" alt="">
+
+    </li>
+    
+    <li>
+<img class="grid-image" src="/images/sf1-6bmini.jpg" alt="">
+    </li>
+<li>
+<img class="grid-image" src="/images/sf1-0.webp" alt="dark kitchen, view of front door">
+
+</li>
+    <li></li>
+</ul>
+</details>
 
 
 
-A beautiful good morning. 
+
+
+<div class="columns">
+
+<div class="left-column">
+
+
+### A beautiful good morning. 
 
 Just finished the first night’s sleep in the Bay Area. 
 
@@ -22,7 +76,14 @@ Yesterday I flew into SF around 11 and met up with daniel at l’aeroport. I had
 
 I woke up around 4am to catch a 5am Uber for my 7am flight, and with that schedule I had plenty of time to shower, remember things I forgot to pack, make some coffee, go through security twice, and even read a petite bit of my book.
 
-<img src="/images/sf1-29.webp" alt="">
+<img class="square-image" src="/images/sf1-29.webp" alt="">
+
+
+
+</div>
+
+<div class="right-column">
+    
 
 
 The flights were great and I made two origami cranes. I sat next to a nice lady on the second flight but didn’t get her name. Actually, I sat next to two women. One was from Houston the other from SF. The second woman’s daughter is dancing in the carnival celebration this Sunday, 5/25.
@@ -40,60 +101,70 @@ We ate lunch at Senor Sisig in the Mission District. We each got perfectly cylin
 
 After the burritos Dan took us to [Mission Dolores Park](https://en.wikipedia.org/wiki/Mission_Dolores_Park) for a splendid view of the city. Absolutely splendid. He asked if I had seen <i>The Brutalist</i>, and I said, “No, I haven’t seen *<i>The Brutalist</i>*,” and he said, “Oh you should see <i>The Brutalist</i>.”
 
-<img src="/images/sf1-3.webp" alt="">
-<img src="/images/sf1-5.webp" alt="">
+
+</div>
+
+</div>
+
+
+<div class="columns top-border">
+
+<div class="left-column">
+
+### Arriving in SF And Saying Hello to Daniel
+
+Dan's apartment is situated in Upper Richmond, right across the street from Golden Gate park. His windows are half a floor up from the sidewalk, and the street was pretty calm when I was there. He found a great parking spot right in front of his building.
+
+The location is perfect as a home base since it's close to everything you want to do in SF - It's close to the GG bridge, right next to the park, just a bit away from the downtown area, and super close to tons of cool shoppes and storefronts. But anything that isn't within walking distance is within biking, bussing, or driving distance, so it's super fuckin' chill just hoppin around and feeling multi-modal and shit.
+
 
 
 We also did the following that I will have to update later:
 
-- Went to Fieldwork coffee shop, quaintly situated in an adapted and reused public restroom
-- Played Pong at a pinball arcade
+Went to Fieldwork coffee shop, situated in an adapted and reused public restroom. An air of calm! Cute girl with a dress in there, but she was in front of the napkins. I was like, "oh I like your dress," and she said, "thanks, I got it from this thrift shop down the street."
 
-<img src="/images/sf1-0b.webp" alt="">
+<span class="spoiler">After the coffee shop we went to another "coffee shop" of sorts, except this time it was a weed dispensary. ( ͡~ ͜ʖ ͡°) Yeah... let's just say we bought some edibles and split them before walking around. Gotta keep this sensitive information LOCKED down, if you know what I mean. Also testing out a new "SPOILER" class for my SPANs </span>
 
-<img src="/images/sf1-10.webp" alt="">
+Played Pong at a pinball arcade
 
-<img src="/images/sf1-15.webp" alt="">
-<img src="/images/sf1-6bmini.jpg" alt="">
+<img class="square-image" src="/images/sf1-14.webp" alt="" title="sf1-14.webp">
 
-<div class="caption">Below: The internals of the Pong machine's coin slot.</div>
-<img src="/images/sf1-13.webp" alt="">
+Below: The internals of the Pong machine's coin slot.
 
-<img src="/images/sf1-12.webp" alt="">
-<img src="/images/sf1-14.webp" alt="">
+<img class="square-image" src="/images/sf1-13.webp" alt="" title="sf1-13.webp">
 
 
-- Stopped in Amoeba music store
-<img src="/images/sf1-17.webp" alt="">
-<img src="/images/sf1-19.webp" alt="">
+
+</div>
+
+<div class="right-column">
+    
 
 
-- Walked around and hiked up to Twin Peaks
-<img src="/images/sf1-20b.webp" alt="">
-<img src="/images/sf1-22.webp" alt="">
-<img src="/images/sf1-23.webp" alt="">
+Walking around we stopped in Amoeba music store
+
+<img class="square-image" src="/images/sf1-17.webp" alt="" title="sf1-17.webp">
 
 
-- Took in the view! You can see the whole city from up here.
-<img src="/images/thumbsdown.gif" alt="">
 
-<img src="/images/sf1-31.webp" alt="">
-<img src="/images/twinpeaks.gif" alt="">
+Walked around and hiked up to Twin Peaks
 
-<img src="/images/sf1-25.webp" alt="">
-<img src="/images/sf1-26.webp" alt="">
-<img src="/images/sf1-27.webp" alt="">
+<img class="square-image" src="/images/sf1-25.webp" alt="" title="sf1-25.webp">
 
 
-- Saw Sutro Tower
+Took in the view! You can see the whole city from up here. I put a bunch of pictures in the gallery that you should go check out.
 
-<img src="/images/sf1-28.webp" alt="">
+<img class="square-image" src="/images/sf1-31.webp" alt="" title="sf1-31.webp">
 
-- Brothers Restaurant (KBBQ)
-<img src="/images/sf1-30.webp" alt="">
 
-<br>
+We also saw Sutro Tower, which looks super futuristic. I took a few pictures of that with both my digital and film cameras.
 
-Stay tuned for more. I'm going to update this page with photos, extra details, and correct grammar when I get time.
+For dinner we at KBBQ at Brothers Restaurant. I had never had the in-table BBQ experience before, and it was really cool, so I'll have to check it out again. That's my main takeaway - I like how the BBQ table keeps your legs warm, too. But you really have to cook your own food, and I was like, ["Uh, when did I get a part-time job at a KBBQ restaurant?"](https://youtu.be/Svual-PcOxE?si=wRKxHNNkxRIZsqkm&t=273) I'm just joking around. I actually had a great experience.
+
+
+</div>
+
+</div>
+
 
 <center>×</center>

@@ -1,0 +1,321 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 21px;
+    --grid_global-font-size: 21px;
+
+}
+
+#nav {
+    z-index: 1000;
+position: fixed;
+top: 0px;
+right: 0px;
+left: 0px;
+background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#site-title {
+    font-size: var(--grid_global-font-size);
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-inner,
+.nav-outer {
+    display: flex;
+}
+
+
+#return-img {
+    height: 30px;
+    width: auto;
+margin: 0px;
+margin-right: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+.button {
+  background: none;
+margin: 0px;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button a {
+    color: black;
+}
+
+button a:hover {
+    background-color: transparent;
+}
+
+#content {
+    padding: 0px 10px 0px 10px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+h1 {
+line-height: 60%;
+    -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+    font-family: "American Typewriter";
+    -webkit-text-stroke: 0px;
+    font-weight: normal;
+    color: black;
+
+        padding-top: 0px;
+    font-size: 77px;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: "American Typewriter";
+    color: black;
+    line-height: 1;
+    font-size: var(--grid_global-font-size);
+    text-transform: uppercase;
+    margin-bottom: calc(var(--global-font-size)* .5);
+    font-weight: normal;
+}
+
+h3 {
+    text-align: left;
+    font-family: "American Typewriter Italic";
+    font-weight: normal;
+    color: black;
+    line-height: 1;
+    font-size: var(--grid_global-font-size);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+h4, h5 {
+    font-family: "american typewriter", 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+summary {
+  padding-top: 10px;
+  list-style: none;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: "american typewriter italic", 'Courier New', Courier, monospace;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+
+.square-image {
+    margin: 0px 0px 10px 0px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.portrait-image {
+      margin: 0px 0px 10px 0px;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.square-image:hover {
+    cursor: not-allowed;
+}
+
+
+.image-block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.image-block .square-image {
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+
+.title-section {
+    margin-top: 100px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.byline {
+    display: grid;
+    grid-gap: 10px;
+grid-template-columns: 1fr 1fr;}
+
+.dummy {
+    height: 0px;
+    width: 0px;
+}
+
+.columns {
+margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+  display: flex;
+  gap: 10px;
+}
+
+.left-column {
+  flex: 2 1 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  flex: 2 1 400px;
+}
+
+.top-border {
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+
+p {
+    margin-bottom: 10px;
+}
+
+.spoiler {
+  background-color: black;
+  transition: all 1s;
+}
+
+.spoiler:hover {
+  background: none;
+}
+
+/* LIGHTBOXES */
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.lightbox.show {
+  display: flex;
+}
+
+
+/* // BASIC */
+
+.image-grid {
+margin: 0px 0px 10px 0px;
+    display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.image-grid li {
+  height: 20vh;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.image-grid li:last-child {
+  /* // There's no science in using "10" here. In all my testing, this delivered the best results. */
+  flex-grow: 10;
+}
+
+.grid-image {
+    
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+/* 
+// ADVANCED
+
+// Portrait */
+
+@media (max-aspect-ratio: 1/1) {
+  .image-grid li {
+    height: 30vh;
+  }
+}
+
+/* // Short screens */
+
+@media (max-height: 480px) {
+  .image-grid li {
+    height: 80vh;
+  }
+}
+
+/* // Smaller screens in portrait */
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  .image-grid {
+    flex-direction: row;
+  }
+
+  .image-grid li {
+    height: auto;
+    width: 100%;
+  }
+  .grid-image {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+
+  @media only screen and (max-width: 800px) {
+.byline {
+    grid-template-columns: 1fr;
+}
+
+    .columns {
+    display: block;
+}
+  }

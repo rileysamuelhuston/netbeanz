@@ -1,0 +1,121 @@
+* {
+  --listWidth: 800px;
+}
+
+#siteTitleBig {
+    width: var(--listWidth);
+    position: fixed;
+left: 50%;
+margin-left: calc(-0.5 * var(--listWidth)); /* Negative half of width. */
+}
+
+.site-title::after {
+  rotate: 2deg;
+right: -35px;
+  top: 60px;
+  color: grey;
+  background-color: aliceblue;
+  content: "New and improved!";
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 10px;
+  animation: splashPulse 1s infinite ease-in-out;
+  transform-origin: center;
+  pointer-events: none;
+}
+
+@keyframes splashPulse {
+  0%, 100% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.15);
+  }
+}
+
+.site-title {
+  background-color: ;
+    position: sticky;
+    top: 0px;
+    font-family: "American Typewriter";
+font-size: calc(var(--global-font-size) * 2);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+border-bottom: 2px solid black;
+z-index: 10000000;
+}
+
+.list-container {
+  display: block;
+  justify-content: space-between;
+  gap: 2rem; /* Optional: spacing between columns */
+  flex-wrap: wrap;
+  max-width: var(--listWidth);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20vh;
+}
+
+.list-column-left h1 {
+    font-size: 60px;
+    border: 1px;
+    text-align: center;
+}
+
+.list-column-left .post-link-box, .list-column-left .post-date-box {
+    text-align: center;
+}
+
+.list-column-left summary {
+    text-align: center;
+}
+
+.list-column-left {
+  flex: 1;
+    flex: 2 1 400px;
+  flex-direction: column;
+}
+
+
+.list-column-right {
+  flex: 2 1 400px;
+  gap: 10px;
+}
+
+.sequenced-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featuring {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.urgent::before {
+  content: "PRIORITY";
+  position: absolute;
+  text-decoration: underline;
+  top: -30px;
+rotate: -3deg;
+  color: red;
+}
+
+
+
+  @media only screen and (max-width: 700px) {
+
+
+#siteTitleBig {
+    width: 100%;
+    margin-left: -50%;
+}
+
+
+.list-container {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+}

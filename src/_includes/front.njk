@@ -1,10 +1,47 @@
----
-layout: base.njk
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netbeanz</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/2grid.css">
+  <link rel="stylesheet" href="/CSS/listtest.css">
+  <link rel="stylesheet" href="/CSS/fx.css">
+
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+
+</head>
 
 
-<div class="welcome-message-container">
-    <div class="welcome-message">WELCOME, &#10;CUSTOMER, TO &#10; NETBEANZ.COM</div></div>
+
+<!-- Audio elements (THIS IS THE SECRET OF NETBEANZ.COM Or is it? :D) -->
+<audio id="audio1" src="/sound/narration0.mp3" preload="auto"></audio>
+<audio id="audio2" src="/sound/narration1.mp3" preload="auto"></audio>
+<audio id="audio3" src="/sound/narration2.mp3" preload="auto"></audio>
+<audio id="audio4" src="/sound/ai-fart.mp3" preload="auto"></audio>
+<audio id="audio5" src="/sound/narration4.mp3" preload="auto"></audio>
+<audio id="audio6" src="/sound/narration5.mp3" preload="auto"></audio>
+<audio id="audio7" src="/sound/narration6.mp3" preload="auto"></audio>
+<audio id="audio8" src="/sound/narration7.mp3" preload="auto"></audio>
+<audio id="audio9" src="/sound/narration8.mp3" preload="auto"></audio>
+<audio id="audio10" src="/sound/narration9.mp3" preload="auto"></audio>
+<audio id="audio11" src="/sound/narration10.mp3" preload="auto"></audio>
+<audio id="audio12" src="/sound/narration11.mp3" preload="auto"></audio>
+<audio id="audio13" src="/sound/narration12.mp3" preload="auto"></audio>
+<audio id="audio14" src="/sound/narration13.mp3" preload="auto"></audio>
+
+<body>
+    
+<div id="siteTitleBig">
+             <div id="clickable-div" class="site-title">
+                        netbeanz.com
+             </div> 
+</div>
 
 
 {{ content | safe }}
+
+<script src="/scripts/tts.js"></script>
+</body>
+</html>

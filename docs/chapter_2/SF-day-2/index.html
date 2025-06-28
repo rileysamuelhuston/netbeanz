@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hawk Hill or Bus</title>
-  <link rel="stylesheet" href="/CSS/poststyle.css">
   <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/2grid.css">
+  <link rel="stylesheet" href="/CSS/listtest.css">
+  <link rel="stylesheet" href="/CSS/fx.css">
+
+  
+
+
 
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
@@ -15,115 +21,61 @@
 </head>
 <body>
 
+<div id="nav">
+    <div class="nav-outer"><a id="site-title" href="/index.html">Netbeanz.com</a></div>
+    
+    <div class="nav-inner">
 
-  <div id="left"></div>
-  <div id="right"></div>
-  <div id="top"></div>
-  <div id="bottom"></div>
-
-<div id="navSupercontainer">
-  <div class="nav-container">
-    <header><span class="site-title"><a href="/index.html">Netbeanz.com</a></span></header>
-<div class="nav-button-container">
-
-</div>
-</div>
+        <img id="return-img" src="/images/exit.png" alt="">
+        <a class="button" href="/index.html">return</a>
       
-  <main>
-       
-  
     </div>
-    <div class="post-content-container">
+</div>
       
-  <div class="post-content">
-    <head>
-    <link rel="stylesheet" href="/CSS/c2poststyle.css">
-
-</head>
-<body>
-
-
-<main>
-        <center>24 May 2025</center>
-<h3>Hawk Hill or BUS</h3>
-<center>The reward for climbing up a big hill is climbing up another big hill.</center>
-<br>
-<img src="/images/sf0.webp" alt="">
+<div id="content">
+  <div class="title-section">
+<h1>the reward for climbing up a big hill is climbing up another big hill</h1>
+<div class="byline">
+<h2>May 24 2025</h2>
+<h2>by Riley Huston</h2>
+<div class="dummy"></div>
+</div>
+</div>
+<details>
+  <summary><a class="vibrate">Click to reveal gallery</a></summary>
+<ul class="image-grid">
+<li><img class="grid-image" src="/images/sf2.webp" alt=""></li>
+<li><img class="grid-image" src="/images/sf3.webp" alt=""></li>
+<li><img class="grid-image" src="/images/sf0.webp" alt=""></li>
+<li><img class="grid-image" src="/images/sf11.webp" alt=""></li>
+</ul>
+</details>
+<div class="columns">
+<p><div class="left-column"></p>
 <p>Peace... be at peace.</p>
 <p>It is a chilly morning this day, and we are planning on going to the Legion of Honor museum complex where The Thinker is kept.</p>
 <p>We are also going to visit the Palace of Fine Art. Wow!</p>
-<p>Yesterday, 05/23/ we did the following:</p>
-<ul>
-<li>11am breakfast leftover korean pancakes</li>
-</ul>
-<img src="/images/sf1.webp" alt="">
-<ul>
-<li>12pm bike ride to Golden Gate Bridge, Hawk Hill</li>
-</ul>
-<img src="/images/sf2.webp" alt="">
-<img src="/images/sf3.webp" alt="">
-<img src="/images/sf4.webp" alt="">
-<img src="/images/sf5.webp" alt="">
-<ul>
-<li>
-<p>12:50pm epic ride against the wind and up the cliffside
-<img src="/images/sf7.webp" alt=""></p>
-</li>
-<li>
-<p>1:20pm Insane descent down the cliffside</p>
-</li>
-<li>
-<p>1:30pm saw epic scenery, felt like a roller coaster</p>
-</li>
-<li>
-<p>1:30pm stopped for pictures along the way</p>
-</li>
-<li>
-<p>2:30pm made it back to base in time to shower, see De Young museum
-<img src="/images/sf10.webp" alt=""></p>
-</li>
-<li>
-<p>3:00pm visited De Young museum</p>
-</li>
-</ul>
-<img src="/images/sf11.webp" alt="">
-<center>×</center>
-
-</main>
-
-
-    </div>
-    
-  </div>
-
-  <div class="post-content-container">
-
-  <div id="commentsSection">
-      <h3>Leave a Comment</h3>
-      <textarea id="nameInput" placeholder="Name"></textarea>
-    <textarea id="commentInput" placeholder="Write something..."></textarea>
-    <button id="submitBtn">Post Comment</button>
-    <div id="commentsList">
-    </div>
-  </div>
-<br>
+<p>Yesterday, 05/23/ (year of our Lord) 2025 we did the following:</p>
+<p>11am breakfast leftover korean pancakes;</p>
+<img class="square-image" src="/images/sf1.webp" alt="">
+<p>12pm bike ride to Golden Gate Bridge, Hawk Hill;</p>
+<img class="square-image" src="/images/sf4.webp" alt="">
+<img class="square-image" src="/images/sf5.webp" alt="">
 </div>
-
-<footer >
-<br>
-<br>
-<br>
-<br>
-<br>
-<h3>THanks for visiting</h3>
-<img src="/images/2-1-1.png" alt="" srcset="" style="transform: translateY(-90px); height: 100px; margin-bottom: 30px;">
-</footer>
-
-
-</main>
+<div class="right-column">
+<p>12:50pm epic ride against the wind and up the cliffside;</p>
+<img class="square-image" src="/images/sf7.webp" alt="">
+<h3>Above: The Reward</h3>
+<p>1:20pm Insane descent down the cliffside; 1:30pm saw epic scenery, felt like a roller coaster; 1:30pm stopped for pictures along the way; 2:30pm made it back to base in time to shower, see De Young Museum; 3:00pm visited De Young Museum.</p>
+<img class="square-image" src="/images/sf10.webp" alt="">
+<p></div></p>
+</div>
+</div>
+  
 
 
 
+</body>
 
 
   <script type="module">
@@ -216,93 +168,5 @@ import {
     });
   });
 
-
-// (() => {
-//   const music = document.getElementById('background-music');
-//   const source = document.getElementById('audio-source');
-//   const muteButton = document.getElementById('mute-toggle');
-
-//   if (!music || !source || !muteButton) return;
-
-//   const path = window.location.pathname;
-//   const MUSIC_MUTED_KEY = 'bg-music-muted';
-//   const SCROLL_KEY = `scrollY-${path}`;
-
-//   // 🎵 Route-to-audio map
-//   const audioMap = {
-//     '/chapter_2/SF-day-1/': '/sound/leskings-oriza.mp3',
-//     '/chapter_2/SF-day-2/': '/sound/leskings-oriza.mp3',
-//     '/chapter_2/SF-day-3/': '/sound/leskings-oriza.mp3',
-//     '/chapter_2/SF-day-4/': '/sound/leskings-oriza.mp3',
-//     '/chapter_1/Interstellar/': '/sound/office.mp3',
-//     '/chapter_1/dilm/': '/sound/office.mp3',
-//     '/chapter_1/Le-Journaux-Digitale/': '/sound/office.mp3',
-//     '/chapter_1/Le-pouf-et-le-cadeau/': '/sound/office.mp3',
-
-//   };
-
-//   const track = audioMap[path] || '/sound/office.mp3';
-//   const TIME_KEY = `bg-music-time-${track}`; // ← the magic fix
-
-//   source.src = track;
-//   music.load();
-
-//   // 🔄 Restore scroll
-//   window.addEventListener('load', () => {
-//     const scrollY = localStorage.getItem(SCROLL_KEY);
-//     if (scrollY !== null) window.scrollTo(0, parseInt(scrollY));
-//   });
-
-//   window.addEventListener('scroll', () => {
-//     localStorage.setItem(SCROLL_KEY, window.scrollY);
-//   });
-
-//   // 🕰 Resume audio time
-//   const savedTime = localStorage.getItem(TIME_KEY);
-//   if (savedTime) music.currentTime = parseFloat(savedTime);
-
-//   // 🔇 Restore mute state
-//   const isMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
-//   music.muted = isMuted;
-//   updateMuteIcon(isMuted);
-
-//   // ▶️ Autoplay with fallback
-//   music.play().catch(() => {
-//     document.body.addEventListener('click', () => music.play(), { once: true });
-//   });
-
-//   // 💾 Save playback time
-//   setInterval(() => {
-//     if (!music.paused) {
-//       localStorage.setItem(TIME_KEY, music.currentTime);
-//     }
-//   }, 1000);
-
-//   window.addEventListener('beforeunload', () => {
-//     localStorage.setItem(TIME_KEY, music.currentTime);
-//   });
-
-//   // 🎚 Mute toggle
-//   muteButton.addEventListener('click', () => {
-//     music.muted = !music.muted;
-//     localStorage.setItem(MUSIC_MUTED_KEY, music.muted);
-//     updateMuteIcon(music.muted);
-//   });
-
-//   function updateMuteIcon(isMuted) {
-//     muteButton.textContent = isMuted ? 'Muted' : 'Mute';
-//   }
-
-//   // 👀 Auto-mute on tab switch
-//   document.addEventListener('visibilitychange', () => {
-//     if (document.hidden) {
-//       music.muted = true;
-//     } else {
-//       const userMuted = localStorage.getItem(MUSIC_MUTED_KEY) === 'true';
-//       music.muted = userMuted;
-//     }
-//     updateMuteIcon(music.muted);
-//   });
-// })();
 </script>
 </html>

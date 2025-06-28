@@ -3,19 +3,26 @@
     margin: 0px;
     --global-primary-color: #4EDF41;
     --global-secondary-color:rgb(107, 158, 30);
-    --global-tertiary-color: rgb(255, 42, 0);
+    --global-tertiary-color: #FFFF00;
 
 
     --nav-height: 100px;
---global-font-size: 23px;
-    cursor:cell;
+--global-font-size: 20px;
+    cursor:text;
 }
 
+
+
 a:hover {cursor: grab;
-color: var(--global-secondary-color);}
+color: var(--global-secondary-color);
+}
 
 span:hover {
     cursor: grab;
+}
+
+.legit-marquee {
+    font-family: "American Typewriter";
 }
 
 .fart {
@@ -60,23 +67,31 @@ span:hover {
 
 
 body {
+    padding: 0px 10px 0px 10px;
+    overflow-x: hidden;
     font-family: "American Typewriter";
     font-size: var(--global-font-size);
-    background-color: var(--global-primary-color);
+    background-color: white;
 
+    background-repeat: repeat;
+    background-size: 100px;
 }
 
 main {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    background-size: 100px;
+    position: fixed;
+    overflow: scroll;
 
 }
 
 
 ::selection {
-    color: var(--global-primary-color);
-    background-color: var(--global-tertiary-color);
+    color: rgb(0, 0, 0);
+    background-color: black;
+    -webkit-filter: invert();
 }
 
 big {
@@ -88,15 +103,20 @@ big {
 }
 
 a {
+    cursor: grab;
     text-decoration: none;
-    color: rgb(107, 158, 30);
     padding: 1px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 6px 0px 6px;
 }
-
 
 a:hover {
     background-color: greenyellow;
-    color: black;
+    color: rgba(0, 0, 0, 0.847);
+    box-shadow: 2px 2px black;
 }
 
 i {
@@ -114,17 +134,77 @@ color: orangered;
 }
 
 .firebrick {
-    color: firebrick;
+    color: #FF2C30;
 }
 
+.firebrick-bg {
+    background-color: #FF2C30;
+}
+
+.gainsboro {
+    color: gainsboro;
+}
+
+.green-bg {
+    background-color: var(--global-primary-color);
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.black-bg h1 {
+    color: white;
+}
 
 .gainsboro-bg {
     background-color: gainsboro;
 }
 
+.office-grid-bg {
+        background-color: #ffffff;
+    background-image: linear-gradient(#0800ff76 1.2000000000000001px, transparent 1.2000000000000001px), linear-gradient(to right, #0800ff76 1.200000000000001px, #ffffff 1.2000000000000001px);
+    background-size: 14px 14px;
+}
+
+.office-yellow {
+    color: #ffc700;
+    text-shadow: 1px 4px 0px orangered;
+}
+
+.office-yellow-bg {
+    background: #ffc700;
+}
+
+.office-heading {
+font-family: "American Typewriter";
+}
+
+.office-body {
+    color: white;
+    background-color: black;
+    padding: 5px 0px 0px 0px;
+    z-index: 0;
+}
+
+.office-body a {
+color: white;
+background-color: black;
+border: 1px solid white;
+}
+
+.office-body a:hover {
+    box-shadow: 2px 2px white;
+}
+
 .whitesmoke {
     color: whitesmoke;
 }
+
+.netbeanz-bg {
+    color: var(--global-primary-color);
+}
+
 
 .grey-bricks-background {
 background-image: repeating-linear-gradient(45deg, transparent, transparent 32px, #a2a0a0 32px, #a2a0a0 64px);
@@ -162,9 +242,9 @@ h2 {
     line-height: 1;
 font-size: calc(var(--global-font-size) * 1.4);
 /* about 39px at full size */
-    padding-top:  calc(var(--global-font-size) * 1.7);
+    padding-top:  10px;
     text-transform: uppercase;
-    margin-bottom:  calc(var(--global-font-size) * .5);
+    margin-bottom: 3px;
 }
 
 h3 {
@@ -200,28 +280,31 @@ h5::after {
 
 
 
-.site-title {
-    font-family: "American Typewriter";
-font-size: calc(var(--global-font-size) * 2);
-    text-transform: uppercase;
-    margin-bottom: 0px;
-
-}
 
 .site-title:hover {
     cursor: help;
 }
 
 
+#site-nav {
+    width: 500px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-bottom:20vh;
+}
+
+
 #navSupercontainer {
     height: fit-content;
-    background-color: #4EDF41;
     padding-bottom: calc(var(--global-font-size) * .5);
     position: sticky;
     top: 0;
     filter: drop-shadow(0px 2px 0px #268f00);
 z-index: 1;    
 }
+
 .nav-container {
     max-width: fit-content;
     margin-left: auto;
@@ -249,8 +332,16 @@ font-size: calc(var(--global-font-size) - 3px);
 
 }
 .nav-button a {
-    color: whitesmoke;
+    color: darkslategrey;
     text-decoration: none;
+    background-color: whitesmoke;
+}
+
+.nav-button a:hover {
+    background-color: var(--global-tertiary-color);
+    color: var(--global-secondary-color);
+
+
 }
 
 .nav-button-1::before {
@@ -290,6 +381,10 @@ button {
   font-family: "American Typewriter Italic", monospace;
 }
 
+.chapter-byline {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* _-*^#$v., | A SWEET SWEET HOME IS BLESSED AND CONSUMATED BY THE BREATH OF ITS LUNGS | ,.v$#^*-_ */
 
@@ -312,29 +407,30 @@ outline: 2px solid var(--global-secondary-color);
     overflow-x: scroll;
 }
 
-.content-container {
-
-    margin-left: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: auto;
-    padding: 20px;
-}
 
 .content {
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin-top: 150px;
+    max-width: 600px;
+    display: block;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.chapter-container {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 
 .sub-container {
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+
     /* about 160px at full font size */
-    padding-bottom: calc(var(--global-font-size) * 7);
-    max-width: 1000px;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .video-container {
 width: 100%;    margin-left: auto;
@@ -342,19 +438,30 @@ width: 100%;    margin-left: auto;
 background-color: black;
 }
 
+.end-character {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+justify-self: center;
+mix-blend-mode: multiply;
+}
 
-.inline-chapter-container {
-    margin-bottom: 50px;
-    margin-top: 20px;
+.end-character img {
+    mix-blend-mode: multiply;
+    width: 200px;
+    opacity: .3;
+    margin-top: 9vh;
+    margin-bottom: 7vh;
 }
-.chapter-image {
-d    margin-right: 2px;
-    /* background-image: url("/images/2-1-1.png"); */
-}
-.chapter-image img, .video-container .responsive-iframe {
+
+.chapter-image img, .video-container, .responsive-iframe {
+  margin: 0px 0px 0px 0px;
     width: 100%;
-    height: 481px;
-    object-fit: cover;    
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;    /* background-image: url("/images/2-1-1.png"); */
 }
 
 ul.sequenced-list {
@@ -362,31 +469,89 @@ ul.sequenced-list {
     counter-reset: list-counter;
     list-style: none;
     padding: 0; 
-border-top: 1px solid black;
+/* border-top: 1px solid black; */
+padding: 10px 0px 0px 0px;
 
   }
   
   ul.sequenced-list li {
     counter-increment: list-counter; 
     position: relative;
-    padding-left: 2em; 
+    /* text-align: center; */
+margin-bottom: 15px;
   }
+
+
   
-  ul.sequenced-list li::before {
+  /* ul.sequenced-list li::before {
     
     content: "0" counter(list-counter);
     position: absolute;
     left: 0;
-  }
+  } */
 
   .post-link-box {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+  grid-auto-flow: column;
+}
+.post-date-box {
+font-size: 16px;
+}
+
+  .featuring {
+    text-transform: lowercase;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    font-family: "American Typewriter Italic";
   }
+  
+.vibrate {
+    z-index: 1;
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.05s;
+    text-decoration: none;
+    font-size: var(--global-font-size);
+    position: relative;
+    
+}
+
+
+
+.vibrate:hover {
+    animation: vibrate 0.3s infinite;
+}
+
+@keyframes vibrate {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(-2px, -2px);
+    }
+
+    40% {
+        transform: translate(2px, -2px);
+    }
+
+    60% {
+        transform: translate(-2px, 2px);
+    }
+
+    80% {
+        transform: translate(2px, 2px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
 
   .bouncing-link {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     font-size: var(--global-font-size);
     color: #000;
@@ -451,6 +616,9 @@ ul {
         margin-bottom: 10px;
       }
     
+
+
+
   }
 
   /* CUSTOM STYLING ON CHAPTERS INLINE */

@@ -4,8 +4,10 @@ title: More
 ---
 <br>
 
-### Camping
-<center> 01 Feb 2025</center>
+
+
+## Camping
+<small> 01 Feb 2025</small>
 
 
 <div class="grid">
