@@ -83,7 +83,14 @@ line-height: 60%;
     line-height: 1;
     text-transform: uppercase;
     padding-bottom: 10px;
+      hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  overflow-wrap: break-word; /* fallback */
+  word-break: break-word;    /* additional fallback */
 }
+
+
 
 h2 {
     margin-top: 0px;

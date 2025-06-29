@@ -68,6 +68,11 @@ right: -35px;
     font-size: 60px;
     border: 1px;
     text-align: center;
+      hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .list-column-left .post-link-box, .list-column-left .post-date-box {
