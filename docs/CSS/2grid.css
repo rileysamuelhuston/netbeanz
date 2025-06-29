@@ -99,8 +99,9 @@ h2 {
 
 h3 {
     text-align: left;
-    font-family: "American Typewriter Italic";
+    font-family: "American Typewriter Italic", 'Courier New', Courier, monospace;
     font-weight: normal;
+    font-style: italic;
     color: black;
     line-height: 1;
     font-size: var(--grid_global-font-size);
