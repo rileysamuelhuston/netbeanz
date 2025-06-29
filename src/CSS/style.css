@@ -440,20 +440,13 @@ background-color: black;
 
 .end-character {
     width: 200px;
-    display: flex;
-    justify-content: center;
+    display: block;
     margin-bottom: 20px;
-justify-self: center;
 mix-blend-mode: multiply;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.end-character img {
-    mix-blend-mode: multiply;
-    width: 200px;
-    opacity: .3;
-    margin-top: 9vh;
-    margin-bottom: 7vh;
-}
 
 .chapter-image img, .video-container, .responsive-iframe {
   margin: 0px 0px 0px 0px;
