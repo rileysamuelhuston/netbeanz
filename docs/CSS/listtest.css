@@ -3,10 +3,26 @@
 }
 
 #siteTitleBig {
-    width: var(--listWidth);
-    position: fixed;
-left: 50%;
-margin-left: calc(-0.5 * var(--listWidth)); /* Negative half of width. */
+  position: fixed; /* or sticky if preferred */
+  top: 0;
+  left: 50%;
+  width: var(--listWidth, 800px);
+  margin-left: calc(-0.5 * var(--listWidth, 800px));
+  z-index: 1000; /* sufficiently high */
+  background-color: white; /* so content below doesn’t show through */
+}
+
+
+.site-title {
+  font-family: "American Typewriter";
+  font-size: 40px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  user-select: none;
+}
+
+.site-title:hover {
+    cursor: help;
 }
 
 .site-title::after {
@@ -33,19 +49,11 @@ right: -35px;
   }
 }
 
-.site-title {
-  background-color: ;
-    position: sticky;
-    top: 0px;
-    font-family: "American Typewriter";
-font-size: calc(var(--global-font-size) * 2);
-    text-transform: uppercase;
-    margin-bottom: 40px;
-border-bottom: 2px solid black;
-z-index: 10000000;
-}
 
 .list-container {
+  z-index: 1;
+  position: relative;
+  /* Setting this below .site-title and #siteTitle so it stacks properly */
   display: block;
   justify-content: space-between;
   gap: 2rem; /* Optional: spacing between columns */
@@ -112,6 +120,13 @@ rotate: -3deg;
     margin-left: -50%;
 }
 
+.site-title {
+  font-size: 30px;
+}
+
+.site-title::after {
+  top: 50px;
+}
 
 .list-container {
     display: block;

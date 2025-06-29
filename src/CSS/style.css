@@ -281,11 +281,6 @@ h5::after {
 
 
 
-.site-title:hover {
-    cursor: help;
-}
-
-
 #site-nav {
     width: 500px;
     margin-left: auto;
@@ -500,17 +495,16 @@ font-size: 16px;
     font-family: "American Typewriter Italic";
   }
   
-.vibrate {
-    z-index: 1;
+ .vibrate {
     display: inline-block;
     text-decoration: none;
-    transition: transform 0.05s;
     text-decoration: none;
     font-size: var(--global-font-size);
     position: relative;
-    
-}
-
+    will-change: transform;
+      pointer-events: auto;
+    z-index: 999;
+} 
 
 
 .vibrate:hover {
@@ -579,6 +573,7 @@ margin-right: auto;
 * {
     --global-font-size: 20px;
 }
+
 
 
 
