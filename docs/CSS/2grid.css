@@ -73,10 +73,6 @@ img {
 
 h1 {
 line-height: 60%;
-    -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
     font-family: "American Typewriter";
     -webkit-text-stroke: 0px;
     font-weight: normal;
