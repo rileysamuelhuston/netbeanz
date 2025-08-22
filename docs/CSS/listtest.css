@@ -1,13 +1,13 @@
 * {
-  --listWidth: 800px;
+  --listWidth: 100%;
 }
 
 #siteTitleBig {
   position: fixed; /* or sticky if preferred */
   top: 0;
-  left: 50%;
+  left: 10;
   width: var(--listWidth, 800px);
-  margin-left: calc(-0.5 * var(--listWidth, 800px));
+  /* margin-left: calc(-0.5 * var(--listWidth, 800px)); */
   z-index: 1000; /* sufficiently high */
   background-color: white; /* so content below doesn’t show through */
 }
@@ -53,21 +53,26 @@ right: -35px;
 .list-container {
   z-index: 1;
   position: relative;
-  /* Setting this below .site-title and #siteTitle so it stacks properly */
-  display: block;
-  justify-content: space-between;
-  gap: 2rem; /* Optional: spacing between columns */
+  display: flex;
   flex-wrap: wrap;
-  max-width: var(--listWidth);
-  margin-left: auto;
-  margin-right: auto;
+  gap: 2rem;
+  max-width: var(--listWidth, 1000px);
+  margin-left: 10px;
   padding-top: 20vh;
 }
 
-.list-column-left h1 {
+.double-column {
+  flex: 2 2 100%;
+  gap: 10px;
+}
+
+ .double-column h2 {
+  background-color: white;
+ }
+
+.list-column-left h1, .list-column-right h1 {
     font-size: 60px;
-    border: 1px;
-    text-align: center;
+    text-align: left;
       hyphens: none;
   -webkit-hyphens: none;
   -ms-hyphens: none;
@@ -76,29 +81,38 @@ right: -35px;
 }
 
 .list-column-left .post-link-box, .list-column-left .post-date-box {
-    text-align: center;
+    text-align: left;
 }
 
-.list-column-left summary {
-    text-align: center;
+.post-date-box {
+  margin-bottom:20px;
 }
+
+.list-column-left summary, .list-column-right summary {
+    text-align: left;
+}
+
+summary {
+  padding: 0px;
+  margin: 0px;
+}
+
 
 .list-column-left {
-  flex: 1;
-    flex: 2 1 400px;
+    flex: 1 1 300px;
   flex-direction: column;
 }
 
 
 .list-column-right {
-  flex: 2 1 400px;
+  flex: 1 1 300PX;
   gap: 10px;
 }
 
 .sequenced-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 10px 0px 0px 0px;
 }
 
 .featuring {
@@ -121,8 +135,11 @@ rotate: -3deg;
 
 
 #siteTitleBig {
-    width: 100%;
-    margin-left: -50%;
+  left: 50%;
+  width: 100%;
+  margin-left: -50%;
+  z-index: 1000; /* sufficiently high */
+  background-color: white; /* so content below doesn’t show through */
 }
 
 .site-title {

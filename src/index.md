@@ -1,116 +1,259 @@
----
-title: netbeanz.com
-layout: front.njk
----
+<!DOCTYPE html>
+<html lang="en">
 
-   <audio id="background-music" loop>
-  <source src="/sound/windowgazing.mp3" type="audio/mpeg" />
-</audio>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netbeanz</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/2grid.css">
+  <link rel="stylesheet" href="/CSS/listtest.css">
+  <link rel="stylesheet" href="/CSS/fx.css">
+  <link rel="stylesheet" href="/CSS/background.css">
 
+
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+
+
+</head>
+
+
+
+<!-- Audio elements (THIS IS THE SECRET OF NETBEANZ.COM Or is it? :D) -->
+<audio id="audio1" src="/sound/narration0.mp3" preload="none"></audio>
+<audio id="audio2" src="/sound/narration1.mp3" preload="none"></audio>
+<audio id="audio3" src="/sound/narration2.mp3" preload="none"></audio>
+<audio id="audio4" src="/sound/ai-fart.mp3" preload="none"></audio>
+<audio id="audio5" src="/sound/narration4.mp3" preload="none"></audio>
+<audio id="audio6" src="/sound/narration5.mp3" preload="none"></audio>
+<audio id="audio7" src="/sound/narration6.mp3" preload="none"></audio>
+<audio id="audio8" src="/sound/narration7.mp3" preload="none"></audio>
+<audio id="audio9" src="/sound/narration8.mp3" preload="none"></audio>
+<audio id="audio10" src="/sound/narration9.mp3" preload="none"></audio>
+<audio id="audio11" src="/sound/narration10.mp3" preload="none"></audio>
+<audio id="audio12" src="/sound/narration11.mp3" preload="none"></audio>
+<audio id="audio13" src="/sound/narration12.mp3" preload="none"></audio>
+<audio id="audio14" src="/sound/narration13.mp3" preload="none"></audio>
+<audio id="audio15" src="/sound/newnetbeanz.mp3" preload="none"></audio>
+<audio id="audio16" src="/sound/narration13.mp3" preload="none"></audio>
+<audio id="audio17" src="/sound/oilyclick.mp3" preload="none"></audio>
+<audio id="audio18" src="/sound/ohmygod.mp3" preload="none"></audio>
+<audio id="audio19" src="/sound/villager.mp3" preload="none"></audio>
+
+
+<body>
+  <div id="siteTitleBig">
+    <div id="clickable-div" class="site-title">
+      netbeanz.com
+    </div>
+  </div>
+
+<!-- 
+  <audio id="background-music" loop>
+    <source src="/sound/windowgazing.mp3" type="audio/mpeg" />
+  </audio> -->
 
 
 <div class="list-container">
+
   <div class="list-column-left">
-        <img src="/images/exit.png" alt="" class="end-character">
-        <h1 class="office-yellow office-heading">Office Supplies</h1>
-        <ul class="sequenced-list">
-                {%- for chapter in collections.chapter_3 -%}
-                <li>
-                <div class="post-link-box">
-                <a href=".{{ chapter.url }}" class="vibrate office-yellow-bg">{{ chapter.data.title }}</a>
-                </div>
-                <div class="post-date-box">{{ chapter.date | date: "%B %e, %Y" }}</div>
-                </li>
-                {%- endfor -%}
-
-<details>
-  <summary>
-    <a class="vibrate office-yellow-bg urgent">MEMO: New Formatting Guidelines for All Inter-Office Communications </a>
-                <div class="post-date-box">June 28, 2025</div>
-  </summary>
-
-### Just a Little Heads up about what's gonna be going on around here in the future, m'kay?
-
-Thanks for opening this memo, EMPLOYEE. I’ll just cut to the chase, there’re gonna be some new rules around here. I’m switching things up and I'm going to enact a new resolution: “SUPREME GUIDELINES FOR FORMATTING AND INFORMATION DENSITY” before the day is done. I’ve updated the look of all posts (except those designated "Heritage Posts" by the "NETBEANZ SOCIETY FOR PRESERVATION AND HERITAGE"), and now the main sort of “FORMAT,” if you will, is going to be a two-column layout, sort of like a newspaper. I’m doing this to increase the INFORMATION DENSITY of the site, and I’m excited to roll out this new change, along with the brand-new “POST-ITs” Tool (visible above).
-
-In the future, information will be much denser, and you will have to use a magnifying glass to read posters, for example, like spies did during the Cold War to read sensitive intel. Read more about [Microdots](https://en.wikipedia.org/wiki/Microdot).
-
-It’s going to be great. It’s gonna be dense. Thanks for your attention, F.O.N.s (Fans of Netbeanz). 
-
-        </details>
-
-        </ul>
 
 
+      <h2>BOOKMARKS</h2>
+      <hr>
+      <br>
+      <a href="fart">My Notes</a><a href="https://www.youtube.com/watch?v=HM0EBvJe1s0&t=86s" target="_blank" rel="noopener noreferrer">
+      Arc Rhythm Generator (Monome Arc demo)
+ </a><a href="https://www.farb-tabelle.de/en/table-of-color.htm" target="_blank" rel="noopener noreferrer">
+    Farb-Tabelle
+  </a>
+    <a href="https://www.ryantodd.com/365-days" target="_blank" rel="noopener noreferrer">
+    365 Days Ryan Todd Studio (daily visual-thinking drawings)
+  </a><a href="http://www.monk.co.jp/lineup/robos.html" target="_blank" rel="noopener noreferrer">
+    SANYO ROBO
+  </a>
+    <a href="https://oasis.decart.ai/starting-point" target="_blank" rel="noopener noreferrer">
+    AI Minecraft
+  </a>
+    <a href="https://www.thegreenhead.com/2025/05/cat-butt-birdhouse.php" target="_blank" rel="noopener noreferrer">
+    Cat Butt Birdhouse
+  </a>
+    <a href="https://www.openstructures.net/" target="_blank" rel="noopener noreferrer">
+    OpenStructures
+  </a>
+    <a href="https://sci-toys.com/" target="_blank" rel="noopener noreferrer">
+    Science Toys
+  </a>
 
 
-
-<details>
-  <summary><a class="vibrate">A Lens to remember</a></summary>
-   <iframe 
-                class="responsive-iframe"
-                id="embedded-video"
-                src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?enablejsapi=1&modestbranding=1&rel=0&color=white" 
-                title="A Lens to Remember" 
-                frameborder="0" 
-                allowfullscreen></iframe>
-        </details>
-      
-
-
-
-
-
-                <img src="/images/sfdude.png" alt="" class="end-character">
-
-                <h1 class="firebrick">A Trip to San Francisco</h1>
-                <div class="chapter-byline">
-       <h2 class="firebrick">Chapter 2</h2>
-        <h2 class="firebrick">by {{ authors.riley.name }}</h4>
-       </div>
-
-    <ul class="sequenced-list">
-      {%- for chapter in collections.chapter_2 -%}
-      <li>
-        <div class="post-link-box">
-          <a href=".{{ chapter.url }}" class="vibrate firebrick-bg gainsboro">{{ chapter.data.title }}</a>
-        </div>
-        <div class="post-date-box">{{ chapter.date | date: "%B %e, %Y" }}</div>
-      </li>
-      {%- endfor -%}
-    </ul>
-
-
-
-
-
-
-
-                <img src="/images/pinto.png" alt="" class="end-character">
-
-          <h1>Welcome to Netbeanz</h1>
-               <div class="chapter-byline">
-       <h2>Chapter 1</h2>
-        <h2>By {{ authors.riley.name }}</h4>
-        </div>
-    <ul class="sequenced-list">
-      {%- for chapter in collections.chapter_1 -%}
-      <li>
-        <div class="post-link-box">
-          <a href=".{{ chapter.url }}" class="vibrate">{{ chapter.data.title }}</a>
-        </div>
-        <div class="post-date-box">{{ chapter.date | date: "%B %e, %Y" }}</div>
-      </li>
-      {%- endfor -%}
-    </ul>
   </div>
 
+  <div class="list-column-right">
+    
+
+         <h2>VIDEOS</h2>
+      <hr>
+      <br>
+
+
+      <details>
+
+        <summary><a class="vibrate">Splop</a></summary>
+                 <video controls autoplay class="responsive-iframe">
+    <source src="images/splop.mp4" alt="" class="end-character">
+    </video>
+<i>From the Rhino manual:</i>
+    The Splop command copies, rotates, scales, and wraps objects on a surface, like pottery sprigging or appliqué.
+    <br>
+<a href="https://docs.mcneel.com/rhino/8/help/en-us/commands/splop.htm" target="_blank">Read More</a>
+<center>×</center>
+      </details>
+
+
+
+      <details>
+
+        <summary><a class="vibrate">A Lens to remember</a></summary>
+        <iframe class="responsive-iframe" id="embedded-video"
+          src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?enablejsapi=1&modestbranding=1&rel=0&color=white"
+          title="A Lens to Remember" frameborder="0" allowfullscreen></iframe>
+      </details>
+
+
+
+
+  </div>
 </div>
 
+  
+  <div class="list-container">
+
+<div class="list-column-left">
 
 
 
 
+      <img src="/images/exit.png" alt="" class="end-character">
+      <h1 class="office-yellow office-heading">Office Supplies</h1>
+      <ul class="sequenced-list">
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_3/post-its/" class="vibrate office-yellow-bg">Post-Its</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+        <details>
+          <summary>
+            <a class="vibrate office-yellow-bg urgent">MEMO: New Formatting Guidelines for All Inter-Office
+              Communications </a>
+            <div class="post-date-box">June 28, 2025</div>
+          </summary>
+          <h3>Just a Little Heads up about what's gonna be going on around here in the future, m'kay?</h3>
+          <p>Thanks for opening this memo, EMPLOYEE. I’ll just cut to the chase, there’re gonna be some new rules around
+            here. I’m switching things up and I'm going to enact a new resolution: “SUPREME GUIDELINES FOR FORMATTING
+            AND INFORMATION DENSITY” before the day is done. I’ve updated the look of all posts (except those designated
+            &quot;Heritage Posts&quot; by the &quot;NETBEANZ SOCIETY FOR PRESERVATION AND HERITAGE&quot;), and now the
+            main sort of “FORMAT,” if you will, is going to be a two-column layout, sort of like a newspaper. I’m doing
+            this to increase the INFORMATION DENSITY of the site, and I’m excited to roll out this new change, along
+            with the brand-new “POST-ITs” Tool (visible above).</p>
+          <p>In the future, information will be much denser, and you will have to use a magnifying glass to read
+            posters, for example, like spies did during the Cold War to read sensitive intel. Read more about <a
+              href="https://en.wikipedia.org/wiki/Microdot">Microdots</a>.</p>
+          <p>It’s going to be great. It’s gonna be dense. Thanks for your attention, F.O.N.s (Fans of Netbeanz).</p>
+          <p>
+        </details>
+        </p>
+        <p>
+      </ul>
+      </p>
+      <h1 class="office-yellow office-heading"> </h1>
 
 
+      <p><img src="/images/sfdude.png" alt="" class="end-character"></p>
+      <p>
+      <h1 class="firebrick firebrick-heading">A Trip to San Francisco</h1>
+      <div class="chapter-byline">
+        <h2 class="firebrick">Chapter 2</h2>
+        <h2 class="firebrick">by Riley Huston</h4>
+      </div>
+      </p>
+      <p>
+      <ul class="sequenced-list">
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_2/SF-day-1/" class="vibrate firebrick-bg gainsboro">Yeah, I'm from the Bay Area</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_2/SF-day-2/" class="vibrate firebrick-bg gainsboro">Hawk Hill or Bus</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_2/SF-day-3/" class="vibrate firebrick-bg gainsboro">Turkish Delight, Stick War, Castle
+              Crashers</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_2/SF-day-4/" class="vibrate firebrick-bg gainsboro">THE FINAL DAY IN SF AND A TRIP TO THE
+              SFMOMA</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+      </ul>
+      </p>
+      <h1 class="firebrick firebrick-heading"> </h1>
 
+
+      <p><img src="/images/pinto.png" alt="" class="end-character"></p>
+      <p>
+      <h1 class="classic-heading">Welcome to Netbeanz</h1>
+      <div class="chapter-byline">
+        <h2>Chapter 1</h2>
+        <h2>By Riley Huston</h4>
+      </div>
+      <ul class="sequenced-list">
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_1/A-Clone-of-my-own/" class="vibrate">A Clone of My Own</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_1/Interstellar/" class="vibrate">Do Not Go Gentle into That Good Night</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_1/Le-Journaux-Digitale/" class="vibrate">Les Journaux Digitales</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_1/Le-pouf-et-le-cadeau/" class="vibrate">A Letter from Your French Cousin, Le Pouf</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+        <li>
+          <div class="post-link-box">
+            <a href="./chapter_1/dilm/" class="vibrate">DILM</a>
+          </div>
+          <div class="post-date-box">August 19, 2025</div>
+        </li>
+      </ul>
+      </p>
+    </div>
+</div>
+
+  <script src="/scripts/tts.js"></script>
+</body>
+
+</html>

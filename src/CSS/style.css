@@ -46,12 +46,12 @@ span:hover {
 
 @font-face {
     font-family: "American Typewriter";
-    src: url(/font/american-typewriter.ttf)
+    src: url(/font/AmericanTypewriterDOT.ttf)
 }
 
 @font-face {
     font-family: "American Typewriter Italic";
-    src: url(/font/american-Typewriter-Italic.ttf);
+    src: url(/font/AmericanTypewriterDOTitalic.ttf);
     font-style: italic;
 }
 
@@ -90,7 +90,7 @@ main {
 
 ::selection {
     color: rgb(0, 0, 0);
-    background-color: black;
+    background-color: yellow;
     -webkit-filter: invert();
 }
 
@@ -141,6 +141,14 @@ color: orangered;
     background-color: #FF2C30;
 }
 
+.firebrick-heading {
+    border-bottom: 4px dotted #FF2C30;
+}
+
+.classic-heading {
+    border-bottom: 4px dotted black;
+}
+
 .gainsboro {
     color: gainsboro;
 }
@@ -177,7 +185,7 @@ color: orangered;
 }
 
 .office-heading {
-font-family: "American Typewriter";
+border-bottom:4px dotted #ffc700;
 }
 
 .office-body {
@@ -234,18 +242,17 @@ text-transform: uppercase;
 padding-bottom:  calc(var(--global-font-size) * .65);
 }
 
-
+/* 
 h2 {
-
     font-family: "itc avant garde bold";
     color: black;
     line-height: 1;
 font-size: calc(var(--global-font-size) * 1.4);
-/* about 39px at full size */
     padding-top:  10px;
     text-transform: uppercase;
+    margin-top: 20px;
     margin-bottom: 3px;
-}
+} */
 
 h3 {
     text-align: center;
@@ -432,6 +439,8 @@ width: 100%;    margin-left: auto;
     margin-right: auto;
 background-color: black;
 }
+
+
 
 .end-character {
     width: 200px;

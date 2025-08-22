@@ -73,7 +73,7 @@ img {
 
 h1 {
 line-height: 60%;
-    font-family: "American Typewriter";
+    font-family: "ITC Avant Garde Bold";
     -webkit-text-stroke: 0px;
     font-weight: normal;
     color: black;
@@ -93,9 +93,10 @@ line-height: 60%;
 
 
 h2 {
-    margin-top: 0px;
+    margin-top: 10px;
     padding-top: 0px;
     font-family: "American Typewriter";
+    font-weight: bold;
     color: black;
     line-height: 1;
     font-size: var(--grid_global-font-size);
