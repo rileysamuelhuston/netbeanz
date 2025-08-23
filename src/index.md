@@ -136,12 +136,15 @@
       <img src="/images/exit.png" alt="" class="end-character">
       <h1 class="office-yellow office-heading">Office Supplies</h1>
       <ul class="sequenced-list">
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_3/post-its/" class="vibrate office-yellow-bg">Post-Its</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
+  {%- for chapter in collections.chapter_3 -%}
+                <li>
+                <div class="post-link-box">
+                <a href=".{{ chapter.url }}" class="vibrate office-yellow-bg">{{ chapter.data.title }}</a>
+                </div>
+                <div class="post-date-box">{{ chapter.date | date: "%B %e, %Y" }}</div>
+                </li>
+                {%- endfor -%}
+
         <details>
           <summary>
             <a class="vibrate office-yellow-bg urgent">MEMO: New Formatting Guidelines for All Inter-Office
@@ -189,7 +192,7 @@
           <div class="post-link-box">
             <a href="./chapter_2/SF-day-2/" class="vibrate firebrick-bg gainsboro">Hawk Hill or Bus</a>
           </div>
-          <div class="post-date-box">August 19, 2025</div>
+          <div class="post-date-box">{{ chapter2.date }}</div>
         </li>
         <li>
           <div class="post-link-box">

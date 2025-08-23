@@ -1,6 +1,8 @@
 ---
 title: Post-Its
 layout: postits
+date: 2016-01-02
+
 ---
 
     <div class="controls">

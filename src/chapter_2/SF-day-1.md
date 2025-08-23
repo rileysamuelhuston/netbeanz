@@ -1,5 +1,6 @@
 ---
 title: Yeah, I'm from the Bay Area
+date: 2016-01-01
 ---
 
 <div class="title-section">
