@@ -1,4 +1,7 @@
 // script.js
+console.log("POST-ITS.JS Online!")
+
+
 
 let highestZIndex = 1000; // Starting z-index
 const gridSize = 120; // Size of the grid cells (adjust as needed)

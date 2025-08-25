@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "American Typewriter";
+    src: url(/font/AmericanTypewriterDOT.ttf)
+}
+
+@font-face {
+    font-family: "American Typewriter Italic";
+    src: url(/font/AmericanTypewriterDOTitalic.ttf);
+    font-style: italic;
+}
+
+body {
+    color: #676767;
+    background-color:#FFFFD7;
+    font-family: "American Typewriter", 'Courier New', Courier, monospace;
+padding: 0px 10px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-list li {
+    display: inline-block;
+    width: 100x;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #676767;
+}
+
+ol.notes-list {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+
+.notes-list li {
+    counter-increment: -1;
+    margin-top: 10px;
+}
+
+ol.notes-list li::before {
+    display: block;
+    content: "@" counter(a) ".";
+    counter-increment: a;
+    margin-right: 5px;
+        color: #d75f00;
+}
+
+.identifier {
+    display: block;
+    margin-top: 20px;
+        color: #0087ff;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+.underline {
+color: #5f5faf;
+}
+

@@ -88,11 +88,6 @@ main {
 }
 
 
-::selection {
-    color: rgb(0, 0, 0);
-    background-color: yellow;
-    -webkit-filter: invert();
-}
 
 big {
     font-size: calc(var(--global-font-size) + 7px);

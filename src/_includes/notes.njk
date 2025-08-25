@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="/CSS/notes.css">
+</head>
+<body>
+    {{ content | safe }}
+</body>
+<script>
+  const list = document.getElementById("notesList");
+  const count = list.querySelectorAll("li").length;
+console.log(count)
+
+  // Update the inline style with the total count
+  list.setAttribute("style", `counter-reset: a -${count};`);
+
+
+
+</script>
+<script src="/scripts/random-select.js"></script>
+
+</html>

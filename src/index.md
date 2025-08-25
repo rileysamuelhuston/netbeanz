@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netbeanz</title>
-  <link rel="stylesheet" href="/CSS/style.css">
-  <link rel="stylesheet" href="/CSS/2grid.css">
-  <link rel="stylesheet" href="/CSS/listtest.css">
-  <link rel="stylesheet" href="/CSS/fx.css">
-  <link rel="stylesheet" href="/CSS/background.css">
-
-
-  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
-
-
-</head>
-
+---
+title: Netbeanz.com
+layout: front.njk
+---
 
 
 <!-- Audio elements (THIS IS THE SECRET OF NETBEANZ.COM Or is it? :D) -->
@@ -62,7 +47,7 @@
       <h2>BOOKMARKS</h2>
       <hr>
       <br>
-      <a href="fart">My Notes</a><a href="https://www.youtube.com/watch?v=HM0EBvJe1s0&t=86s" target="_blank" rel="noopener noreferrer">
+      <a href="/clerical/notes/index.html">My Notes</a><a href="https://www.youtube.com/watch?v=HM0EBvJe1s0&t=86s" target="_blank" rel="noopener noreferrer">
       Arc Rhythm Generator (Monome Arc demo)
  </a><a href="https://www.farb-tabelle.de/en/table-of-color.htm" target="_blank" rel="noopener noreferrer">
     Farb-Tabelle
@@ -83,6 +68,9 @@
   </a>
     <a href="https://sci-toys.com/" target="_blank" rel="noopener noreferrer">
     Science Toys
+  </a>
+  <a href="https://experience.arcgis.com/experience/fd496421ed254b289b48688003e4f150" target="_blank" rel="noopener noreferrer">
+    Long Beach Historical Landmarks
   </a>
 
 

@@ -1,3 +1,6 @@
+console.log("TTS.JS ... Online!")
+
+
 document.addEventListener('DOMContentLoaded', function () {
   const clickableDiv = document.getElementById('clickable-div');
 
