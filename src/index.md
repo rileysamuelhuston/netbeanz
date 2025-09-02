@@ -47,6 +47,8 @@ layout: front.njk
       <h2>BOOKMARKS</h2>
       <hr>
       <br>
+<ul class="capitalize">
+
       <a href="/clerical/notes/index.html">My Notes</a><a href="https://www.youtube.com/watch?v=HM0EBvJe1s0&t=86s" target="_blank" rel="noopener noreferrer">
       Arc Rhythm Generator (Monome Arc demo)
  </a><a href="https://www.farb-tabelle.de/en/table-of-color.htm" target="_blank" rel="noopener noreferrer">
@@ -72,6 +74,12 @@ layout: front.njk
   <a href="https://experience.arcgis.com/experience/fd496421ed254b289b48688003e4f150" target="_blank" rel="noopener noreferrer">
     Long Beach Historical Landmarks
   </a>
+  <a href="https://www.britishmuseum.org/collection/object/P_1879-0614-766" target="_blank" rel="noopener noreferrer">
+    A vase of flowers on a marble table
+Watercolour, strengthened with gum
+  </a>
+
+</ul>
 
 
   </div>
@@ -85,7 +93,19 @@ layout: front.njk
 
 
       <details>
+<summary><a class="vibrate">The Shelf - Teaser</a></summary>
+                <iframe class="responsive-iframe" id="embedded-video"
+          src="https://www.youtube-nocookie.com/embed/XRdKSaCw3ZI?modestbranding=1"
+          title="The Shelf - Teaser" frameborder="0" allowfullscreen></iframe>
+<i>Description:</i>
+After Tony takes what he thinks are his regular fish oil supplements, he has visions of a talking fish that tells him to do strange things.
+<br>
+<center>×</center>
+      </details>
 
+
+
+      <details>
         <summary><a class="vibrate">Splop</a></summary>
                  <video controls autoplay class="responsive-iframe">
     <source src="images/splop.mp4" alt="" class="end-character">
@@ -97,7 +117,16 @@ layout: front.njk
 <center>×</center>
       </details>
 
-
+      <details>
+<summary><a class="vibrate">Bourrée in E Minor by J.S. Bach</a></summary>
+                <iframe class="responsive-iframe" id="embedded-video"
+          src="https://www.youtube-nocookie.com/embed/BLrGZjwy3B8?modestbranding=1"
+          title="Bourrée in E Minor by J.S. Bach" frameborder="0" allowfullscreen></iframe>
+<i>Description:</i>
+A performance of the Bourrée, as the fifth movement from Suite in E minor BWV 996 written by Johann Sebastian Bach between 1708 and 1717, according to Wikipedia.    
+<br>
+<center>×</center>
+      </details>
 
       <details>
 
@@ -105,6 +134,16 @@ layout: front.njk
         <iframe class="responsive-iframe" id="embedded-video"
           src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?enablejsapi=1&modestbranding=1&rel=0&color=white"
           title="A Lens to Remember" frameborder="0" allowfullscreen></iframe>
+
+          <i>Description:</i>
+This has been a NETBEANZ BUREAU OF THOUGHT SHAPING AND OUTREACH approved transmission.
+
+Come with me as I briefly show you my new camera and lens. If you're lucky you might see some pictures nearby.
+
+Visit <a href="/index">www.netbeanz.com</a> for more!
+<br>
+<center>×</center>
+
       </details>
 
 
@@ -170,33 +209,17 @@ layout: front.njk
       </p>
       <p>
       <ul class="sequenced-list">
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_2/SF-day-1/" class="vibrate firebrick-bg gainsboro">Yeah, I'm from the Bay Area</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_2/SF-day-2/" class="vibrate firebrick-bg gainsboro">Hawk Hill or Bus</a>
-          </div>
-          <div class="post-date-box">{{ chapter2.date }}</div>
-        </li>
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_2/SF-day-3/" class="vibrate firebrick-bg gainsboro">Turkish Delight, Stick War, Castle
-              Crashers</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_2/SF-day-4/" class="vibrate firebrick-bg gainsboro">THE FINAL DAY IN SF AND A TRIP TO THE
-              SFMOMA</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
+
+  {%- for chapter in collections.chapter_2 -%}
+                <li>
+                <div class="post-link-box">
+                <a href=".{{ chapter.url }}" class="vibrate firebrick-bg gainsboro">{{ chapter.data.title }}</a>
+                </div>
+                <div class="post-date-box">{{ chapter.date | date: "%B %e, %Y" }}</div>
+                </li>
+                {%- endfor -%}
       </ul>
+
       </p>
       <h1 class="firebrick firebrick-heading"> </h1>
 
@@ -209,36 +232,15 @@ layout: front.njk
         <h2>By Riley Huston</h4>
       </div>
       <ul class="sequenced-list">
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_1/A-Clone-of-my-own/" class="vibrate">A Clone of My Own</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_1/Interstellar/" class="vibrate">Do Not Go Gentle into That Good Night</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_1/Le-Journaux-Digitale/" class="vibrate">Les Journaux Digitales</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_1/Le-pouf-et-le-cadeau/" class="vibrate">A Letter from Your French Cousin, Le Pouf</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
-        <li>
-          <div class="post-link-box">
-            <a href="./chapter_1/dilm/" class="vibrate">DILM</a>
-          </div>
-          <div class="post-date-box">August 19, 2025</div>
-        </li>
+       
+  {%- for chapter in collections.chapter_1 -%}
+                <li>
+                <div class="post-link-box">
+                <a href=".{{ chapter.url }}" class="vibrate">{{ chapter.data.title }}</a>
+                </div>
+                <div class="post-date-box">{{ chapter.date | date: "%B %e, %Y" }}</div>
+                </li>
+                {%- endfor -%}
       </ul>
       </p>
     </div>
