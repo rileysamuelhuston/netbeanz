@@ -179,6 +179,16 @@ color: orangered;
     background: #ffc700;
 }
 
+.photo-bg {
+    color: white;
+    background-color: black;
+}
+
+.video-bg {
+    background-color: var(--global-primary-color);
+    color: black;
+}
+
 .office-heading {
 border-bottom:4px dotted #ffc700;
 }

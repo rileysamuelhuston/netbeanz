@@ -1,12 +1,12 @@
 * {
-  --listWidth: 1000px;
+  --listWidth: 700px;
 }
 
 #siteTitleBig {
   position: fixed; /* or sticky if preferred */
   top: 0;
   left: 10;
-  width: var(--listWidth, 800px);
+  width: var(--listWidth);
   /* margin-left: calc(-0.5 * var(--listWidth, 800px)); */
   z-index: 1000; /* sufficiently high */
   background-color: white; /* so content below doesn’t show through */
@@ -53,6 +53,19 @@ ul.capitalize a {
   text-transform: capitalize;
 }
 
+.sidebar {
+  position: fixed;
+  right:0px;
+  bottom: 0px;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  width: 40vw;
+}
+
+#advertisement {
+  height: 500px;
+  width: 40vw;
+}
 
 .list-container {
   z-index: 1;
@@ -64,6 +77,8 @@ ul.capitalize a {
   margin-left: 10px;
   padding-top: 20vh;
 }
+
+
 
 .double-column {
   flex: 2 2 100%;
@@ -101,6 +116,10 @@ summary {
   margin: 0px;
 }
 
+h2 {
+  margin-top: 50px;
+}
+
 
 .list-column-left {
     flex: 1 1 300px;
@@ -135,8 +154,20 @@ rotate: -3deg;
 
 
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1338px) {
 
+    .sidebar {
+      position: relative;
+  width: 100%;
+  padding-right: 20px;
+    }
+
+#advertisement {
+  height: 500px;
+  width: 100%;
+}
+
+    }
 
 #siteTitleBig {
   left: 50%;
@@ -160,3 +191,4 @@ rotate: -3deg;
     overflow: hidden;
 }
 }
+

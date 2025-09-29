@@ -41,6 +41,37 @@ layout: front.njk
 
 <div class="list-container">
 
+
+  <div class="sidebar">
+
+
+    <div class="advertisement-box">
+      <img id="advertisement" src="images/A_Night_Out-2025_01_01-8.jpg" alt="" srcset="">
+      
+  <h2>Photo Galleries</h2>
+      <hr>
+      <br>
+
+<div class="post-link-box">
+  {%- for gallery in collections.galleries -%}
+
+                <a href=".{{ gallery.url }}" class="vibrate photo-bg">{{ gallery.data.title }}</a>
+                </div>
+                <div class="post-date-box">{{ gallery.date | date: "%B %e, %Y" }}</div>
+                {%- endfor -%}
+
+                </li>
+
+      
+      
+      
+
+      
+    </div>
+  </div>
+
+
+
   <div class="list-column-left">
 
 
@@ -93,7 +124,7 @@ Watercolour, strengthened with gum
 
 
       <details>
-<summary><a class="vibrate">The Shelf - Teaser</a></summary>
+<summary><a class="vibrate video-bg">The Shelf - Teaser</a></summary>
                 <iframe class="responsive-iframe" id="embedded-video"
           src="https://www.youtube-nocookie.com/embed/XRdKSaCw3ZI?modestbranding=1"
           title="The Shelf - Teaser" frameborder="0" allowfullscreen></iframe>
@@ -106,7 +137,7 @@ After Tony takes what he thinks are his regular fish oil supplements, he has vis
 
 
       <details>
-        <summary><a class="vibrate">Splop</a></summary>
+        <summary><a class="vibrate video-bg">Splop</a></summary>
                  <video controls autoplay class="responsive-iframe">
     <source src="images/splop.mp4" alt="" class="end-character">
     </video>
@@ -118,7 +149,7 @@ After Tony takes what he thinks are his regular fish oil supplements, he has vis
       </details>
 
       <details>
-<summary><a class="vibrate">Bourrée in E Minor by J.S. Bach</a></summary>
+<summary><a class="vibrate video-bg">Bourrée in E Minor by J.S. Bach</a></summary>
                 <iframe class="responsive-iframe" id="embedded-video"
           src="https://www.youtube-nocookie.com/embed/BLrGZjwy3B8?modestbranding=1"
           title="Bourrée in E Minor by J.S. Bach" frameborder="0" allowfullscreen></iframe>
@@ -130,7 +161,7 @@ A performance of the Bourrée, as the fifth movement from Suite in E minor BWV 9
 
       <details>
 
-        <summary><a class="vibrate">A Lens to remember</a></summary>
+        <summary><a class="vibrate video-bg">A Lens to remember</a></summary>
         <iframe class="responsive-iframe" id="embedded-video"
           src="https://www.youtube-nocookie.com/embed/j-15VQI0suQ?enablejsapi=1&modestbranding=1&rel=0&color=white"
           title="A Lens to Remember" frameborder="0" allowfullscreen></iframe>
@@ -245,6 +276,7 @@ Visit <a href="/index">www.netbeanz.com</a> for more!
       </p>
     </div>
 </div>
+
 
   <script src="/scripts/tts.js"></script>
 </body>

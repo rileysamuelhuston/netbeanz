@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "American Typewriter";
+    src: url(/font/AmericanTypewriterDOT.ttf)
+}
+
+@font-face {
+    font-family: "American Typewriter Italic";
+    src: url(/font/AmericanTypewriterDOTitalic.ttf);
+    font-style: italic;
+}
+
+* {
+    font-family: American Typewriter;
+
+.info {
+    position: fixed;
+    left: 0px;
+padding-left: 20px;
+    top: 20px;
+
+    right: 0px;
+}
+
+
+/* 1. The Gallery Viewport */
+#gallery {
+    margin-top: 100px;
+    height: 600px; 
+    width: fit-content;
+    margin-bottom: 20px;
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+
+    padding-left: 10px; /* Optional: adds a little starting space */
+}
+
+/* Hide Scrollbar (Optional) */
+#gallery::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+#gallery {
+    -ms-overflow-style: none;  /* IE */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* 2. The Inner Container (the long track) */
+#gallery-container {
+    display: flex;
+    white-space: nowrap;
+    height: 100%;
+}
+
+/* 3. Individual Image/Caption Item */
+.gallery-item {
+    box-sizing: border-box;
+    flex-shrink: 0; 
+    width: fit-content; 
+    height: 100%;
+    margin-right: 250px; 
+    
+    display: flex;
+    flex-direction: column;
+
+    /* CAROUSEL BEHAVIOR */
+    scroll-snap-align: start; /* Snap the item to the start edge of the viewport */
+}
+
+/* 4. Image Styling */
+.gallery-item img {
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 100%;
+    height: calc(100% - 30px); 
+    object-fit: cover; /* Ensures images fill their space without distortion */
+}
+
+/* 5. Caption Styling */
+.caption {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px 0;
+    /* You can add a background or change color here for visibility */
+}
+
+  @media only screen and (max-width: 700px) {
+
+    .info {
+        background-color: white;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        padding-left: 20px;
+    }
+#gallery {
+    margin-top: 100px;
+    height: auto; 
+    width: 100%;
+    margin-bottom: 20px;
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    padding-left: 10px; /* Optional: adds a little starting space */
+}
+#gallery-container {
+    display: block;
+    white-space: nowrap;
+    height: 100%;
+}
+
+.gallery-item {
+    width: 100%; 
+    height: fit-content;
+    margin-right: 20px; 
+    margin-bottom: 200px;
+    
+    display: block;
+}
