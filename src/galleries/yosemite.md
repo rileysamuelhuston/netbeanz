@@ -1,5 +1,6 @@
 ---
 title: Yosemite
+date: 2025-08-17
 ---
 
 <div class="info">

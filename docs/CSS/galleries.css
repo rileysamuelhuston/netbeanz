@@ -11,6 +11,7 @@
 
 * {
     font-family: American Typewriter;
+}
 
 .info {
     position: fixed;
@@ -115,7 +116,6 @@ padding-left: 20px;
     width: 100%; 
     height: fit-content;
     margin-right: 20px; 
-    margin-bottom: 200px;
-    
+    margin-bottom: 200px;   
     display: block;
 }

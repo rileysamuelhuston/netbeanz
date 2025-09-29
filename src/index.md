@@ -69,8 +69,9 @@ layout: front.njk
       
     </div>
   </div>
+</div>
 
-
+<div class="list-container">
 
   <div class="list-column-left">
 
@@ -184,6 +185,10 @@ Visit <a href="/index">www.netbeanz.com</a> for more!
 </div>
 
   
+</div>
+
+
+
   <div class="list-container">
 
 <div class="list-column-left">
