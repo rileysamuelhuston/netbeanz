@@ -39,42 +39,24 @@ layout: front.njk
   </audio> -->
 
 
-<div class="list-container">
-
-
-  <div class="sidebar">
-
-
-    <div class="advertisement-box">
-      <img id="advertisement" src="images/A_Night_Out-2025_01_01-8.jpg" alt="" srcset="">
+     
       
+
+
+
+     
   <h2>Photo Galleries</h2>
       <hr>
       <br>
 
 <div class="post-link-box">
   {%- for gallery in collections.galleries -%}
-
                 <a href=".{{ gallery.url }}" class="vibrate photo-bg">{{ gallery.data.title }}</a>
                 </div>
                 <div class="post-date-box">{{ gallery.date | date: "%B %e, %Y" }}</div>
                 {%- endfor -%}
 
                 </li>
-
-      
-      
-      
-
-      
-    </div>
-  </div>
-</div>
-
-<div class="list-container">
-
-  <div class="list-column-left">
-
 
       <h2>BOOKMARKS</h2>
       <hr>
@@ -114,14 +96,30 @@ Watercolour, strengthened with gum
 </ul>
 
 
-  </div>
 
-  <div class="list-column-right">
     
 
          <h2>VIDEOS</h2>
       <hr>
       <br>
+
+      <details>
+<summary><a class="vibrate video-bg">2025 09 18 Introtest2</a></summary>
+       <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/SgXTDRMDybU?modestbranding=1&rel=0&color=white" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+<i>Description:</i>
+Testing out a style / energy for the introduction to the Shelf video. I overplayed footage from fishing vessels, documentaries about dried cod racks in Norway, and shorts filmed inside fish processing facilities on top of my own footage of oil rigs around the Long Beach Metro Area.
+<br>
+<center>×</center>
+      </details>
+
+      <details>
+<summary><a class="vibrate video-bg">oilprelim</a></summary>
+       <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/-g6IPfdUtxQ?modestbranding=1&rel=0&color=white" title="oilprelim" frameborder="0" allowfullscreen></iframe>
+<i>Description:</i>
+A short movie pieced together from shots I collected in and around the Long Beach Metro Area. Part of an ongoing project. 
+<br>
+<center>×</center>
+      </details>
 
 
       <details>
@@ -179,22 +177,14 @@ Visit <a href="/index">www.netbeanz.com</a> for more!
       </details>
 
 
+  <h2>Reg Posts</h2>
+      <hr>
+      <br>
 
-
-  </div>
-</div>
-
-  
-</div>
-
-
-
-  <div class="list-container">
-
-<div class="list-column-left">
-
-
-
+     
+  <h2>Chapters</h2>
+      <hr>
+      <br>
 
       <img src="/images/exit.png" alt="" class="end-character">
       <h1 class="office-yellow office-heading">Office Supplies</h1>
@@ -280,8 +270,6 @@ Visit <a href="/index">www.netbeanz.com</a> for more!
       </ul>
       </p>
     </div>
-</div>
-
 
   <script src="/scripts/tts.js"></script>
 </body>
