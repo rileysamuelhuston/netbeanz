@@ -1,27 +1,39 @@
-* {
-  --listWidth: 1200px;
-}
+
 
 body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 800px;
   margin: 0 auto;
+}
+
+
+
+#grid {
+max-width: 1200px;
+  margin: auto;
+  width: auto;
+  padding: 10px;
+}
+
+#Everything {
+max-width: 800px;
+  margin: auto;
+  width: auto;
+  padding: 10px;
 }
 
 #siteTitleBig {
   position: fixed; /* or sticky if preferred */
   top: 0;
-  left: 10;
-  width: var(--listWidth);
-  /* margin-left: calc(-0.5 * var(--listWidth, 800px)); */
+  width: 100vw;
   z-index: 1000; /* sufficiently high */
   background-color: white; /* so content below doesn’t show through */
 }
 
 #ListContainer {
   text-align: center;
+  max-width: 500px;
 }
 
 .site-title {
@@ -126,12 +138,17 @@ ul.capitalize a {
 summary {
   padding: 0px;
   margin: 0px;
+  padding-bottom: 10px;
 }
 
 h2 {
+  font-family: Itc Avant Garde Bold;
   margin-top: 50px;
 }
 
+#Top {
+  margin-top: 20vh;
+}
 
 .sequenced-list {
   list-style: none;
@@ -155,23 +172,19 @@ rotate: -3deg;
 
 
 
-  @media only screen and (max-width: 1338px) {
-
+  @media only screen and (max-width: 800px) {
+#Everything {
+  width: auto;
+  padding: 0px 10px;
+  margin: 0px;
+}
 
 #advertisement {
   height: 500px;
   width: 100%;
 }
 
-    }
-
-#siteTitleBig {
-  left: 50%;
-  width: 100%;
-  margin-left: -50%;
-  z-index: 1000; /* sufficiently high */
-  background-color: white; /* so content below doesn’t show through */
-}
+    
 
 .site-title {
   font-size: 30px;
@@ -185,6 +198,7 @@ rotate: -3deg;
     display: block;
     width: 100%;
     overflow: hidden;
+}
 }
 
 

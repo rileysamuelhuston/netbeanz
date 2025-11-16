@@ -55,9 +55,14 @@ span:hover {
     font-style: italic;
 }
 
-@font-face {
+/* @font-face {
     font-family: "Itc Avant Garde Bold";
     src: url(/font/itc-avant-garde-bold.otf), url(/netbeanz/font/itc-avant-garde-bold.otf);
+} */
+
+@font-face {
+    font-family: "Itc Avant Garde Bold";
+    src: url(/font/texgyreheroscn-bold.otf);
 }
 
 @font-face {
@@ -129,19 +134,24 @@ color: orangered;
 }
 
 .firebrick {
-    color: #FF2C30;
+    color: #ff174d;
+}
+
+.cyan {
+    background-color: rgb(255, 242, 189);
+    color: rgb(0, 0, 0);
 }
 
 .firebrick-bg {
-    background-color: #FF2C30;
+    background-color: #ff174d;
 }
 
 .firebrick-heading {
-    border-bottom: 4px dotted #FF2C30;
+    border-bottom: 11px dotted #ff174d;
 }
 
 .classic-heading {
-    border-bottom: 4px dotted black;
+    border-bottom: 11px dotted black;
 }
 
 .gainsboro {
@@ -176,21 +186,22 @@ color: orangered;
 }
 
 .office-yellow-bg {
-    background: #ffc700;
+    background: #ffffff;
+    color: rgb(255, 162, 0);
 }
 
 .photo-bg {
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 255);
 }
 
 .video-bg {
-    background-color: var(--global-primary-color);
-    color: black;
+    background-color: rgb(248, 255, 34);
+    color: rgb(0, 0, 0);
 }
 
 .office-heading {
-border-bottom:4px dotted #ffc700;
+border-bottom: 11px dotted #ffc700;
 }
 
 .office-body {
@@ -448,9 +459,10 @@ background-color: black;
 
 
 .end-character {
-    width: 200px;
+    width: 105px;
     display: block;
     margin-bottom: 20px;
+    margin-top: 80px;
 mix-blend-mode: multiply;
   margin-left: auto;
   margin-right: auto;

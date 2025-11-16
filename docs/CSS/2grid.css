@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-size: 21px;
+    font-size: 25px;
     --grid_global-font-size: 21px;
 
 }
@@ -23,8 +23,15 @@ background-color: white;
     border-bottom: 1px solid black;
 }
 
+#content {
+  max-width: 1200px;
+    margin: auto;
+  width: auto;
+  padding: 10px;
+}
+
 #site-title {
-    font-size: var(--grid_global-font-size);
+    font-size: 25px;
     text-transform: uppercase;
     color: black;
 }
@@ -95,11 +102,12 @@ line-height: 60%;
 h2 {
     margin-top: 10px;
     padding-top: 0px;
-    font-family: "American Typewriter";
+    font-size: 28px;
+    font-family: "ITC Avant Garde Bold";
     font-weight: bold;
+
     color: black;
     line-height: 1;
-    font-size: var(--grid_global-font-size);
     text-transform: uppercase;
     margin-bottom: calc(var(--global-font-size)* .5);
     font-weight: normal;
@@ -180,7 +188,7 @@ summary::-webkit-details-marker {
 
 .byline {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 30px;
 grid-template-columns: 1fr 1fr;}
 
 .dummy {
@@ -189,12 +197,11 @@ grid-template-columns: 1fr 1fr;}
 }
 
 .columns {
+  text-align: justify;
 margin-top: 15vh;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 1000px;
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 .left-column {
@@ -260,8 +267,21 @@ margin: 0px 0px 10px 0px;
   list-style: none;
 }
 
+.image-grid-small {
+margin: 0px 0px 10px 0px;
+    display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
 .image-grid li {
   height: 20vh;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.image-grid-small li {
+  height: 240px;
   flex-grow: 1;
   margin: 5px;
 }
@@ -283,9 +303,17 @@ margin: 0px 0px 10px 0px;
 
 // Portrait */
 
+
+
+
+
 @media (max-aspect-ratio: 1/1) {
   .image-grid li {
-    height: 30vh;
+    height: 50vh;
+  }
+
+    .image-grid-small li {
+    height: 24vh;
   }
 }
 
