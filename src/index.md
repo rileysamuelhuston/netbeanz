@@ -16,6 +16,8 @@ layout: front.njk
 
 <div id="grid">
 
+  
+
 <ul id="Top" id="grid1" class="image-grid-small">
 
   <li><img class="grid-image" src="/images/front/front1.gif" alt=""></li>
@@ -32,8 +34,10 @@ layout: front.njk
 
 </div>
 
+
 <div id="Everything">
 
+  
 
 <!-- build a cool carosel here. Simple click to left or right to go to new collection.-->
 
@@ -48,53 +52,31 @@ layout: front.njk
   {%- endfor -%}
   </div>
 
-  <h2>BOOKMARKS</h2>
-  <hr>
-  <br>
-
-  <ul class="capitalize">
-        <a href="https://www.youtube.com/watch?v=LkDLQ1lZc5o&list=RDLkDLQ1lZc5o&start_radio=1" target="_blank" rel="noopener noreferrer">
-      Jim Hall - Concierto de Aranjuez
-    </a>
-    <a href="/clerical/notes/index.html">My Notes</a>
-    <a href="https://www.youtube.com/watch?v=HM0EBvJe1s0&t=86s" target="_blank" rel="noopener noreferrer">
-      Arc Rhythm Generator (Monome Arc demo)
-    </a>
-    <a href="https://www.farb-tabelle.de/en/table-of-color.htm" target="_blank" rel="noopener noreferrer">
-      Farb-Tabelle
-    </a>
-    <a href="https://www.ryantodd.com/365-days" target="_blank" rel="noopener noreferrer">
-      365 Days Ryan Todd Studio (daily visual-thinking drawings)
-    </a>
-    <a href="http://www.monk.co.jp/lineup/robos.html" target="_blank" rel="noopener noreferrer">
-      SANYO ROBO
-    </a>
-    <a href="https://oasis.decart.ai/starting-point" target="_blank" rel="noopener noreferrer">
-      AI Minecraft
-    </a>
-    <a href="https://www.thegreenhead.com/2025/05/cat-butt-birdhouse.php" target="_blank" rel="noopener noreferrer">
-      Cat Butt Birdhouse
-    </a>
-    <a href="https://www.openstructures.net/" target="_blank" rel="noopener noreferrer">
-      OpenStructures
-    </a>
-    <a href="https://sci-toys.com/" target="_blank" rel="noopener noreferrer">
-      Science Toys
-    </a>
-    <a href="https://experience.arcgis.com/experience/fd496421ed254b289b48688003e4f150" target="_blank" rel="noopener noreferrer">
-      Long Beach Historical Landmarks
-    </a>
-    <a href="https://www.britishmuseum.org/collection/object/P_1879-0614-766" target="_blank" rel="noopener noreferrer">
-      A vase of flowers on a marble table Watercolour, strengthened with gum
-    </a>
-  </ul>
-
   <h2>VIDEOS</h2>
   <hr>
   <br>
+  
+  
+  
+  <details><summary><a class="vibrate video-bg">Maricopa County</a> </summary>
+    <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/FTjKPb892Y0?modestbranding=1&rel=0&color=white" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+    <i>Description:</i>
+  A little trip to AZ with the family. Its actually Pinal county.
+    <br>
+    <div style="text-align: center;">×</div>
+  </details>
 
   <details>
-    <summary><a class="vibrate video-bg">2025 09 18 Introtest2</a></summary>
+    <summary><a class="vibrate video-bg">oilprelim</a></summary>
+    <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/-g6IPfdUtxQ?modestbranding=1&rel=0&color=white" title="oilprelim" frameborder="0" allowfullscreen></iframe>
+    <i>Description:</i>
+    A short movie pieced together from shots I collected in and around the Long Beach Metro Area. Part of an ongoing project. 
+    <br>
+    <center>×</center>
+  </details>
+
+
+  <details><summary><a class="vibrate video-bg">2025 09 18 Introtest2</a> </summary>
     <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/SgXTDRMDybU?modestbranding=1&rel=0&color=white" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
     <i>Description:</i>
     Testing out a style / energy for the introduction to the Shelf video. I overplayed footage from fishing vessels, documentaries about dried cod racks in Norway, and shorts filmed inside fish processing facilities on top of my own footage of oil rigs around the Long Beach Metro Area.
@@ -200,6 +182,58 @@ Earth is home to many different creatures. The Backyard is an environment that i
     <br>
     <center>×</center>
   </details>
+
+       <details>
+    <summary><a class="vibrate video-bg">A Short Test of Cloning</a></summary>
+    <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/OkJpQweagvI?rel=0&color=white" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+    <i>Description:</i>
+Cloning.
+   <center>×</center>
+  </details>
+
+
+  <h2>BOOKMARKS</h2>
+  <hr>
+  <br>
+
+  <ul class="capitalize">
+        <a href="https://www.youtube.com/watch?v=LkDLQ1lZc5o&list=RDLkDLQ1lZc5o&start_radio=1" target="_blank" rel="noopener noreferrer">
+      Jim Hall - Concierto de Aranjuez
+    </a>
+    <a href="/clerical/notes/index.html">My Notes</a>
+    <a href="https://www.youtube.com/watch?v=HM0EBvJe1s0&t=86s" target="_blank" rel="noopener noreferrer">
+      Arc Rhythm Generator (Monome Arc demo)
+    </a>
+    <a href="https://www.farb-tabelle.de/en/table-of-color.htm" target="_blank" rel="noopener noreferrer">
+      Farb-Tabelle
+    </a>
+    <a href="https://www.ryantodd.com/365-days" target="_blank" rel="noopener noreferrer">
+      365 Days Ryan Todd Studio (daily visual-thinking drawings)
+    </a>
+    <a href="http://www.monk.co.jp/lineup/robos.html" target="_blank" rel="noopener noreferrer">
+      SANYO ROBO
+    </a>
+    <a href="https://oasis.decart.ai/starting-point" target="_blank" rel="noopener noreferrer">
+      AI Minecraft
+    </a>
+    <a href="https://www.thegreenhead.com/2025/05/cat-butt-birdhouse.php" target="_blank" rel="noopener noreferrer">
+      Cat Butt Birdhouse
+    </a>
+    <a href="https://www.openstructures.net/" target="_blank" rel="noopener noreferrer">
+      OpenStructures
+    </a>
+    <a href="https://sci-toys.com/" target="_blank" rel="noopener noreferrer">
+      Science Toys
+    </a>
+    <a href="https://experience.arcgis.com/experience/fd496421ed254b289b48688003e4f150" target="_blank" rel="noopener noreferrer">
+      Long Beach Historical Landmarks
+    </a>
+    <a href="https://www.britishmuseum.org/collection/object/P_1879-0614-766" target="_blank" rel="noopener noreferrer">
+      A vase of flowers on a marble table Watercolour, strengthened with gum
+    </a>
+  </ul>
+
+
 
   <h2>Reg Posts</h2>
   <hr>

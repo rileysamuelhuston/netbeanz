@@ -77,19 +77,6 @@ ul.capitalize a {
   font-size: 25px;
 }
 
-.sidebar {
-  position: fixed;
-  right:0px;
-  bottom: 0px;
-  margin-right: 5vw;
-  margin-top: 5vh;
-  width: 40vw;
-}
-
-#advertisement {
-  height: 500px;
-  width: 40vw;
-}
 
 .list-container {
   z-index: 1;
@@ -161,6 +148,11 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.thumbnail {
+  display: block;
+  width: 100px;
+}
+
 .urgent::before {
   content: "PRIORITY";
   position: absolute;
@@ -178,13 +170,7 @@ rotate: -3deg;
   padding: 0px 10px;
   margin: 0px;
 }
-
-#advertisement {
-  height: 500px;
-  width: 100%;
-}
-
-    
+   
 
 .site-title {
   font-size: 30px;
@@ -200,6 +186,5 @@ rotate: -3deg;
     overflow: hidden;
 }
 }
-
 
 

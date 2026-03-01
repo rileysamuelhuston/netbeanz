@@ -1,0 +1,36 @@
+
+<div class="title-section">
+
+## TITLE GOES HERE
+
+<div class="byline">
+
+## by {{ authors.riley.name }}
+## Month Day year
+
+<div class="dummy"></div>
+
+</div>
+
+</div>
+
+
+
+<div class="columns">
+
+<div class="left-column">
+
+stuff
+
+
+</div>
+
+<div class="right-column">
+    
+stuff
+
+</div>
+
+</div>
+
+<center>×</center>

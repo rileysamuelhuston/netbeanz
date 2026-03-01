@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUMOR PROPOSAL No. 1</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/2grid.css">
+  <link rel="stylesheet" href="/CSS/fx.css">
+
+  
+
+
+
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+
+
+
+  
+</head>
+<body>
+
+<div id="nav">
+    <div class="nav-outer"><a id="site-title" href="/index.html">Netbeanz.com</a></div>
+    
+    <div class="nav-inner">
+
+        <img id="return-img" src="/images/exit.png" alt="">
+      
+    </div>
+</div>
+      
+<div id="content">
+  <div class="title-section">
+<h2>HUMOR PROPOSAL No. 1</h2>
+<div class="byline">
+<h2>by Riley Huston</h2>
+<h2>Nov 23 2024</h2>
+<div class="dummy"></div>
+</div>
+</div>
+<div class="columns">
+<div class="left-column">
+<p>For restauranteurs with creative block here are some sign ideas to get you going. Visualize these as large, lighted signs on the front facade of your restaurant.</p>
+<p>Who’s on first? On the corner of Noo street and Dle ave it’s “Laundro-Phở-Mat.” Maybe sample “BROTH-el, Chock Phở-ull of Loose Sprouts.” Stop there or have at it with these toothsome morsels: “World War Phở: Fried Crispy Garlic Warfare,” “Brain Full’a Phở and a Belly Sloshing BROTH,” and even, “Unkosher Ounce of LOIN in my LOG (Phở-Style Vietnamese Cuisine).” Now we’re getting somewhere. When I am pitching at parties or friend gatherings I’ve had success with “Nine Phở-leven was an Uncooked Sprout,” but if that gets a lukewarm response I’ll pivot to “Wifebeater Stained with Chili Oil / Stairway to Speedqueen: Phở Restaurant and Laundromat” and see if it gets a response. One of my personal favorites, “Makin my Hoisin BROWN, Eatin’ SPROUTS, Chewing LOIN and Some Tendons,” usually gets one or two chuckles. Other restaurant names include: “Phở Getta Boutit!” in big red and orange letters outside the shop with a smaller subheading that reads (across two lines), “Deal out the Sauce Till the Water’s Brown! Broth workshop 9pm.”</p>
+</div>
+<div class="right-column">
+<p>For signs that might turn heads, turn to “Tits McGee and the Ass Blasters,” though I don’t reccomend it for a restaurant in an area populated by hundreds of families with young children. For that, “Smak a Dole” might work well. If your lot is more pavement than grass and you need a name fast, then step in line and try one of these on your sign: “You Can’t Un Loin the Loin-Saturated BROTH Phở-parrently,” or “Phở-ssy Human Baby Needs a Bottle of BROTH,” or “DONT WAIT DONT FLAKE, CHILI-STYLE,” or “Sprouts Bang-GA-lore.” Sing along to “BRISK-et, TENDON, Bean Sprouts Piled High! Loin and Garlic Fried up Crispy HOT!” “Davey Phở-kit, King of the PILED RAW SPROUTS (and Bazil)”</p>
+</div>
+</div>
+<center>×</center>
+</div>
+  
+
+
+
+</body>
+
+
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  onSnapshot,
+  query,  
+  where,          // <--- THIS is the missing line
+  orderBy,
+  serverTimestamp
+} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAf-VX4hGXJO2wLove1bFosjT0J1Y_WXts",
+    authDomain: "netbeanz-2d4c6.firebaseapp.com",
+    projectId: "netbeanz-2d4c6",
+    storageBucket: "netbeanz-2d4c6.firebasestorage.app",
+    messagingSenderId: "891235124821",
+    appId: "1:891235124821:web:927032f8eda9912865b6dc"
+  };
+
+  // Initialize Firebase  const app = initializeApp(firebaseConfig);
+  const app = initializeApp(firebaseConfig);  // ✅ define app here
+
+  const db = getFirestore(app);
+
+  // --- Get DOM elements
+  const nameInput = document.getElementById("nameInput");
+  const commentInput = document.getElementById("commentInput");
+  const submitBtn = document.getElementById("submitBtn");
+  const commentsList = document.getElementById("commentsList");
+
+  // 🔧 Get unique page ID (based on URL path)
+  const pageId = window.location.pathname;
+
+  // --- Submit comment
+  submitBtn.addEventListener("click", async () => {
+    const name = nameInput.value.trim();
+    const comment = commentInput.value.trim();
+
+    if (name && comment) {
+      try {
+        await addDoc(collection(db, "comments"), {
+          name,
+          comment,
+          createdAt: serverTimestamp(),
+          page: pageId // 🔧 Save which page this comment belongs to
+        });
+
+        nameInput.value = "";
+        commentInput.value = "";
+      } catch (error) {
+        console.error("Error posting comment:", error);
+      }
+    }
+  });
+
+  // --- Load comments for this page only
+  const q = query(
+    collection(db, "comments"),
+    where("page", "==", pageId), // 🔧 Only show comments for this page
+    orderBy("createdAt", "desc")
+  );
+
+  onSnapshot(q, (snapshot) => {
+    commentsList.innerHTML = ""; // Clear current list
+
+    snapshot.forEach((doc) => {
+      const data = doc.data();
+      const timestamp = data.createdAt?.toDate?.();
+      const formattedDate = timestamp
+        ? timestamp.toLocaleString(undefined, {
+            dateStyle: "medium",
+            timeStyle: "short"
+          })
+        : "";
+
+    
+    
+      const el = document.createElement("div");
+      el.innerHTML = `<div class="comment-name">${data.name}</div> <span class="comment">${data.comment}<span class="comment-date">${formattedDate}</span></span>`;
+      commentsList.appendChild(el);
+    });
+  });
+
+</script>
+<script src="/scripts/random-select.js"></script>
+
+
+</html>
