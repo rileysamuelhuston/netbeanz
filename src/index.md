@@ -37,12 +37,12 @@ layout: front.njk
 
 <div id="Everything">
 
-  
+    <p><img src="/images/pics.jpg" alt="" class="end-character"></p>
+
 
 <!-- build a cool carosel here. Simple click to left or right to go to new collection.-->
 
   <h2>Photo Galleries</h2>
-  <hr>
   <br>
 
   <div class="post-link-box">
@@ -52,8 +52,10 @@ layout: front.njk
   {%- endfor -%}
   </div>
 
+
+    <p><img src="/images/Batch1-20.jpg" alt="" class="end-character"></p>
+
   <h2>VIDEOS</h2>
-  <hr>
   <br>
   
   
@@ -191,9 +193,8 @@ Cloning.
    <center>×</center>
   </details>
 
-
+  <p><img src="/images/folder.gif" alt="" class="end-character"></p>
   <h2>BOOKMARKS</h2>
-  <hr>
   <br>
 
   <ul class="capitalize">
@@ -233,10 +234,10 @@ Cloning.
     </a>
   </ul>
 
+  <p><img src="/images/Batch1-16.jpg" alt="" class="end-character"></p>
 
 
   <h2>Reg Posts</h2>
-  <hr>
   <br>
 
   
@@ -251,10 +252,6 @@ Cloning.
     {%- endfor -%}
   </ul>
 
-
-  <h2>Chapters</h2>
-  <hr>
-  <br>
 
   <img src="/images/exit.png" alt="" class="end-character">
   <h1 class="office-yellow office-heading">Office Supplies</h1>
@@ -280,12 +277,9 @@ Cloning.
     </details>
   </ul>
 
-  <p><img src="/images/sfdude.png" alt="" class="end-character"></p>
+   <p><img src="/images/sf3-2c.webp" alt="" class="end-character"></p>
   <h1 class="firebrick firebrick-heading">A Trip to San Francisco</h1>
-  <div class="chapter-byline">
-    <h2 class="firebrick">Chapter 2</h2>
-    <h2 class="firebrick">by Riley Huston</h2>
-  </div>
+
 
   <ul class="sequenced-list">
     {%- for chapter in collections.chapter_2 -%}
@@ -300,10 +294,6 @@ Cloning.
 
   <p><img src="/images/pinto.png" alt="" class="end-character"></p>
   <h1 class="classic-heading">Welcome to Netbeanz</h1>
-  <div class="chapter-byline">
-    <h2>Chapter 1</h2>
-    <h2>By Riley Huston</h2>
-  </div>
 
   <ul class="sequenced-list">
     {%- for chapter in collections.chapter_1 -%}

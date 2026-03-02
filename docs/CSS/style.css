@@ -146,13 +146,13 @@ color: orangered;
     background-color: #ff174d;
 }
 
-.firebrick-heading {
+/* .firebrick-heading {
     border-bottom: 11px dotted #ff174d;
 }
 
 .classic-heading {
     border-bottom: 11px dotted black;
-}
+} */
 
 .gainsboro {
     color: gainsboro;
@@ -200,9 +200,9 @@ color: orangered;
     color: rgb(0, 0, 0);
 }
 
-.office-heading {
+/* .office-heading {
 border-bottom: 11px dotted #ffc700;
-}
+} */
 
 .office-body {
     color: white;
@@ -459,11 +459,12 @@ background-color: black;
 
 
 .end-character {
-    width: 105px;
+
+    width: 205px;
     display: block;
     margin-bottom: 20px;
     margin-top: 80px;
-mix-blend-mode: multiply;
+mix-blend-mode: color-burn;
   margin-left: auto;
   margin-right: auto;
 }
@@ -511,6 +512,7 @@ margin-bottom: 15px;
 }
 .post-date-box {
 font-size: 16px;
+color: white;
 }
 
   .featuring {
