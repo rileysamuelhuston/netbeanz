@@ -1,18 +1,18 @@
 ---
-title: TITLEN
-crate: 2025-3-19
+title: Sulfur Cube
+crate: 2026-3-22
 ---
 
 
 
 <div class="title-section">
 
-## TITLE GOES HERE
+## Sulfur Cube
 
 <div class="byline">
 
 ## by {{ authors.riley.name }}
-## Month Day year
+## March 22 2026
 
 <div class="dummy"></div>
 
@@ -26,7 +26,7 @@ crate: 2025-3-19
 
 <div class="left-column">
 
-stuff
+Shibbey doo da iiijhijijiijij
 
 
 </div>

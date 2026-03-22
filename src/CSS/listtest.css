@@ -5,7 +5,7 @@ body {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  background: url(/images/Batch1-1.jpg) no-repeat center center fixed; 
+  background: url(/images/grid20.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -138,7 +138,8 @@ h2 {
   font-size: 80px;
   font-family: Itc Avant Garde Bold;
   margin-top: 50px;
-
+  color: white;
+mix-blend-mode: difference;
 }
 
 #Top {

@@ -464,7 +464,7 @@ background-color: black;
     display: block;
     margin-bottom: 20px;
     margin-top: 80px;
-mix-blend-mode: color-burn;
+mix-blend-mode: difference;
   margin-left: auto;
   margin-right: auto;
 }

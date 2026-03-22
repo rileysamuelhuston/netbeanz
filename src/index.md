@@ -17,7 +17,7 @@ layout: front.njk
 <div id="grid">
 
   
-
+<!-- 
 <ul id="Top" id="grid1" class="image-grid-small">
 
   <li><img class="grid-image" src="/images/front/front1.gif" alt=""></li>
@@ -29,7 +29,7 @@ layout: front.njk
   <li><img class="grid-image" src="/images/front/front8.gif" alt=""></li>
 
 
-</ul>
+</ul> -->
 
 
 </div>
