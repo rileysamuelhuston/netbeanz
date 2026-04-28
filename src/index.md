@@ -57,8 +57,46 @@ layout: front.njk
 
   <h2>VIDEOS</h2>
   <br>
+
   
+  <details><summary><a class="vibrate video-bg">sneeze dash cam raw 1.mp4</a> </summary>
+    <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/dqOw8RDuSvk?modestbranding=1&rel=0&color=white" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+    <i>Description:</i>
+Ollie sneezing actually caught in 4K.
+
+    <br>
+    <div style="text-align: center;">×</div>
+  </details>
   
+    <details><summary><a class="vibrate video-bg">The Shelf</a> </summary>
+    <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/pjIFPFPOm10?modestbranding=1&rel=0&color=white" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+    <i>Description:</i>
+A Riley Huston film
+
+A Neighborhood film
+
+A short story from Riley Huston and Jay Malizia
+
+Directed by The Neighbors
+
+Starring Riley Huston and Jay Malizia with a special appearance from James Gurry
+
+Featuring Riley Huston as Jobiss and Greywater
+Featuring Jay Malizia as The Neighbor
+
+Enjoy!
+
+This movie is seven months in the making! A thousand thanks to Jay Malizia for his monumental help to get this project on the screen. Without him this movie would not exist. 
+
+It is a project so near and dear to my heart - please enjoy.
+
+
+Brought to you by the Netbeanz Department of Thought-Shaping and Outreach.
+
+Visit NETBEANZ.COM for more.
+    <br>
+    <div style="text-align: center;">×</div>
+  </details>
   
   <details><summary><a class="vibrate video-bg">Maricopa County</a> </summary>
     <iframe class="responsive-iframe" id="embedded-video" src="https://www.youtube-nocookie.com/embed/FTjKPb892Y0?modestbranding=1&rel=0&color=white" title="A YouTube video" frameborder="0" allowfullscreen></iframe>

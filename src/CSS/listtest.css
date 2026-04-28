@@ -5,7 +5,7 @@ body {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  background: url(/images/grid29.jpg) no-repeat center center fixed; 
+  background: url(/images/sf3-42.webp) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,6 +27,7 @@ max-width: 800px;
   margin: auto;
   width: auto;
   padding: 10px;
+  background-color: rgba(218, 218, 218, 0.735);
 }
 
 #siteTitleBig {
@@ -139,7 +140,6 @@ h2 {
   font-family: Itc Avant Garde Bold;
   margin-top: 50px;
   color: white;
-mix-blend-mode: difference;
 }
 
 #Top {
